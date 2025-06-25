@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listenOnIp: 
   listenOnPort: 
-  sendToIp: '10.7.134.149 '
+  sendToIp: 10.7.134.149
   sendToPort: 8009
   type: 0
   platforms: []
@@ -32,7 +32,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listenOnIp: 
   listenOnPort: 
-  sendToIp: '10.7.134.149 '
+  sendToIp: 10.7.134.149
   sendToPort: 8009
   type: 0
   platforms:
