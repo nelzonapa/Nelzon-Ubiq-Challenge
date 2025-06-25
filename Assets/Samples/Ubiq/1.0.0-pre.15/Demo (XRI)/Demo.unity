@@ -2193,6 +2193,12 @@ PrefabInstance:
       propertyPath: reconnectBehaviour
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3723249095139361142, guid: 73369a530bd8253469d623a3ea6dcff9,
+        type: 3}
+      propertyPath: servers.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8b3d9ec9e9311704aae65ea923f8abe5,
+        type: 2}
     - target: {fileID: 3920886893764889674, guid: 73369a530bd8253469d623a3ea6dcff9,
         type: 3}
       propertyPath: m_AnchorMax.y
