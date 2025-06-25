@@ -1,10 +1,15 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using Ubiq.Messaging;
 
 [RequireComponent(typeof(XRGrabInteractable))] // Asegura que el componente exista
 public class Pen : MonoBehaviour
 {
+    private NetworkContext context;
+    private bool owner;
+
+
     [Header("Required References")]
     [SerializeField] private Transform nib; // Arrastra el Nib desde el Inspector
     [SerializeField] private Material drawingMaterial; // Opcional: material personalizado
@@ -16,6 +21,25 @@ public class Pen : MonoBehaviour
 
     private GameObject currentDrawing;
     private XRGrabInteractable grabInteractable;
+
+
+
+    private struct Message
+    {
+        public Vector3 position;
+        public Quaternion rotation;
+
+        public bool isDrawing;
+
+        //constructor
+        public Message(Transform transform, bool isDrawingAux)
+        {
+            this.position = transform.position;
+            this.rotation = transform.rotation;
+            this.isDrawing = isDrawingAux;
+        }
+    }
+
 
     private void Awake()
     {
@@ -53,7 +77,55 @@ public class Pen : MonoBehaviour
         // Configurar eventos
         grabInteractable.activated.AddListener(BeginDrawing);
         grabInteractable.deactivated.AddListener(EndDrawing);
+
+
+        grabInteractable.selectEntered.AddListener(XRGrabInteractable_SelectEntered);
+        grabInteractable.selectExited.AddListener(XRGrabInteractable_SelectExited);
+
+
+        context = NetworkScene.Register(this);
+
+
     }
+
+
+    private void FixedUpdate()
+    {
+        if (owner)
+        {
+            context.SendJson(new Message(transform, isDrawingAux:currentDrawing));
+        }
+    }
+
+    public void ProcessMessage(ReferenceCountedSceneGraphMessage msg)
+    {
+        var data = msg.FromJson<Message>();
+        transform.position = data.position;
+        transform.rotation = data.rotation;
+
+        if (data.isDrawing && !currentDrawing)
+        {
+            //BeginDrawing();
+        }
+        if (!data.isDrawing && currentDrawing)
+        {
+            //EndDrawing();
+        }
+
+
+    }
+
+
+    private void XRGrabInteractable_SelectEntered(SelectEnterEventArgs eventArgs)
+    {
+        owner = true;
+    }
+
+    private void XRGrabInteractable_SelectExited(SelectExitEventArgs eventArgs)
+    {
+        owner = false;
+    }
+
 
     private void BeginDrawing(ActivateEventArgs eventArgs)
     {
