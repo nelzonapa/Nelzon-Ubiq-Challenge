@@ -1,0 +1,1845 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "blog1_processed",
+      "snippet": " ... A place with no cages, where all the chinchillas frolic happily on a superior replica of the Andes mountains. It's always pleasantly cool with a soft breeze that circulates the scent of delectabl...",
+      "top_keywords": [
+        "post",
+        "pm",
+        "post pm",
+        "animal",
+        "labels",
+        "pm labels",
+        "people",
+        "chin",
+        "cartoon",
+        "labels cartoon"
+      ],
+      "proper_nouns": [
+        "Largest",
+        "Mammals",
+        "Seizure",
+        "ClassificationClass",
+        "Sapphire",
+        "Buzzle",
+        "MammalsOrder",
+        "Panhandle",
+        "Lancashire",
+        "Tajik",
+        "Chinchillas",
+        "Wildlife",
+        "Faron",
+        "Rodents",
+        "Yonge",
+        "World",
+        "LA",
+        "Great",
+        "Hunts",
+        "Collie",
+        "Blue",
+        "Texas",
+        "Angeles",
+        "Labels",
+        "rowsI",
+        "RSPCA",
+        "ChinchillidaeGender",
+        "SUV's23",
+        "Visachas",
+        "BeginsAnnual",
+        "Boycott",
+        "Los",
+        "War",
+        "Shelter",
+        "Chins",
+        "Tajikistan",
+        "almond",
+        "States",
+        "groundI",
+        "chinshopesat6:10",
+        "PM",
+        "ya",
+        "woodAnd",
+        "Argentina-",
+        "MorseEngland",
+        "Convention",
+        "PARTICULARITIESMorphological",
+        "Chinchillidae",
+        "Royal",
+        "chinchillas",
+        "I'm",
+        "Bay",
+        "Mountains",
+        "chinshopesat11:23",
+        "Washington",
+        "Sherry",
+        "Amazon",
+        "chinshopesat4:15",
+        "Lyn",
+        "Chin",
+        "Wilson",
+        "ChinchillaSpecies",
+        "Duedall",
+        "RIIIIIIIIGHTTTTT",
+        "Anti",
+        "Mammalia",
+        "Cruelty",
+        "Fund",
+        "Swami",
+        "Northern",
+        "Europe",
+        "Hoax",
+        "Hermes",
+        "Bran",
+        "US",
+        "chinshopesat5:01",
+        "Prevention",
+        "mallI",
+        "Rules",
+        "Chile",
+        "chinshopesat11:11",
+        "BIOLOGICAL",
+        "Wheat",
+        "meSo",
+        "Heaven",
+        "Fish",
+        "RodentsSub",
+        "goodI",
+        "meI",
+        "Canada",
+        "X",
+        "England",
+        "New",
+        "pastel",
+        "animals.-",
+        "United",
+        "photos)Chinchilla",
+        "Raisin",
+        "Roadstop",
+        "Canned",
+        "sometime!!!!The",
+        "Queen",
+        "chinshopesat11:59",
+        "Andes",
+        "Bolivia",
+        "Animals",
+        "Bhagavatam",
+        "Anatomic",
+        "Chinchilla",
+        "Reeder",
+        "'",
+        "N",
+        "Carnforth",
+        "ChinCare",
+        "Seethe",
+        "chinshopesat2:35",
+        "MF",
+        "Fur",
+        "Society",
+        "http://www.acfnewsource.org/environment/canned_kill.html",
+        "C.",
+        "FeaturesAdult",
+        "Unfair",
+        "et",
+        "Shredded",
+        "Dust",
+        "Animal",
+        "cartoon",
+        "FUR",
+        "things!See",
+        "Chinsurrections",
+        "Sparkle",
+        "Daffron'sPet",
+        "September",
+        "TailsFad",
+        "Demo",
+        "brevicaudaCommon",
+        "hourSo",
+        "Chapman",
+        "chinshopesat2:56",
+        "Argentina",
+        "westA",
+        "chinshopesat3:43",
+        "Historyby",
+        "chinshopesat3:13",
+        "Toronto",
+        "Petsby",
+        "U.S.",
+        "moreHe",
+        "Peru",
+        "champagne",
+        "Disney",
+        "greenI",
+        "Caviomorphes",
+        "Lounges",
+        "South",
+        "bald",
+        "noun",
+        "Second",
+        "Susan",
+        "America",
+        "HystrichomorphesFamily",
+        "Historical",
+        "Rodentia",
+        "DaffronTimes",
+        "Gray",
+        "frolic",
+        "chinshopesat3:29",
+        "Service",
+        "Dalmatians"
+      ],
+      "entities": [
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "the Roadstop Raisin Lounges",
+          "ORG"
+        ],
+        [
+          "Shredded Wheat",
+          "ORG"
+        ],
+        [
+          "Blue Sparkle Dust",
+          "ORG"
+        ],
+        [
+          "ChinCare",
+          "PRODUCT"
+        ],
+        [
+          "LA",
+          "GPE"
+        ],
+        [
+          "a couple of SUV's23 years",
+          "DATE"
+        ],
+        [
+          "23",
+          "CARDINAL"
+        ],
+        [
+          "westA",
+          "ORG"
+        ],
+        [
+          "moreHe",
+          "ORG"
+        ],
+        [
+          "23 yearsAnd",
+          "PERCENT"
+        ],
+        [
+          "free23 years",
+          "DATE"
+        ],
+        [
+          "23 years",
+          "DATE"
+        ],
+        [
+          "Collie",
+          "PERSON"
+        ],
+        [
+          "Faron",
+          "GPE"
+        ],
+        [
+          "Hermes",
+          "GPE"
+        ],
+        [
+          "Swami Bhagavatam",
+          "PERSON"
+        ],
+        [
+          "Anti-Fur Season BeginsAnnual",
+          "ORG"
+        ],
+        [
+          "Toronto",
+          "GPE"
+        ],
+        [
+          "today",
+          "DATE"
+        ],
+        [
+          "Boycott the Bay Demo at Queen",
+          "WORK_OF_ART"
+        ],
+        [
+          "Yonge",
+          "GPE"
+        ],
+        [
+          "Fur",
+          "ORG"
+        ],
+        [
+          "About 1.1 million",
+          "CARDINAL"
+        ],
+        [
+          "each year",
+          "DATE"
+        ],
+        [
+          "Canada",
+          "GPE"
+        ],
+        [
+          "Another 1.1 million",
+          "CARDINAL"
+        ],
+        [
+          "healthy animals.- Canada's",
+          "ORG"
+        ],
+        [
+          "Every year",
+          "DATE"
+        ],
+        [
+          "thousands",
+          "CARDINAL"
+        ],
+        [
+          "chinshopesat3:13 PM",
+          "TIME"
+        ],
+        [
+          "chinshopesat7:03 AM",
+          "TIME"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "The Great Hoax",
+          "WORK_OF_ART"
+        ],
+        [
+          "MF Chapman",
+          "PERSON"
+        ],
+        [
+          "US",
+          "GPE"
+        ],
+        [
+          "Chapman",
+          "PERSON"
+        ],
+        [
+          "FUR",
+          "ORG"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "Chapman",
+          "PERSON"
+        ],
+        [
+          "Sherry MorseEngland\u2019s",
+          "PERSON"
+        ],
+        [
+          "Royal Society",
+          "ORG"
+        ],
+        [
+          "269",
+          "CARDINAL"
+        ],
+        [
+          "181 year",
+          "DATE"
+        ],
+        [
+          "seven",
+          "CARDINAL"
+        ],
+        [
+          "16",
+          "CARDINAL"
+        ],
+        [
+          "244",
+          "CARDINAL"
+        ],
+        [
+          "three",
+          "CARDINAL"
+        ],
+        [
+          "Carnforth, Lancashire",
+          "FAC"
+        ],
+        [
+          "Northern England",
+          "LOC"
+        ],
+        [
+          "September 10.The",
+          "DATE"
+        ],
+        [
+          "26",
+          "CARDINAL"
+        ],
+        [
+          "two days",
+          "DATE"
+        ],
+        [
+          "one",
+          "CARDINAL"
+        ],
+        [
+          "African",
+          "NORP"
+        ],
+        [
+          "Amazon",
+          "ORG"
+        ],
+        [
+          "the last twenty years",
+          "DATE"
+        ],
+        [
+          "the United States",
+          "GPE"
+        ],
+        [
+          "the U.S. Fish and Wildlife Service",
+          "ORG"
+        ],
+        [
+          "One",
+          "CARDINAL"
+        ],
+        [
+          "America",
+          "GPE"
+        ],
+        [
+          "1980",
+          "DATE"
+        ],
+        [
+          "nearly 2000",
+          "CARDINAL"
+        ],
+        [
+          "500",
+          "CARDINAL"
+        ],
+        [
+          "Texas",
+          "GPE"
+        ],
+        [
+          "thousands of dollars",
+          "MONEY"
+        ],
+        [
+          "a few\ndays",
+          "DATE"
+        ],
+        [
+          "each day",
+          "DATE"
+        ],
+        [
+          "Canned Hunts: Unfair",
+          "WORK_OF_ART"
+        ],
+        [
+          "Chin",
+          "PERSON"
+        ],
+        [
+          "Chins",
+          "PERSON"
+        ],
+        [
+          "Hystrichognathes",
+          "PERSON"
+        ],
+        [
+          "Wilson et Reeder",
+          "ORG"
+        ],
+        [
+          "Caviomorphes",
+          "PERSON"
+        ],
+        [
+          "two",
+          "CARDINAL"
+        ],
+        [
+          "Andes Mountains",
+          "LOC"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "between 3000 and",
+          "CARDINAL"
+        ],
+        [
+          "4000 meters",
+          "QUANTITY"
+        ],
+        [
+          "Tajikistan",
+          "NORP"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "Tajik Chins",
+          "PERSON"
+        ],
+        [
+          "C.",
+          "NORP"
+        ],
+        [
+          "the Andes Mountains",
+          "LOC"
+        ],
+        [
+          "1923",
+          "DATE"
+        ],
+        [
+          "the United States",
+          "GPE"
+        ],
+        [
+          "Europe",
+          "LOC"
+        ],
+        [
+          "the Second World War",
+          "EVENT"
+        ],
+        [
+          "Wilson",
+          "ORG"
+        ],
+        [
+          "mosaic",
+          "PRODUCT"
+        ],
+        [
+          "almond blossom",
+          "PERSON"
+        ],
+        [
+          "afro-violet",
+          "ORG"
+        ],
+        [
+          "pastel",
+          "ORG"
+        ],
+        [
+          "Sapphire",
+          "GPE"
+        ],
+        [
+          "Sapphire",
+          "GPE"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "the Washington Convention",
+          "GPE"
+        ],
+        [
+          "X C. brevicauda",
+          "PERSON"
+        ],
+        [
+          "1992",
+          "DATE"
+        ],
+        [
+          "French",
+          "NORP"
+        ],
+        [
+          "BIOLOGICAL",
+          "PERSON"
+        ],
+        [
+          "FeaturesAdult",
+          "ORG"
+        ],
+        [
+          "400",
+          "CARDINAL"
+        ],
+        [
+          "450-600 grams",
+          "QUANTITY"
+        ],
+        [
+          "25-30",
+          "CARDINAL"
+        ],
+        [
+          "7-15",
+          "CARDINAL"
+        ],
+        [
+          "550",
+          "CARDINAL"
+        ],
+        [
+          "10 years",
+          "DATE"
+        ],
+        [
+          "up to 20 years",
+          "DATE"
+        ],
+        [
+          "38-39",
+          "CARDINAL"
+        ],
+        [
+          "Lyn Duedall's",
+          "PERSON"
+        ],
+        [
+          "One",
+          "CARDINAL"
+        ],
+        [
+          "Indian",
+          "NORP"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "Argentina",
+          "GPE"
+        ],
+        [
+          "Bolivia",
+          "GPE"
+        ],
+        [
+          "Peru",
+          "GPE"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "the Andes Mountains",
+          "LOC"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Mammalia",
+          "PERSON"
+        ],
+        [
+          "Rodentia",
+          "PERSON"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Los Angeles",
+          "GPE"
+        ],
+        [
+          "Susan Daffron'sPet",
+          "ORG"
+        ],
+        [
+          "Susan DaffronTimes",
+          "PERSON"
+        ],
+        [
+          "the late 80s",
+          "DATE"
+        ],
+        [
+          "early 90s",
+          "DATE"
+        ],
+        [
+          "100-150 pound",
+          "QUANTITY"
+        ],
+        [
+          "the Panhandle Animal Shelter",
+          "ORG"
+        ],
+        [
+          "Disney",
+          "ORG"
+        ],
+        [
+          "101",
+          "CARDINAL"
+        ],
+        [
+          "Dalmatians",
+          "NORP"
+        ]
+      ],
+      "concordances": {
+        "post": [],
+        "pm": [
+          "course ... Posted by chinshopesat11:59 PM Labels : chins , that",
+          "'s all Posted by chinshopesat3:43 PM Labels : cartoon , chins",
+          "pets . Posted by chinshopesat6:15 PM Posted by chinshopesat11:11 PM Posted"
+        ],
+        "post pm": [],
+        "animal": [
+          "by chinshopesat3:30 PM Labels : animal rights Posted by chinshopesat3:32 PM",
+          "I 'm pretty fanatical about animal rights and if people can",
+          "fur industry who put dead animal skins on the backs of"
+        ],
+        "labels": [
+          "... Posted by chinshopesat11:59 PM Labels : chins , that 's",
+          "all Posted by chinshopesat3:43 PM Labels : cartoon , chins This",
+          "PM Posted by chinshopesat5:01 PM Labels : cartoons , chins I"
+        ],
+        "pm labels": [],
+        "people": [
+          "about animal rights and if people can see the idiocy of",
+          ", though a few hostile people appeared.Basic Facts On the Fur",
+          "healthy animals.- Canada 's native people , as well as its"
+        ],
+        "chin": [
+          "... I 'm a bonafide Chin farmer now . If you",
+          "Lyn Duedall 's most excellent chin website at '' With so"
+        ],
+        "cartoon": [
+          "by chinshopesat3:43 PM Labels : cartoon , chins This web site",
+          "by chinshopesat6:10 PM Labels : cartoon , chins Posted by chinshopesat3:22",
+          "by chinshopesat3:22 PM Labels : cartoon , chins With the farm"
+        ],
+        "labels cartoon": []
+      }
+    },
+    {
+      "id": 1,
+      "name": "blog_2_1_processed",
+      "snippet": "toChinchilla Castle The pages for all chinchilla enthusiasts. Welcome\u00a0 to The Chinchillaburg (Chinchilla Castle)! These pages are exspecially for those who are already          owner of a chinchilla. ...",
+      "top_keywords": [
+        "learn",
+        "page",
+        "castle",
+        "castle page",
+        "kind",
+        "population",
+        "able",
+        "number population",
+        "surrounding",
+        "surrounding population"
+      ],
+      "proper_nouns": [
+        "Castle",
+        "Knightssite",
+        "German",
+        "\u0084Das",
+        "ChinChorro",
+        "Handbuch",
+        "Chin",
+        "Interview(Castration",
+        "chinny",
+        "mailto:chinchillaburg@germanynet.de",
+        "Giant",
+        "Knights",
+        "Chinchilla-",
+        "=",
+        "download",
+        "S.",
+        "Chinchillaburg",
+        "Chinchilla",
+        "Chile",
+        ">",
+        "Guestbook",
+        "\u0093chinchilla"
+      ],
+      "entities": [
+        [
+          "Chinchilla Castle",
+          "PERSON"
+        ],
+        [
+          "Chinchilla- Handbuch",
+          "PERSON"
+        ],
+        [
+          "German",
+          "NORP"
+        ],
+        [
+          "2500",
+          "CARDINAL"
+        ],
+        [
+          "m*to",
+          "ORG"
+        ],
+        [
+          "3700",
+          "PRODUCT"
+        ],
+        [
+          "6100",
+          "CARDINAL"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "3.2809 feet",
+          "QUANTITY"
+        ],
+        [
+          "Knightssite",
+          "PERSON"
+        ],
+        [
+          "Chin Knights",
+          "PERSON"
+        ],
+        [
+          "ChinChorro",
+          "ORG"
+        ],
+        [
+          "S. Cremer",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "learn": [
+          "to check theChin Knightssite to learn everything about the Chin Knights",
+          "New ! Click here to learn more about the wildlife project"
+        ],
+        "page": [],
+        "castle": [
+          "toChinchilla Castle The pages for all chinchilla",
+          "to The Chinchillaburg ( Chinchilla Castle ) ! These pages are"
+        ],
+        "castle page": [],
+        "kind": [
+          "Please do not support this kind of business . ( *"
+        ],
+        "population": [
+          "natural surroundings . The last population of the \u0093chinchilla lanigera\u0094 lives",
+          "decrease in the number of population . Remember that there are"
+        ],
+        "able": [
+          "all of you who are able to speak German.The wild chinchilla",
+          "m , but they are able to push forward into an"
+        ],
+        "number population": [],
+        "surrounding": [],
+        "surrounding population": []
+      }
+    },
+    {
+      "id": 2,
+      "name": "blog_2_2_processed",
+      "snippet": "Facts worth knowing Sand and dust bath Chinchillas have a soft, dense fur which is usually                                              bluish-grey. This fur insulates against the extreme dry cold of ...",
+      "top_keywords": [
+        "bath",
+        "sand",
+        "bowl",
+        "fur",
+        "chinchilla bath",
+        "tray",
+        "bath house",
+        "soft",
+        "house",
+        "big"
+      ],
+      "proper_nouns": [
+        "bowl",
+        "S.",
+        "Interview(Castration",
+        "Attapulgus",
+        "Guestbook",
+        "Cloud",
+        "Chinchilla",
+        "Chinworld.com",
+        "mailto:chinchillaburg@germanynet.de",
+        "Chinchillas",
+        "Blue",
+        ">",
+        "Andes",
+        "="
+      ],
+      "entities": [
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "daily",
+          "DATE"
+        ],
+        [
+          "Spanish Sand, Attapulgus and Blue Cloud",
+          "WORK_OF_ART"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Chinworld.com",
+          "ORG"
+        ],
+        [
+          "chinchilla bath house",
+          "PERSON"
+        ],
+        [
+          "Chinworld.com",
+          "ORG"
+        ],
+        [
+          "S. Cremer",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "bath": [
+          "worth knowing Sand and dust bath Chinchillas have a soft ,",
+          ". Chinchillas need a daily bath in special sand to take",
+          "buy one of those chinchilla bath houses ( available at Chinworld.com"
+        ],
+        "sand": [
+          "Facts worth knowing Sand and dust bath Chinchillas have",
+          "a daily bath in special sand to take care of their",
+          "best sand-qualities are : Spanish Sand , Attapulgus and Blue Cloud"
+        ],
+        "bowl": [
+          "roll about . A big bowl or something like a cat",
+          "\u0084Chinchilla-bath-tubs '' . cat\u00b4s tray bowl bowl chinchilla bath house from",
+          "'' . cat\u00b4s tray bowl bowl chinchilla bath house from Chinworld.com"
+        ],
+        "fur": [
+          "have a soft , dense fur which is usually bluish-grey .",
+          "is usually bluish-grey . This fur insulates against the extreme dry",
+          "take care of their soft fur . The best sand-qualities are"
+        ],
+        "chinchilla bath": [],
+        "tray": [
+          "something like a cat 's tray are a good choice .",
+          "these \u0084Chinchilla-bath-tubs '' . cat\u00b4s tray bowl bowl chinchilla bath house"
+        ],
+        "bath house": [],
+        "soft": [
+          "dust bath Chinchillas have a soft , dense fur which is",
+          "to take care of their soft fur . The best sand-qualities"
+        ],
+        "house": [
+          "tray bowl bowl chinchilla bath house from Chinworld.com mailto : chinchillaburg"
+        ],
+        "big": [
+          "your Chinchilla has to be big enough so that your little",
+          "to roll about . A big bowl or something like a"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "blog_2_3_processed",
+      "snippet": "Facts worth knowing Country of originChinchillas come from the Andes, South America. This area was ruled by the Incas before the Conquistadores occupied the land. The Andes, approximately 7500 km*long...",
+      "top_keywords": [
+        "andes",
+        "height",
+        "america",
+        "mountain",
+        "south america",
+        "south",
+        "area",
+        "high",
+        "central",
+        "center andes"
+      ],
+      "proper_nouns": [
+        "Lima",
+        "Country",
+        "Central",
+        "Peruanic",
+        "Cap",
+        "Chinchillas",
+        "Conquistadores",
+        "Venezuela",
+        "Anconcagua",
+        "Horn",
+        "Interview(Castration",
+        "mailto:chinchillaburg@germanynet.de",
+        "Incas",
+        "Rail",
+        "Andes",
+        "=",
+        "Co.",
+        "S.",
+        "South",
+        "Huancayo",
+        "America",
+        "Chile",
+        ">",
+        "Guestbook"
+      ],
+      "entities": [
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "Incas",
+          "GPE"
+        ],
+        [
+          "Conquistadores",
+          "PERSON"
+        ],
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "Venezuela",
+          "GPE"
+        ],
+        [
+          "Cap Horn",
+          "PERSON"
+        ],
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "Anconcagua",
+          "GPE"
+        ],
+        [
+          "6959",
+          "DATE"
+        ],
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "2000",
+          "DATE"
+        ],
+        [
+          "4000",
+          "CARDINAL"
+        ],
+        [
+          "more than 5000",
+          "CARDINAL"
+        ],
+        [
+          "4782",
+          "CARDINAL"
+        ],
+        [
+          "Lima",
+          "GPE"
+        ],
+        [
+          "1 km",
+          "QUANTITY"
+        ],
+        [
+          "1000 m**1",
+          "TIME"
+        ],
+        [
+          "3.2809 feet",
+          "QUANTITY"
+        ],
+        [
+          "Chinchillas & Co.",
+          "ORG"
+        ],
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "One",
+          "CARDINAL"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "S. Cremer",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "andes": [
+          "of originChinchillas come from the Andes , South America . This",
+          "occupied the land . The Andes , approximately 7500 km *",
+          "Horn.The highest mountain of the Andes is the Anconcagua ( 6959"
+        ],
+        "height": [
+          "corn are cultivated in a height from 2000 m to 4000",
+          "Rail drives up to a height of 4782 m on the"
+        ],
+        "america": [
+          "from the Andes , South America . This area was ruled",
+          "all climatic zones of South America . Potatoes and corn are"
+        ],
+        "mountain": [
+          "Venezuela to Cap Horn.The highest mountain of the Andes is the",
+          ". The vegetation of this mountain range is as expressive as"
+        ],
+        "south america": [],
+        "south": [
+          "come from the Andes , South America . This area was",
+          "through all climatic zones of South America . Potatoes and corn"
+        ],
+        "area": [
+          ", South America . This area was ruled by the Incas"
+        ],
+        "high": [
+          "Lima -- Huancayo , as high as no other train in"
+        ],
+        "central": [
+          "5000 m.Unusual : The Peruanic Central Rail drives up to a"
+        ],
+        "center andes": []
+      }
+    },
+    {
+      "id": 4,
+      "name": "blog_2_4_processed",
+      "snippet": "Chinchillas are 25 cm (10 inches) long (not including the tail). Females are larger than males. Large, round eyes and excellent hearing make          it possible for them to detect predators like litt...",
+      "top_keywords": [
+        "large",
+        "predator",
+        "crevice",
+        "week",
+        "tail",
+        "long",
+        "year",
+        "female",
+        "rodentia female",
+        "male large"
+      ],
+      "proper_nouns": [
+        ">",
+        "S.",
+        "Interview(Castration",
+        "mailto:chinchillaburg@germanynet.de",
+        "Rodentia",
+        "captivitiy",
+        "Chinchillas",
+        "Order",
+        "Guestbook",
+        "="
+      ],
+      "entities": [
+        [
+          "25 cm",
+          "QUANTITY"
+        ],
+        [
+          "10 inches",
+          "QUANTITY"
+        ],
+        [
+          "one-third",
+          "CARDINAL"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Order Rodentia",
+          "PERSON"
+        ],
+        [
+          "approximately two",
+          "CARDINAL"
+        ],
+        [
+          "8 weeks",
+          "DATE"
+        ],
+        [
+          "12 \n        weeks",
+          "DATE"
+        ],
+        [
+          "15-20 years",
+          "DATE"
+        ],
+        [
+          "captivitiy",
+          "GPE"
+        ],
+        [
+          "S. Cremer",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "large": [
+          "are larger than males . Large , round eyes and excellent",
+          "of the entire body . Large hind feet enable them to"
+        ],
+        "predator": [],
+        "crevice": [],
+        "week": [],
+        "tail": [
+          "long ( not including the tail ) . Females are larger",
+          "long whiskers and a bushy tail which is one-third the length"
+        ],
+        "long": [
+          "cm ( 10 inches ) long ( not including the tail",
+          "of prey . They have long whiskers and a bushy tail"
+        ],
+        "year": [
+          "has approximately two litters per year . Newborn chinchillas are weaned"
+        ],
+        "female": [
+          "laniger , Order Rodentia A female has approximately two litters per"
+        ],
+        "rodentia female": [],
+        "male large": []
+      }
+    },
+    {
+      "id": 5,
+      "name": "blog_2_5_processed",
+      "snippet": "Chinchilla Garden Houses There was an article about the chinchilla garden                                              houses you can see below (more photos to come) in the German magazin \u0093Ein Herz f\u00fc...",
+      "top_keywords": [
+        "garden",
+        "garden house",
+        "house",
+        "house chinchilla",
+        "chinchilla garden",
+        "german",
+        "chinchilla blacky",
+        "chinchilla inti",
+        "chinchilla schneewittchen",
+        "window"
+      ],
+      "proper_nouns": [
+        "Herz",
+        "Schneewittchen",
+        "German",
+        "garden",
+        "\u0093their\u0094",
+        "Garden",
+        "Interview(Castration",
+        "chinny",
+        "mailto:chinchillaburg@germanynet.de",
+        "Handbuch\u0094",
+        "=",
+        "S.",
+        "Blacky",
+        "Chinchilla",
+        "Inti",
+        ">",
+        "Guestbook",
+        "Knuffel",
+        "August"
+      ],
+      "entities": [
+        [
+          "Chinchilla Garden Houses",
+          "PERSON"
+        ],
+        [
+          "German",
+          "NORP"
+        ],
+        [
+          "August 2002",
+          "DATE"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "German",
+          "NORP"
+        ],
+        [
+          "German",
+          "NORP"
+        ],
+        [
+          "Chinchilla Schneewittchen",
+          "PERSON"
+        ],
+        [
+          "Blacky",
+          "GPE"
+        ],
+        [
+          "treats!\u0094",
+          "ORG"
+        ],
+        [
+          "Chinchilla Inti",
+          "PERSON"
+        ],
+        [
+          "Chinchilla Inti",
+          "PERSON"
+        ],
+        [
+          "Knuffel",
+          "PERSON"
+        ],
+        [
+          "Chinchilla Schneewittchen",
+          "PERSON"
+        ],
+        [
+          "Blacky",
+          "GPE"
+        ],
+        [
+          "S. Cremer",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "garden": [
+          "Chinchilla Garden Houses There was an article",
+          "an article about the chinchilla garden houses you can see below",
+          "window of the smaller chinchilla garden house : Chinchilla Schneewittchen and"
+        ],
+        "garden house": [],
+        "house": [
+          "of the smaller chinchilla garden house : Chinchilla Schneewittchen and chinchilla",
+          ") are discovering their garden house . \u0093Hhmmm ... treats !",
+          "in the big chinchilla garden house . Chinchilla Inti ( in"
+        ],
+        "house chinchilla": [],
+        "chinchilla garden": [],
+        "german": [
+          "to come ) in the German magazin \u0093Ein Herz f\u00fcr Tiere\u0094",
+          "\u0093Das gro\u00dfe Chinchilla-Handbuch\u0094 , a German book for owners of pet",
+          "who are able to speak German : The book is available"
+        ],
+        "chinchilla blacky": [],
+        "chinchilla inti": [],
+        "chinchilla schneewittchen": [],
+        "window": [
+          "atwww.amazon.de A view through the window of the smaller chinchilla garden",
+          "a look out of the window to watch \u0093their\u0094 humans or"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "blog_2_6_processed",
+      "snippet": "Do you think that your chinchilla looks as nice as the chinchillas you can see here every month? Don\u00b4t be shy and send a photo of your littlechinchillaburg@germanynet.derodent to\u00a0 and maybe next time ...",
+      "top_keywords": [
+        "send",
+        "month",
+        "month shy",
+        "send photo",
+        "nice",
+        "shy send",
+        "shy",
+        "nice chinchilla",
+        "chinchilla month",
+        "chinchilla look"
+      ],
+      "proper_nouns": [
+        "S.",
+        "Interview(Castration",
+        "mailto:chinchillaburg@germanynet.de",
+        "chinchillaburg@germanynet.de",
+        ">",
+        "Guestbook",
+        "="
+      ],
+      "entities": [
+        [
+          "every month",
+          "DATE"
+        ],
+        [
+          "S. Cremer",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "send": [
+          "? Don\u00b4t be shy and send a photo of your littlechinchillaburg"
+        ],
+        "month": [
+          "you can see here every month ? Don\u00b4t be shy and"
+        ],
+        "month shy": [],
+        "send photo": [],
+        "nice": [
+          "that your chinchilla looks as nice as the chinchillas you can"
+        ],
+        "shy send": [],
+        "shy": [
+          "every month ? Don\u00b4t be shy and send a photo of"
+        ],
+        "nice chinchilla": [],
+        "chinchilla month": [],
+        "chinchilla look": []
+      }
+    },
+    {
+      "id": 7,
+      "name": "blog_2_7_processed",
+      "snippet": "My furry monsters Inti, 8 years old, female, she rules the chinchilla empire! :-) Knuffel, 8 years old, Inti\u00b4s brother, looking for something to gnaw ... Blacky, 12 years old, is my Black Velvet lady ...",
+      "top_keywords": [
+        "year old",
+        "old",
+        "year",
+        "flocke",
+        "flocke year",
+        "lose",
+        "alf",
+        "quiddel",
+        "knuffel",
+        "inti"
+      ],
+      "proper_nouns": [
+        "Schneewittchen",
+        "Quiddel",
+        "October",
+        "Flocke\u0092s",
+        "Wilson",
+        "White",
+        "November",
+        "Velvet",
+        "Interview(Castration",
+        "mailto:chinchillaburg@germanynet.de",
+        "=",
+        "Alf",
+        "Flocke",
+        "S.",
+        "Alf,17",
+        "Black",
+        "Blacky",
+        "Inti",
+        ">",
+        "Guestbook",
+        "Knuffel"
+      ],
+      "entities": [
+        [
+          "8 years old",
+          "DATE"
+        ],
+        [
+          "Knuffel",
+          "ORG"
+        ],
+        [
+          "8 years old",
+          "DATE"
+        ],
+        [
+          "Inti\u00b4s",
+          "LOC"
+        ],
+        [
+          "Blacky",
+          "GPE"
+        ],
+        [
+          "12 years old",
+          "DATE"
+        ],
+        [
+          "Black Velvet",
+          "ORG"
+        ],
+        [
+          "Knuffel",
+          "PERSON"
+        ],
+        [
+          "4 years old",
+          "DATE"
+        ],
+        [
+          "Blacky",
+          "GPE"
+        ],
+        [
+          "Schneewittchen",
+          "PERSON"
+        ],
+        [
+          "11 years old",
+          "DATE"
+        ],
+        [
+          "Wilson White",
+          "PERSON"
+        ],
+        [
+          "almost 5 years old",
+          "DATE"
+        ],
+        [
+          "Flocke",
+          "NORP"
+        ],
+        [
+          "November 2004",
+          "DATE"
+        ],
+        [
+          "October 2002",
+          "DATE"
+        ],
+        [
+          "S. Cremer",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "year old": [],
+        "old": [
+          "monsters Inti , 8 years old , female , she rules",
+          ") Knuffel , 8 years old , Inti\u00b4s brother , looking",
+          "... Blacky , 12 years old , is my Black Velvet"
+        ],
+        "year": [],
+        "flocke": [
+          ", former friend of chinchilla Flocke , is 4 years old",
+          "cheeky little Wilson White . Flocke , almost 5 years old",
+          "best friend of Alf . Flocke was very sad due to"
+        ],
+        "flocke year": [],
+        "lose": [],
+        "alf": [
+          "old , best friend of Alf . Flocke was very sad",
+          "due to the loss of Alf ... until Quiddel became his"
+        ],
+        "quiddel": [
+          ", playing outside the cage Quiddel , my youngest one ,",
+          "loss of Alf ... until Quiddel became his new companion ."
+        ],
+        "knuffel": [
+          "empire ! : - ) Knuffel , 8 years old ,",
+          "Black Velvet lady Inti and Knuffel , playing outside the cage"
+        ],
+        "inti": [
+          "My furry monsters Inti , 8 years old ,",
+          "is my Black Velvet lady Inti and Knuffel , playing outside"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "blog_2_8_processed",
+      "snippet": "(Click here to see chapter 1) Chapter 2: The new butler to be continued ... mailto:chinchillaburg@germanynet.de Copyright Photos, drawings, text: S. Cremer Update on: Navigation bar    => Interview(Ca...",
+      "top_keywords": [
+        "chapter",
+        "new butler",
+        "chapter new",
+        "chapter chapter",
+        "continue",
+        "continue copyright",
+        "click chapter",
+        "butler",
+        "butler continue",
+        "click"
+      ],
+      "proper_nouns": [
+        "S.",
+        "Interview(Castration",
+        "mailto:chinchillaburg@germanynet.de",
+        ">",
+        "Guestbook",
+        "="
+      ],
+      "entities": [
+        [
+          "chapter 1",
+          "LAW"
+        ],
+        [
+          "Chapter 2",
+          "LAW"
+        ],
+        [
+          "S. Cremer",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "chapter": [
+          "( Click here to see chapter 1 ) Chapter 2 :",
+          "to see chapter 1 ) Chapter 2 : The new butler"
+        ],
+        "new butler": [],
+        "chapter new": [],
+        "chapter chapter": [],
+        "continue": [],
+        "continue copyright": [],
+        "click chapter": [],
+        "butler": [
+          "Chapter 2 : The new butler to be continued ... mailto"
+        ],
+        "butler continue": [],
+        "click": [
+          "( Click here to see chapter 1"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "weight": 0.864180326461792
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "weight": 0.8709709644317627
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "weight": 0.9191454648971558
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "weight": 0.8709350228309631
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "weight": 0.8481583595275879
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "weight": 0.7290416955947876
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "weight": 0.8250643014907837
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "weight": 0.6730411648750305
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "weight": 0.839145839214325
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "weight": 0.8502734303474426
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "weight": 0.8724484443664551
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "weight": 0.8878850340843201
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "weight": 0.6887133717536926
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "weight": 0.7577136754989624
+    },
+    {
+      "source": 1,
+      "target": 8,
+      "weight": 0.5827738046646118
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "weight": 0.8024187088012695
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "weight": 0.8512375950813293
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "weight": 0.8559829592704773
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "weight": 0.8406550288200378
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "weight": 0.7635587453842163
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "weight": 0.7334268689155579
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "weight": 0.834428071975708
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "weight": 0.8489382266998291
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "weight": 0.6541025042533875
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "weight": 0.7771950960159302
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "weight": 0.6337318420410156
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "weight": 0.7852495312690735
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "weight": 0.7300868034362793
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "weight": 0.8342512249946594
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "weight": 0.6149981617927551
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "weight": 0.7752119898796082
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "weight": 0.7164092063903809
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "weight": 0.7218429446220398
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "weight": 0.6926314830780029
+    },
+    {
+      "source": 6,
+      "target": 8,
+      "weight": 0.8078262209892273
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "weight": 0.6850812435150146
+    }
+  ]
+}
