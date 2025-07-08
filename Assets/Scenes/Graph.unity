@@ -440,6 +440,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Device Simulator
       objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -733,6 +738,17 @@ PrefabInstance:
       propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8369458713039774718, guid: d0e933c968be9724da3e5c37999fb4db,
+        type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 7725657925978303277}
+    - target: {fileID: 8369458713039774718, guid: d0e933c968be9724da3e5c37999fb4db,
+        type: 3}
+      propertyPath: prefabToSpawn
+      value: 
+      objectReference: {fileID: 6525077560669162335, guid: d02ff56380c5bde4b98ee5e8f44e30be,
+        type: 3}
     - target: {fileID: 8534857453974044630, guid: d0e933c968be9724da3e5c37999fb4db,
         type: 3}
       propertyPath: m_Convex
@@ -743,6 +759,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0e933c968be9724da3e5c37999fb4db, type: 3}
+--- !u!4 &7725657925978303277 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3176904006878228301, guid: d0e933c968be9724da3e5c37999fb4db,
+    type: 3}
+  m_PrefabInstance: {fileID: 7725657925978303276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
