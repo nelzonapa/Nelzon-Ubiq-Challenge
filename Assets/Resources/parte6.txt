@@ -1,0 +1,33 @@
+"concordances": {
+        "post": [],
+        "pm": [
+          "course ... Posted by chinshopesat11:59 PM Labels : chins , that",
+          "'s all Posted by chinshopesat3:43 PM Labels : cartoon , chins",
+          "pets . Posted by chinshopesat6:15 PM Posted by chinshopesat11:11 PM Posted"
+        ],
+        "post pm": [],
+        "animal": [
+          "by chinshopesat3:30 PM Labels : animal rights Posted by chinshopesat3:32 PM",
+          "I 'm pretty fanatical about animal rights and if people can",
+          "fur industry who put dead animal skins on the backs of"
+        ],
+        "labels": [
+          "... Posted by chinshopesat11:59 PM Labels : chins , that 's",
+          "all Posted by chinshopesat3:43 PM Labels : cartoon , chins This",
+          "PM Posted by chinshopesat5:01 PM Labels : cartoons , chins I"
+        ],
+        "pm labels": [],
+        "people": [
+          "about animal rights and if people can see the idiocy of",
+          ", though a few hostile people appeared.Basic Facts On the Fur",
+          "healthy animals.- Canada 's native people , as well as its"
+        ],
+        "chin": [
+          "... I 'm a bonafide Chin farmer now . If you",
+          "Lyn Duedall 's most excellent chin website at '' With so"
+        ],
+        "cartoon": [
+          "by chinshopesat3:43 PM Labels : cartoon , chins This web site",
+          "by chinshopesat6:10 PM Labels : cartoon , chins Posted by chinshopesat3:22",
+          "by chinshopesat3:22 PM Labels : cartoon , chins With the farm"
+        ],

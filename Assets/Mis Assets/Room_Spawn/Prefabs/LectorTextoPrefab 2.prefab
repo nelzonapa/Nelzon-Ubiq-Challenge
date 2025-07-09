@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7720544939760985464}
   - component: {fileID: 1304647384733374724}
   m_Layer: 0
-  m_Name: LectorTextoPrefab
+  m_Name: LectorTextoPrefab 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,15 +915,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 22
-  m_fontSizeMax: 24
+  m_fontSizeMin: 20
+  m_fontSizeMax: 25
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -969,7 +969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe2842d6accc22478195b2660ccc064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonFileName: parte1
+  jsonFileName: parte3
   textComponent: {fileID: 7958139650232499625}
 --- !u!114 &6355321576296955480
 MonoBehaviour:

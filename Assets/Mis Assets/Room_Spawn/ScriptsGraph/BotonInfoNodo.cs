@@ -18,22 +18,22 @@ public class BotonInfoNodo : MonoBehaviour
     private Color originalColor;
     public Color clickedColor = Color.red;
 
-    //Para spawneo:
-
-    [Tooltip("Punto desde donde se generará el prefab")]
+    [Tooltip("Punto desde donde se generará la rejilla de prefabs")]
     public Transform spawnPoint;
-    private GameObject spawnedInstance;
 
     [Tooltip("Lista de prefabs a instanciar.")]
     public GameObject[] prefabsToSpawn;
 
-    // Lista para almacenar instancias creadas
-    private readonly System.Collections.Generic.List<GameObject> spawnedInstances =
-        new System.Collections.Generic.List<GameObject>();
+    [Header("Configuración de la rejilla")]
+    [Tooltip("Número de columnas en la rejilla (las filas se calculan automáticamente).")]
+    public int gridColumns = 3;
+    [Tooltip("Separación horizontal entre elementos.")]
+    public float xSpacing = 0.5f;
+    [Tooltip("Separación vertical entre elementos.")]
+    public float ySpacing = 0.3f;
 
+    private readonly List<GameObject> spawnedInstances = new List<GameObject>();
 
-
-    //FUNCIONES
     private void Awake()
     {
         meshRenderer = GetComponent<MeshRenderer>();
@@ -45,34 +45,49 @@ public class BotonInfoNodo : MonoBehaviour
     {
         Debug.Log("¡Botón presionado!");
         if (meshRenderer != null)
-        {
             meshRenderer.material.color = clickedColor;
-        }
 
-        // Crear todos los prefabs de la lista (si aún no lo hiciste)
-        if (spawnedInstances.Count == 0 && prefabsToSpawn != null && spawnPoint != null)
+        // Si ya creamos la rejilla, no lo hacemos de nuevo
+        if (spawnedInstances.Count > 0 || prefabsToSpawn == null || spawnPoint == null)
+            return;
+
+        int total = prefabsToSpawn.Length;
+        // Si gridColumns es 0 o 1, forzamos 1 para evitar división por cero
+        int cols = Mathf.Max(1, gridColumns);
+        int rows = Mathf.CeilToInt((float)total / cols);
+
+        for (int i = 0; i < total; i++)
         {
-            foreach (var prefab in prefabsToSpawn)
-            {
-                if (prefab != null)
-                {
-                    GameObject inst = Instantiate(
-                        prefab,
-                        spawnPoint.position,
-                        spawnPoint.rotation,
-                        transform
-                    );
-                    spawnedInstances.Add(inst);
-                }
-            }
+            GameObject prefab = prefabsToSpawn[i];
+            if (prefab == null) continue;
+
+            // Calcula fila y columna
+            int row = i / cols;
+            int col = i % cols;
+
+            // Offset en X y Y, manteniendo Z = 0 (mismo plano)
+            Vector3 localOffset = new Vector3(
+                (col - (cols - 1) * 0.5f) * xSpacing,
+                -row * ySpacing,
+                0f
+            );
+
+            // Posición final en el mundo
+            Vector3 spawnPos = spawnPoint.position
+                             + spawnPoint.TransformVector(localOffset);
+
+            // Rotación para que queden mirando igual que spawnPoint
+            Quaternion spawnRot = spawnPoint.rotation;
+
+            // Instancia y guarda referencia
+            GameObject inst = Instantiate(prefab, spawnPos, spawnRot, transform);
+            spawnedInstances.Add(inst);
         }
     }
 
     public void OnSelectExited(SelectExitEventArgs args)
     {
         if (meshRenderer != null)
-        {
             meshRenderer.material.color = originalColor;
-        }
     }
 }

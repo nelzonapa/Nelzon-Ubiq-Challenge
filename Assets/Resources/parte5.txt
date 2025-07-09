@@ -1,0 +1,538 @@
+"entities": [
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "the Roadstop Raisin Lounges",
+          "ORG"
+        ],
+        [
+          "Shredded Wheat",
+          "ORG"
+        ],
+        [
+          "Blue Sparkle Dust",
+          "ORG"
+        ],
+        [
+          "ChinCare",
+          "PRODUCT"
+        ],
+        [
+          "LA",
+          "GPE"
+        ],
+        [
+          "a couple of SUV's23 years",
+          "DATE"
+        ],
+        [
+          "23",
+          "CARDINAL"
+        ],
+        [
+          "westA",
+          "ORG"
+        ],
+        [
+          "moreHe",
+          "ORG"
+        ],
+        [
+          "23 yearsAnd",
+          "PERCENT"
+        ],
+        [
+          "free23 years",
+          "DATE"
+        ],
+        [
+          "23 years",
+          "DATE"
+        ],
+        [
+          "Collie",
+          "PERSON"
+        ],
+        [
+          "Faron",
+          "GPE"
+        ],
+        [
+          "Hermes",
+          "GPE"
+        ],
+        [
+          "Swami Bhagavatam",
+          "PERSON"
+        ],
+        [
+          "Anti-Fur Season BeginsAnnual",
+          "ORG"
+        ],
+        [
+          "Toronto",
+          "GPE"
+        ],
+        [
+          "today",
+          "DATE"
+        ],
+        [
+          "Boycott the Bay Demo at Queen",
+          "WORK_OF_ART"
+        ],
+        [
+          "Yonge",
+          "GPE"
+        ],
+        [
+          "Fur",
+          "ORG"
+        ],
+        [
+          "About 1.1 million",
+          "CARDINAL"
+        ],
+        [
+          "each year",
+          "DATE"
+        ],
+        [
+          "Canada",
+          "GPE"
+        ],
+        [
+          "Another 1.1 million",
+          "CARDINAL"
+        ],
+        [
+          "healthy animals.- Canada's",
+          "ORG"
+        ],
+        [
+          "Every year",
+          "DATE"
+        ],
+        [
+          "thousands",
+          "CARDINAL"
+        ],
+        [
+          "chinshopesat3:13 PM",
+          "TIME"
+        ],
+        [
+          "chinshopesat7:03 AM",
+          "TIME"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "The Great Hoax",
+          "WORK_OF_ART"
+        ],
+        [
+          "MF Chapman",
+          "PERSON"
+        ],
+        [
+          "US",
+          "GPE"
+        ],
+        [
+          "Chapman",
+          "PERSON"
+        ],
+        [
+          "FUR",
+          "ORG"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "Chapman",
+          "PERSON"
+        ],
+        [
+          "Sherry MorseEngland\u2019s",
+          "PERSON"
+        ],
+        [
+          "Royal Society",
+          "ORG"
+        ],
+        [
+          "269",
+          "CARDINAL"
+        ],
+        [
+          "181 year",
+          "DATE"
+        ],
+        [
+          "seven",
+          "CARDINAL"
+        ],
+        [
+          "16",
+          "CARDINAL"
+        ],
+        [
+          "244",
+          "CARDINAL"
+        ],
+        [
+          "three",
+          "CARDINAL"
+        ],
+        [
+          "Carnforth, Lancashire",
+          "FAC"
+        ],
+        [
+          "Northern England",
+          "LOC"
+        ],
+        [
+          "September 10.The",
+          "DATE"
+        ],
+        [
+          "26",
+          "CARDINAL"
+        ],
+        [
+          "two days",
+          "DATE"
+        ],
+        [
+          "one",
+          "CARDINAL"
+        ],
+        [
+          "African",
+          "NORP"
+        ],
+        [
+          "Amazon",
+          "ORG"
+        ],
+        [
+          "the last twenty years",
+          "DATE"
+        ],
+        [
+          "the United States",
+          "GPE"
+        ],
+        [
+          "the U.S. Fish and Wildlife Service",
+          "ORG"
+        ],
+        [
+          "One",
+          "CARDINAL"
+        ],
+        [
+          "America",
+          "GPE"
+        ],
+        [
+          "1980",
+          "DATE"
+        ],
+        [
+          "nearly 2000",
+          "CARDINAL"
+        ],
+        [
+          "500",
+          "CARDINAL"
+        ],
+        [
+          "Texas",
+          "GPE"
+        ],
+        [
+          "thousands of dollars",
+          "MONEY"
+        ],
+        [
+          "a few\ndays",
+          "DATE"
+        ],
+        [
+          "each day",
+          "DATE"
+        ],
+        [
+          "Canned Hunts: Unfair",
+          "WORK_OF_ART"
+        ],
+        [
+          "Chin",
+          "PERSON"
+        ],
+        [
+          "Chins",
+          "PERSON"
+        ],
+        [
+          "Hystrichognathes",
+          "PERSON"
+        ],
+        [
+          "Wilson et Reeder",
+          "ORG"
+        ],
+        [
+          "Caviomorphes",
+          "PERSON"
+        ],
+        [
+          "two",
+          "CARDINAL"
+        ],
+        [
+          "Andes Mountains",
+          "LOC"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "between 3000 and",
+          "CARDINAL"
+        ],
+        [
+          "4000 meters",
+          "QUANTITY"
+        ],
+        [
+          "Tajikistan",
+          "NORP"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "Tajik Chins",
+          "PERSON"
+        ],
+        [
+          "C.",
+          "NORP"
+        ],
+        [
+          "the Andes Mountains",
+          "LOC"
+        ],
+        [
+          "1923",
+          "DATE"
+        ],
+        [
+          "the United States",
+          "GPE"
+        ],
+        [
+          "Europe",
+          "LOC"
+        ],
+        [
+          "the Second World War",
+          "EVENT"
+        ],
+        [
+          "Wilson",
+          "ORG"
+        ],
+        [
+          "mosaic",
+          "PRODUCT"
+        ],
+        [
+          "almond blossom",
+          "PERSON"
+        ],
+        [
+          "afro-violet",
+          "ORG"
+        ],
+        [
+          "pastel",
+          "ORG"
+        ],
+        [
+          "Sapphire",
+          "GPE"
+        ],
+        [
+          "Sapphire",
+          "GPE"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "the Washington Convention",
+          "GPE"
+        ],
+        [
+          "X C. brevicauda",
+          "PERSON"
+        ],
+        [
+          "1992",
+          "DATE"
+        ],
+        [
+          "French",
+          "NORP"
+        ],
+        [
+          "BIOLOGICAL",
+          "PERSON"
+        ],
+        [
+          "FeaturesAdult",
+          "ORG"
+        ],
+        [
+          "400",
+          "CARDINAL"
+        ],
+        [
+          "450-600 grams",
+          "QUANTITY"
+        ],
+        [
+          "25-30",
+          "CARDINAL"
+        ],
+        [
+          "7-15",
+          "CARDINAL"
+        ],
+        [
+          "550",
+          "CARDINAL"
+        ],
+        [
+          "10 years",
+          "DATE"
+        ],
+        [
+          "up to 20 years",
+          "DATE"
+        ],
+        [
+          "38-39",
+          "CARDINAL"
+        ],
+        [
+          "Lyn Duedall's",
+          "PERSON"
+        ],
+        [
+          "One",
+          "CARDINAL"
+        ],
+        [
+          "Indian",
+          "NORP"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "Argentina",
+          "GPE"
+        ],
+        [
+          "Bolivia",
+          "GPE"
+        ],
+        [
+          "Peru",
+          "GPE"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "the Andes Mountains",
+          "LOC"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Mammalia",
+          "PERSON"
+        ],
+        [
+          "Rodentia",
+          "PERSON"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Los Angeles",
+          "GPE"
+        ],
+        [
+          "Susan Daffron'sPet",
+          "ORG"
+        ],
+        [
+          "Susan DaffronTimes",
+          "PERSON"
+        ],
+        [
+          "the late 80s",
+          "DATE"
+        ],
+        [
+          "early 90s",
+          "DATE"
+        ],
+        [
+          "100-150 pound",
+          "QUANTITY"
+        ],
+        [
+          "the Panhandle Animal Shelter",
+          "ORG"
+        ],
+        [
+          "Disney",
+          "ORG"
+        ],
+        [
+          "101",
+          "CARDINAL"
+        ],
+        [
+          "Dalmatians",
+          "NORP"
+        ]
+      ]
