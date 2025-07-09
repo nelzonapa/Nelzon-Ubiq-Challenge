@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Room_Catalogue
   m_EditorClassIdentifier: 
   prefabs:
-  - {fileID: 1332166573532622492, guid: 1e71ee8dad8236544954e31031dfe1c3, type: 3}
+  - {fileID: 5164959061695032273, guid: 0c6c336e2306a134284d2daa850a2585, type: 3}
   - {fileID: 431208446903695905, guid: 47abd71e016d55d4a8eebed937ecbbe3, type: 3}
