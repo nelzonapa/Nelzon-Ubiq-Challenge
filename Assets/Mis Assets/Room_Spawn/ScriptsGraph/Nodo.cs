@@ -27,6 +27,16 @@ public class Nodo : MonoBehaviour
     public Transform spawnPoint;
     private GameObject spawnedInstance;
 
+    //Para spawneo:
+
+    [Tooltip("Lista de prefabs a instanciar.")]
+    public GameObject[] prefabsToSpawn;
+
+    // Lista para almacenar instancias creadas
+    private readonly System.Collections.Generic.List<GameObject> spawnedInstances =
+        new System.Collections.Generic.List<GameObject>();
+
+
 
     //FUNCIONES
     private void Awake()
@@ -38,6 +48,7 @@ public class Nodo : MonoBehaviour
 
     public void OnSelectEntered(SelectEnterEventArgs args)
     {
+        Debug.Log("¡Botón presionado!");
         if (meshRenderer != null)
         {
             meshRenderer.material.color = clickedColor;
@@ -47,6 +58,24 @@ public class Nodo : MonoBehaviour
         {
             // Creamos el objeto y lo parentamos para que siga al original
             spawnedInstance = Instantiate(prefabToSpawn, spawnPoint.position, spawnPoint.rotation, transform);
+        }
+
+        // Crear todos los prefabs de la lista (si aún no lo hiciste)
+        if (spawnedInstances.Count == 0 && prefabsToSpawn != null && spawnPoint != null)
+        {
+            foreach (var prefab in prefabsToSpawn)
+            {
+                if (prefab != null)
+                {
+                    GameObject inst = Instantiate(
+                        prefab,
+                        spawnPoint.position,
+                        spawnPoint.rotation,
+                        transform
+                    );
+                    spawnedInstances.Add(inst);
+                }
+            }
         }
     }
 

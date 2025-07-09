@@ -3,24 +3,52 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-
 public class BotonInfoNodo : MonoBehaviour
 {
+    public int idNodo;
+    public string nombreBlogDocumento;
+    public string fragmentoResumen;
+    public string[] palabrasClave;
+    public string[] nombresPropios;
+    public string[] entidades;
+    public string[] concordancias;
+    public int colorGrupo;
+
+    private MeshRenderer meshRenderer;
+    private Color originalColor;
+    public Color clickedColor = Color.red;
+
     //Para spawneo:
+
+    [Tooltip("Punto desde donde se generará el prefab")]
+    public Transform spawnPoint;
+    private GameObject spawnedInstance;
 
     [Tooltip("Lista de prefabs a instanciar.")]
     public GameObject[] prefabsToSpawn;
-
-    [Tooltip("Punto desde donde se generarán los prefabs.")]
-    public Transform spawnPoint;
 
     // Lista para almacenar instancias creadas
     private readonly System.Collections.Generic.List<GameObject> spawnedInstances =
         new System.Collections.Generic.List<GameObject>();
 
+
+
     //FUNCIONES
-    public void OnSelectEntered()
+    private void Awake()
     {
+        meshRenderer = GetComponent<MeshRenderer>();
+        if (meshRenderer != null)
+            originalColor = meshRenderer.material.color;
+    }
+
+    public void OnSelectEntered(SelectEnterEventArgs args)
+    {
+        Debug.Log("¡Botón presionado!");
+        if (meshRenderer != null)
+        {
+            meshRenderer.material.color = clickedColor;
+        }
+
         // Crear todos los prefabs de la lista (si aún no lo hiciste)
         if (spawnedInstances.Count == 0 && prefabsToSpawn != null && spawnPoint != null)
         {
@@ -40,13 +68,11 @@ public class BotonInfoNodo : MonoBehaviour
         }
     }
 
-    // (Opcional) Método para limpiar los objetos instanciados
-    public void ResetSpawned()
+    public void OnSelectExited(SelectExitEventArgs args)
     {
-        foreach (var inst in spawnedInstances)
+        if (meshRenderer != null)
         {
-            if (inst != null) Destroy(inst);
+            meshRenderer.material.color = originalColor;
         }
-        spawnedInstances.Clear();
     }
 }
