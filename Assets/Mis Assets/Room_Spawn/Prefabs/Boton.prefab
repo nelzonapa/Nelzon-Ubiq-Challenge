@@ -338,7 +338,7 @@ MonoBehaviour:
   clickedColor: {r: 1, g: 0, b: 0, a: 1}
   spawnPoint: {fileID: 6210386189079978738}
   prefabsToSpawn:
-  - {fileID: 431208446903695905, guid: 47abd71e016d55d4a8eebed937ecbbe3, type: 3}
+  - {fileID: 906941769900987142, guid: 2c39c3a2582951545a5899f8caead227, type: 3}
 --- !u!1 &5164959061695032273
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +428,7 @@ Transform:
   m_GameObject: {fileID: 7002755852221369663}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.052, y: 0, z: 0}
+  m_LocalPosition: {x: 0.1106, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

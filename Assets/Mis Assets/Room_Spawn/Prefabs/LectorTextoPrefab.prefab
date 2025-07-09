@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 906941769900987142}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.21965872, y: 1.1620289, z: -0.912}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.07, y: 0.06, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6452337625509222446}
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7632561916862191154}
   m_HandleRect: {fileID: 5921978940783078122}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -832,6 +832,7 @@ GameObject:
   - component: {fileID: 653400334706915839}
   - component: {fileID: 164937811989055537}
   - component: {fileID: 7958139650232499625}
+  - component: {fileID: 747080019540862408}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -886,7 +887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hola hola Hola hola Hola hola Hola hola Hola hola Hola hola Hola hola
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -955,6 +956,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &747080019540862408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7670424629495684943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe2842d6accc22478195b2660ccc064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonFileName: graph_enriched
+  textComponent: {fileID: 7958139650232499625}
 --- !u!1 &8546205054130893472
 GameObject:
   m_ObjectHideFlags: 0
