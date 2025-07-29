@@ -16,11 +16,13 @@ public class NodoConeccion : MonoBehaviour
     {
         public Vector3 position;
         public Quaternion rotation;
+        public Vector3 scale;
 
         public Message(Transform t)
         {
             position = t.position;
             rotation = t.rotation;
+            scale = t.localScale;
         }
     }
 
@@ -50,6 +52,7 @@ public class NodoConeccion : MonoBehaviour
         var data = msg.FromJson<Message>();
         transform.position = data.position;
         transform.rotation = data.rotation;
+        transform.localScale = data.scale;
     }
 
     void OnDestroy()
