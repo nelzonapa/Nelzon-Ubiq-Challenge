@@ -219,7 +219,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &3178220211391293607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -587,6 +587,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5604051b70213be45b85107f36bdf2d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idNodo: 0
+  nombreBlogDocumento: 
+  fragmentoResumen: 
+  palabrasClave: []
+  nombresPropios: []
+  entidades: []
+  concordancias: []
+  colorGrupo: 0
+  clickedColor: {r: 1, g: 0, b: 0, a: 1}
+  spawnPoint: {fileID: 7084721291101228458}
   prefabsToSpawn:
   - {fileID: 431208446903695905, guid: 47abd71e016d55d4a8eebed937ecbbe3, type: 3}
-  spawnPoint: {fileID: 7084721291101228458}
+  gridColumns: 3
+  xSpacing: 0.5
+  ySpacing: 0.3
