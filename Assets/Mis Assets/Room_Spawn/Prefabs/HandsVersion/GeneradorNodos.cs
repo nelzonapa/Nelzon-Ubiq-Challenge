@@ -98,6 +98,9 @@ public class GeneradorNodos : MonoBehaviour
             // Conectar los dos nodos en sus posiciones actuales
             lr.SetPosition(0, goSrc.transform.position);
             lr.SetPosition(1, goDst.transform.position);
+
+            // Añadir componente para seguir nodos dinámicamente
+            edgeGO.AddComponent<EdgeConnector>();
         }
     }
 }
