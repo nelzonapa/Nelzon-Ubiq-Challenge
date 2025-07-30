@@ -677,7 +677,7 @@ Transform:
   m_GameObject: {fileID: 986270180}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.9, y: 0.7134736, z: 2.76}
+  m_LocalPosition: {x: 5.999, y: 0.296, z: 2.782}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -700,6 +700,8 @@ MonoBehaviour:
     type: 3}
   materialArista: {fileID: 2100000, guid: 5bc68c07b5f995746ab22c53db571968, type: 2}
   grosorArista: 0.02
+  graphOffset: {x: 2, y: 0, z: 0}
+  graphScale: 0.5
 --- !u!1001 &1110138761
 PrefabInstance:
   m_ObjectHideFlags: 0

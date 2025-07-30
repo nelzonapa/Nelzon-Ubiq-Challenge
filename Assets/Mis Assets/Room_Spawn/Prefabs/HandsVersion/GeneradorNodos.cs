@@ -40,6 +40,10 @@ public class GeneradorNodos : MonoBehaviour
     public Material materialArista;   // Material para las líneas de arista
     public float grosorArista = 0.02f;// Grosor de las líneas
 
+    [Header("Ajustes de grafo")]
+    public Vector3 graphOffset = Vector3.zero;  // Desplaza todo el grafo
+    public float graphScale = 1f;               // Escala uniforme del grafo
+
     // Para guardar referencias a cada nodo instanciado
     private Dictionary<int, GameObject> mapaNodos;
 
@@ -64,7 +68,8 @@ public class GeneradorNodos : MonoBehaviour
         // 1) Instanciar nodos
         foreach (var nodo in grafo.nodes)
         {
-            Vector3 posicion = new Vector3(nodo.pos.x, nodo.pos.y, nodo.pos.z);
+            Vector3 rawPos = new Vector3(nodo.pos.x, nodo.pos.y, nodo.pos.z);
+            Vector3 posicion = graphOffset + rawPos * graphScale;
             var obj = Instantiate(prefabNodo, posicion, Quaternion.identity, transform);
             obj.name = $"Nodo_{nodo.id}_{nodo.name}";
             mapaNodos[nodo.id] = obj;
@@ -90,7 +95,7 @@ public class GeneradorNodos : MonoBehaviour
             lr.endWidth = grosorArista;
             lr.useWorldSpace = true;
 
-            // Conectar los dos nodos
+            // Conectar los dos nodos en sus posiciones actuales
             lr.SetPosition(0, goSrc.transform.position);
             lr.SetPosition(1, goDst.transform.position);
         }
