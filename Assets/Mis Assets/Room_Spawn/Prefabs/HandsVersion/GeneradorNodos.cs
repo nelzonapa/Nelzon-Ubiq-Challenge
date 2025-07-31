@@ -18,6 +18,7 @@ public class GeneradorNodos : MonoBehaviour
         public string name;
         public PosData pos;
         public int community;
+        public List<string> files;      // NUEVO campo
     }
 
     [System.Serializable]
@@ -91,6 +92,12 @@ public class GeneradorNodos : MonoBehaviour
                     rend.material = Instantiate(materialesComunidad[comm]);
                 }
             }
+
+            // 3) Añadir componente DataDeNodo con la lista de imágenes
+            var data = obj.GetComponent<DataDeNodo>();
+            if (data == null) data = obj.AddComponent<DataDeNodo>();
+            data.nodeId = nodo.id;
+            data.imageFiles = nodo.files.ToArray();
         }
 
         // 2) Dibujar aristas

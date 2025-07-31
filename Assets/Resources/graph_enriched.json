@@ -1,961 +1,989 @@
 {
   "nodes": [
     {
-      "id": 0,
-      "name": "blog_2_1_processed",
-      "snippet": "toChinchilla Castle The pages for all chinchilla enthusiasts. Welcome\u00a0 to The Chinchillaburg (Chinchilla Castle)! These pages are exspecially for those who are already          owner of a chinchilla. \u2026",
-      "top_keywords": [
-        "castle",
-        "learn",
-        "page",
-        "kind",
-        "castle page",
-        "population",
-        "able",
-        "deal basic",
-        "cause decrease",
-        "owner chinchilla"
-      ],
-      "proper_nouns": [
-        "\u0093chinchilla",
-        "Chinchilla-",
-        "S.",
-        "Chinchilla",
-        "Castle",
-        "Chinchillaburg",
-        "Giant",
-        "Interview(Castration",
-        "chinny",
-        "Chile",
-        "Knightssite",
-        "=",
-        "download",
-        "Knights",
-        "Handbuch",
-        "ChinChorro",
-        "Chin",
-        "Guestbook",
-        "\u0084Das",
-        ">",
-        "mailto:chinchillaburg@germanynet.de",
-        "German"
-      ],
-      "entities": [
-        [
-          "Chinchilla Castle",
-          "PERSON"
+        "id": 0,
+        "name": "blog_2_1_processed",
+        "snippet": "toChinchilla Castle The pages for all chinchilla enthusiasts. Welcome\u00a0 to The Chinchillaburg (Chinchilla Castle)! These pages are exspecially for those who are already          owner of a chinchilla. \u2026",
+        "top_keywords": [
+            "castle",
+            "learn",
+            "page",
+            "kind",
+            "castle page",
+            "population",
+            "able",
+            "deal basic",
+            "cause decrease",
+            "owner chinchilla"
         ],
-        [
-          "Chinchilla- Handbuch",
-          "PERSON"
+        "proper_nouns": [
+            "\u0093chinchilla",
+            "Chinchilla-",
+            "S.",
+            "Chinchilla",
+            "Castle",
+            "Chinchillaburg",
+            "Giant",
+            "Interview(Castration",
+            "chinny",
+            "Chile",
+            "Knightssite",
+            "=",
+            "download",
+            "Knights",
+            "Handbuch",
+            "ChinChorro",
+            "Chin",
+            "Guestbook",
+            "\u0084Das",
+            ">",
+            "mailto:chinchillaburg@germanynet.de",
+            "German"
         ],
-        [
-          "German",
-          "NORP"
+        "entities": [
+            [
+                "Chinchilla Castle",
+                "PERSON"
+            ],
+            [
+                "Chinchilla- Handbuch",
+                "PERSON"
+            ],
+            [
+                "German",
+                "NORP"
+            ],
+            [
+                "2500",
+                "CARDINAL"
+            ],
+            [
+                "m*to",
+                "ORG"
+            ],
+            [
+                "3700",
+                "PRODUCT"
+            ],
+            [
+                "6100",
+                "CARDINAL"
+            ],
+            [
+                "Chile",
+                "GPE"
+            ],
+            [
+                "Chinchilla",
+                "PERSON"
+            ],
+            [
+                "3.2809 feet",
+                "QUANTITY"
+            ],
+            [
+                "Knightssite",
+                "PERSON"
+            ],
+            [
+                "Chin Knights",
+                "PERSON"
+            ],
+            [
+                "ChinChorro",
+                "ORG"
+            ],
+            [
+                "S. Cremer",
+                "PERSON"
+            ]
         ],
-        [
-          "2500",
-          "CARDINAL"
-        ],
-        [
-          "m*to",
-          "ORG"
-        ],
-        [
-          "3700",
-          "PRODUCT"
-        ],
-        [
-          "6100",
-          "CARDINAL"
-        ],
-        [
-          "Chile",
-          "GPE"
-        ],
-        [
-          "Chinchilla",
-          "PERSON"
-        ],
-        [
-          "3.2809 feet",
-          "QUANTITY"
-        ],
-        [
-          "Knightssite",
-          "PERSON"
-        ],
-        [
-          "Chin Knights",
-          "PERSON"
-        ],
-        [
-          "ChinChorro",
-          "ORG"
-        ],
-        [
-          "S. Cremer",
-          "PERSON"
+        "concordances": {
+            "castle": [
+                "toChinchilla Castle The pages for all chinchilla",
+                "to The Chinchillaburg ( Chinchilla Castle ) ! These pages are"
+            ],
+            "learn": [
+                "to check theChin Knightssite to learn everything about the Chin Knights",
+                "New ! Click here to learn more about the wildlife project"
+            ],
+            "page": [],
+            "kind": [
+                "Please do not support this kind of business . ( *"
+            ],
+            "castle page": [],
+            "population": [
+                "natural surroundings . The last population of the \u0093chinchilla lanigera\u0094 lives",
+                "decrease in the number of population . Remember that there are"
+            ],
+            "able": [
+                "all of you who are able to speak German.The wild chinchilla",
+                "m , but they are able to push forward into an"
+            ],
+            "deal basic": [],
+            "cause decrease": [],
+            "owner chinchilla": []
+        },
+        "community": 1,
+        "pos": {
+            "x": 5.856212931834907,
+            "y": 1.6281454403753568,
+            "z": 2.3624200700947124
+        },
+        "community_label": "house",
+        "files": [
+            "Chinchilla garden houses-1.png",
+            "Chinchilla garden houses-2.png"
         ]
-      ],
-      "concordances": {
-        "castle": [
-          "toChinchilla Castle The pages for all chinchilla",
-          "to The Chinchillaburg ( Chinchilla Castle ) ! These pages are"
-        ],
-        "learn": [
-          "to check theChin Knightssite to learn everything about the Chin Knights",
-          "New ! Click here to learn more about the wildlife project"
-        ],
-        "page": [],
-        "kind": [
-          "Please do not support this kind of business . ( *"
-        ],
-        "castle page": [],
-        "population": [
-          "natural surroundings . The last population of the \u0093chinchilla lanigera\u0094 lives",
-          "decrease in the number of population . Remember that there are"
-        ],
-        "able": [
-          "all of you who are able to speak German.The wild chinchilla",
-          "m , but they are able to push forward into an"
-        ],
-        "deal basic": [],
-        "cause decrease": [],
-        "owner chinchilla": []
-      },
-      "community": 1,
-      "pos": {
-        "x": 5.856212931834907,
-        "y": 1.6281454403753568,
-        "z": 2.3624200700947124
-      },
-      "community_label": "house"
     },
     {
-      "id": 1,
-      "name": "blog_2_2_processed",
-      "snippet": "Facts worth knowing Sand and dust bath Chinchillas have a soft, dense fur which is usually                                              bluish-grey. This fur insulates against the extreme dry cold of \u2026",
-      "top_keywords": [
-        "bath",
-        "sand",
-        "bowl",
-        "fur",
-        "tray",
-        "chinchilla bath",
-        "bath house",
-        "soft",
-        "good",
-        "big"
-      ],
-      "proper_nouns": [
-        "Interview(Castration",
-        "Chinworld.com",
-        "Chinchillas",
-        "Blue",
-        "Attapulgus",
-        "S.",
-        ">",
-        "Andes",
-        "Chinchilla",
-        "mailto:chinchillaburg@germanynet.de",
-        "=",
-        "bowl",
-        "Guestbook",
-        "Cloud"
-      ],
-      "entities": [
-        [
-          "Andes",
-          "LOC"
+        "id": 1,
+        "name": "blog_2_2_processed",
+        "snippet": "Facts worth knowing Sand and dust bath Chinchillas have a soft, dense fur which is usually                                              bluish-grey. This fur insulates against the extreme dry cold of \u2026",
+        "top_keywords": [
+            "bath",
+            "sand",
+            "bowl",
+            "fur",
+            "tray",
+            "chinchilla bath",
+            "bath house",
+            "soft",
+            "good",
+            "big"
         ],
-        [
-          "daily",
-          "DATE"
+        "proper_nouns": [
+            "Interview(Castration",
+            "Chinworld.com",
+            "Chinchillas",
+            "Blue",
+            "Attapulgus",
+            "S.",
+            ">",
+            "Andes",
+            "Chinchilla",
+            "mailto:chinchillaburg@germanynet.de",
+            "=",
+            "bowl",
+            "Guestbook",
+            "Cloud"
         ],
-        [
-          "Spanish Sand, Attapulgus and Blue Cloud",
-          "WORK_OF_ART"
+        "entities": [
+            [
+                "Andes",
+                "LOC"
+            ],
+            [
+                "daily",
+                "DATE"
+            ],
+            [
+                "Spanish Sand, Attapulgus and Blue Cloud",
+                "WORK_OF_ART"
+            ],
+            [
+                "Chinchilla",
+                "PERSON"
+            ],
+            [
+                "Chinworld.com",
+                "ORG"
+            ],
+            [
+                "chinchilla bath house",
+                "PERSON"
+            ],
+            [
+                "Chinworld.com",
+                "ORG"
+            ],
+            [
+                "S. Cremer",
+                "PERSON"
+            ]
         ],
-        [
-          "Chinchilla",
-          "PERSON"
-        ],
-        [
-          "Chinworld.com",
-          "ORG"
-        ],
-        [
-          "chinchilla bath house",
-          "PERSON"
-        ],
-        [
-          "Chinworld.com",
-          "ORG"
-        ],
-        [
-          "S. Cremer",
-          "PERSON"
+        "concordances": {
+            "bath": [
+                "worth knowing Sand and dust bath Chinchillas have a soft ,",
+                ". Chinchillas need a daily bath in special sand to take",
+                "buy one of those chinchilla bath houses ( available at Chinworld.com"
+            ],
+            "sand": [
+                "Facts worth knowing Sand and dust bath Chinchillas have",
+                "a daily bath in special sand to take care of their",
+                "best sand-qualities are : Spanish Sand , Attapulgus and Blue Cloud"
+            ],
+            "bowl": [
+                "roll about . A big bowl or something like a cat",
+                "\u0084Chinchilla-bath-tubs '' . cat\u00b4s tray bowl bowl chinchilla bath house from",
+                "'' . cat\u00b4s tray bowl bowl chinchilla bath house from Chinworld.com"
+            ],
+            "fur": [
+                "have a soft , dense fur which is usually bluish-grey .",
+                "is usually bluish-grey . This fur insulates against the extreme dry",
+                "take care of their soft fur . The best sand-qualities are"
+            ],
+            "tray": [
+                "something like a cat 's tray are a good choice .",
+                "these \u0084Chinchilla-bath-tubs '' . cat\u00b4s tray bowl bowl chinchilla bath house"
+            ],
+            "chinchilla bath": [],
+            "bath house": [],
+            "soft": [
+                "dust bath Chinchillas have a soft , dense fur which is",
+                "to take care of their soft fur . The best sand-qualities"
+            ],
+            "good": [
+                "cat 's tray are a good choice . You can also"
+            ],
+            "big": [
+                "your Chinchilla has to be big enough so that your little",
+                "to roll about . A big bowl or something like a"
+            ]
+        },
+        "community": 1,
+        "pos": {
+            "x": 6.036790601264682,
+            "y": 2.0,
+            "z": 2.8406060079065405
+        },
+        "community_label": "house",
+        "files": [
+            "Chinchilla of the Month-1.png",
+            "Chinchilla of the Month-2.png"
         ]
-      ],
-      "concordances": {
-        "bath": [
-          "worth knowing Sand and dust bath Chinchillas have a soft ,",
-          ". Chinchillas need a daily bath in special sand to take",
-          "buy one of those chinchilla bath houses ( available at Chinworld.com"
-        ],
-        "sand": [
-          "Facts worth knowing Sand and dust bath Chinchillas have",
-          "a daily bath in special sand to take care of their",
-          "best sand-qualities are : Spanish Sand , Attapulgus and Blue Cloud"
-        ],
-        "bowl": [
-          "roll about . A big bowl or something like a cat",
-          "\u0084Chinchilla-bath-tubs '' . cat\u00b4s tray bowl bowl chinchilla bath house from",
-          "'' . cat\u00b4s tray bowl bowl chinchilla bath house from Chinworld.com"
-        ],
-        "fur": [
-          "have a soft , dense fur which is usually bluish-grey .",
-          "is usually bluish-grey . This fur insulates against the extreme dry",
-          "take care of their soft fur . The best sand-qualities are"
-        ],
-        "tray": [
-          "something like a cat 's tray are a good choice .",
-          "these \u0084Chinchilla-bath-tubs '' . cat\u00b4s tray bowl bowl chinchilla bath house"
-        ],
-        "chinchilla bath": [],
-        "bath house": [],
-        "soft": [
-          "dust bath Chinchillas have a soft , dense fur which is",
-          "to take care of their soft fur . The best sand-qualities"
-        ],
-        "good": [
-          "cat 's tray are a good choice . You can also"
-        ],
-        "big": [
-          "your Chinchilla has to be big enough so that your little",
-          "to roll about . A big bowl or something like a"
-        ]
-      },
-      "community": 1,
-      "pos": {
-        "x": 6.036790601264682,
-        "y": 2.0,
-        "z": 2.8406060079065405
-      },
-      "community_label": "house"
     },
     {
-      "id": 2,
-      "name": "blog_2_3_processed",
-      "snippet": "Facts worth knowing Country of originChinchillas come from the Andes, South America. This area was ruled by the Incas before the Conquistadores occupied the land. The Andes, approximately 7500 km*long\u2026",
-      "top_keywords": [
-        "andes",
-        "height",
-        "america",
-        "mountain",
-        "south",
-        "south america",
-        "area",
-        "high",
-        "center",
-        "anconcagua"
-      ],
-      "proper_nouns": [
-        "Rail",
-        "S.",
-        "Horn",
-        "Cap",
-        "Interview(Castration",
-        "Country",
-        "Chinchillas",
-        "Chile",
-        "Andes",
-        "=",
-        "Co.",
-        "Central",
-        "Lima",
-        "South",
-        "Peruanic",
-        "Incas",
-        "Guestbook",
-        "Anconcagua",
-        "America",
-        ">",
-        "mailto:chinchillaburg@germanynet.de",
-        "Venezuela",
-        "Huancayo",
-        "Conquistadores"
-      ],
-      "entities": [
-        [
-          "Andes",
-          "LOC"
+        "id": 2,
+        "name": "blog_2_3_processed",
+        "snippet": "Facts worth knowing Country of originChinchillas come from the Andes, South America. This area was ruled by the Incas before the Conquistadores occupied the land. The Andes, approximately 7500 km*long\u2026",
+        "top_keywords": [
+            "andes",
+            "height",
+            "america",
+            "mountain",
+            "south",
+            "south america",
+            "area",
+            "high",
+            "center",
+            "anconcagua"
         ],
-        [
-          "South America",
-          "LOC"
+        "proper_nouns": [
+            "Rail",
+            "S.",
+            "Horn",
+            "Cap",
+            "Interview(Castration",
+            "Country",
+            "Chinchillas",
+            "Chile",
+            "Andes",
+            "=",
+            "Co.",
+            "Central",
+            "Lima",
+            "South",
+            "Peruanic",
+            "Incas",
+            "Guestbook",
+            "Anconcagua",
+            "America",
+            ">",
+            "mailto:chinchillaburg@germanynet.de",
+            "Venezuela",
+            "Huancayo",
+            "Conquistadores"
         ],
-        [
-          "Incas",
-          "GPE"
+        "entities": [
+            [
+                "Andes",
+                "LOC"
+            ],
+            [
+                "South America",
+                "LOC"
+            ],
+            [
+                "Incas",
+                "GPE"
+            ],
+            [
+                "Conquistadores",
+                "PERSON"
+            ],
+            [
+                "Andes",
+                "LOC"
+            ],
+            [
+                "Venezuela",
+                "GPE"
+            ],
+            [
+                "Cap Horn",
+                "PERSON"
+            ],
+            [
+                "Andes",
+                "LOC"
+            ],
+            [
+                "Anconcagua",
+                "GPE"
+            ],
+            [
+                "6959",
+                "DATE"
+            ],
+            [
+                "Andes",
+                "LOC"
+            ],
+            [
+                "South America",
+                "LOC"
+            ],
+            [
+                "2000",
+                "DATE"
+            ],
+            [
+                "4000",
+                "CARDINAL"
+            ],
+            [
+                "more than 5000",
+                "CARDINAL"
+            ],
+            [
+                "4782",
+                "CARDINAL"
+            ],
+            [
+                "Lima",
+                "GPE"
+            ],
+            [
+                "1 km",
+                "QUANTITY"
+            ],
+            [
+                "1000 m**1",
+                "TIME"
+            ],
+            [
+                "3.2809 feet",
+                "QUANTITY"
+            ],
+            [
+                "Chinchillas & Co.",
+                "ORG"
+            ],
+            [
+                "Andes",
+                "LOC"
+            ],
+            [
+                "One",
+                "CARDINAL"
+            ],
+            [
+                "Chile",
+                "GPE"
+            ],
+            [
+                "S. Cremer",
+                "PERSON"
+            ]
         ],
-        [
-          "Conquistadores",
-          "PERSON"
-        ],
-        [
-          "Andes",
-          "LOC"
-        ],
-        [
-          "Venezuela",
-          "GPE"
-        ],
-        [
-          "Cap Horn",
-          "PERSON"
-        ],
-        [
-          "Andes",
-          "LOC"
-        ],
-        [
-          "Anconcagua",
-          "GPE"
-        ],
-        [
-          "6959",
-          "DATE"
-        ],
-        [
-          "Andes",
-          "LOC"
-        ],
-        [
-          "South America",
-          "LOC"
-        ],
-        [
-          "2000",
-          "DATE"
-        ],
-        [
-          "4000",
-          "CARDINAL"
-        ],
-        [
-          "more than 5000",
-          "CARDINAL"
-        ],
-        [
-          "4782",
-          "CARDINAL"
-        ],
-        [
-          "Lima",
-          "GPE"
-        ],
-        [
-          "1 km",
-          "QUANTITY"
-        ],
-        [
-          "1000 m**1",
-          "TIME"
-        ],
-        [
-          "3.2809 feet",
-          "QUANTITY"
-        ],
-        [
-          "Chinchillas & Co.",
-          "ORG"
-        ],
-        [
-          "Andes",
-          "LOC"
-        ],
-        [
-          "One",
-          "CARDINAL"
-        ],
-        [
-          "Chile",
-          "GPE"
-        ],
-        [
-          "S. Cremer",
-          "PERSON"
+        "concordances": {
+            "andes": [
+                "of originChinchillas come from the Andes , South America . This",
+                "occupied the land . The Andes , approximately 7500 km *",
+                "Horn.The highest mountain of the Andes is the Anconcagua ( 6959"
+            ],
+            "height": [
+                "corn are cultivated in a height from 2000 m to 4000",
+                "Rail drives up to a height of 4782 m on the"
+            ],
+            "america": [
+                "from the Andes , South America . This area was ruled",
+                "all climatic zones of South America . Potatoes and corn are"
+            ],
+            "mountain": [
+                "Venezuela to Cap Horn.The highest mountain of the Andes is the",
+                ". The vegetation of this mountain range is as expressive as"
+            ],
+            "south": [
+                "come from the Andes , South America . This area was",
+                "through all climatic zones of South America . Potatoes and corn"
+            ],
+            "south america": [],
+            "area": [
+                ", South America . This area was ruled by the Incas"
+            ],
+            "high": [
+                "Lima -- Huancayo , as high as no other train in"
+            ],
+            "center": [
+                "can be found in the center of the Andes , in"
+            ],
+            "anconcagua": [
+                "of the Andes is the Anconcagua ( 6959 m * *"
+            ]
+        },
+        "community": 1,
+        "pos": {
+            "x": 6.012875159962805,
+            "y": 1.5709892030127155,
+            "z": 1.9761473980632136
+        },
+        "community_label": "house",
+        "files": [
+            "English2b-1.png"
         ]
-      ],
-      "concordances": {
-        "andes": [
-          "of originChinchillas come from the Andes , South America . This",
-          "occupied the land . The Andes , approximately 7500 km *",
-          "Horn.The highest mountain of the Andes is the Anconcagua ( 6959"
-        ],
-        "height": [
-          "corn are cultivated in a height from 2000 m to 4000",
-          "Rail drives up to a height of 4782 m on the"
-        ],
-        "america": [
-          "from the Andes , South America . This area was ruled",
-          "all climatic zones of South America . Potatoes and corn are"
-        ],
-        "mountain": [
-          "Venezuela to Cap Horn.The highest mountain of the Andes is the",
-          ". The vegetation of this mountain range is as expressive as"
-        ],
-        "south": [
-          "come from the Andes , South America . This area was",
-          "through all climatic zones of South America . Potatoes and corn"
-        ],
-        "south america": [],
-        "area": [
-          ", South America . This area was ruled by the Incas"
-        ],
-        "high": [
-          "Lima -- Huancayo , as high as no other train in"
-        ],
-        "center": [
-          "can be found in the center of the Andes , in"
-        ],
-        "anconcagua": [
-          "of the Andes is the Anconcagua ( 6959 m * *"
-        ]
-      },
-      "community": 1,
-      "pos": {
-        "x": 6.012875159962805,
-        "y": 1.5709892030127155,
-        "z": 1.9761473980632136
-      },
-      "community_label": "house"
     },
     {
-      "id": 3,
-      "name": "blog_2_4_processed",
-      "snippet": "Chinchillas are 25 cm (10 inches) long (not including the tail). Females are larger than males. Large, round eyes and excellent hearing make          it possible for them to detect predators like litt\u2026",
-      "top_keywords": [
-        "large",
-        "predator",
-        "tail",
-        "week",
-        "long",
-        "crevice",
-        "female",
-        "year",
-        "sleep rock",
-        "sleep"
-      ],
-      "proper_nouns": [
-        "captivitiy",
-        "Interview(Castration",
-        "Order",
-        "Chinchillas",
-        "S.",
-        ">",
-        "=",
-        "mailto:chinchillaburg@germanynet.de",
-        "Guestbook",
-        "Rodentia"
-      ],
-      "entities": [
-        [
-          "25 cm",
-          "QUANTITY"
+        "id": 3,
+        "name": "blog_2_4_processed",
+        "snippet": "Chinchillas are 25 cm (10 inches) long (not including the tail). Females are larger than males. Large, round eyes and excellent hearing make          it possible for them to detect predators like litt\u2026",
+        "top_keywords": [
+            "large",
+            "predator",
+            "tail",
+            "week",
+            "long",
+            "crevice",
+            "female",
+            "year",
+            "sleep rock",
+            "sleep"
         ],
-        [
-          "10 inches",
-          "QUANTITY"
+        "proper_nouns": [
+            "captivitiy",
+            "Interview(Castration",
+            "Order",
+            "Chinchillas",
+            "S.",
+            ">",
+            "=",
+            "mailto:chinchillaburg@germanynet.de",
+            "Guestbook",
+            "Rodentia"
         ],
-        [
-          "one-third",
-          "CARDINAL"
+        "entities": [
+            [
+                "25 cm",
+                "QUANTITY"
+            ],
+            [
+                "10 inches",
+                "QUANTITY"
+            ],
+            [
+                "one-third",
+                "CARDINAL"
+            ],
+            [
+                "Chinchilla",
+                "PERSON"
+            ],
+            [
+                "Order Rodentia",
+                "PERSON"
+            ],
+            [
+                "approximately two",
+                "CARDINAL"
+            ],
+            [
+                "8 weeks",
+                "DATE"
+            ],
+            [
+                "12 \n        weeks",
+                "DATE"
+            ],
+            [
+                "15-20 years",
+                "DATE"
+            ],
+            [
+                "captivitiy",
+                "GPE"
+            ],
+            [
+                "S. Cremer",
+                "PERSON"
+            ]
         ],
-        [
-          "Chinchilla",
-          "PERSON"
-        ],
-        [
-          "Order Rodentia",
-          "PERSON"
-        ],
-        [
-          "approximately two",
-          "CARDINAL"
-        ],
-        [
-          "8 weeks",
-          "DATE"
-        ],
-        [
-          "12 \n        weeks",
-          "DATE"
-        ],
-        [
-          "15-20 years",
-          "DATE"
-        ],
-        [
-          "captivitiy",
-          "GPE"
-        ],
-        [
-          "S. Cremer",
-          "PERSON"
+        "concordances": {
+            "large": [
+                "are larger than males . Large , round eyes and excellent",
+                "of the entire body . Large hind feet enable them to"
+            ],
+            "predator": [],
+            "tail": [
+                "long ( not including the tail ) . Females are larger",
+                "long whiskers and a bushy tail which is one-third the length"
+            ],
+            "week": [],
+            "long": [
+                "cm ( 10 inches ) long ( not including the tail",
+                "of prey . They have long whiskers and a bushy tail"
+            ],
+            "crevice": [],
+            "female": [
+                "laniger , Order Rodentia A female has approximately two litters per"
+            ],
+            "year": [
+                "has approximately two litters per year . Newborn chinchillas are weaned"
+            ],
+            "sleep rock": [],
+            "sleep": []
+        },
+        "community": 0,
+        "pos": {
+            "x": 5.285008251401805,
+            "y": 1.5992957247362507,
+            "z": 2.1708599335100844
+        },
+        "community_label": "Chinchillas",
+        "files": [
+            "Facts worth knowing_ Sand and bath houses-1.png"
         ]
-      ],
-      "concordances": {
-        "large": [
-          "are larger than males . Large , round eyes and excellent",
-          "of the entire body . Large hind feet enable them to"
-        ],
-        "predator": [],
-        "tail": [
-          "long ( not including the tail ) . Females are larger",
-          "long whiskers and a bushy tail which is one-third the length"
-        ],
-        "week": [],
-        "long": [
-          "cm ( 10 inches ) long ( not including the tail",
-          "of prey . They have long whiskers and a bushy tail"
-        ],
-        "crevice": [],
-        "female": [
-          "laniger , Order Rodentia A female has approximately two litters per"
-        ],
-        "year": [
-          "has approximately two litters per year . Newborn chinchillas are weaned"
-        ],
-        "sleep rock": [],
-        "sleep": []
-      },
-      "community": 0,
-      "pos": {
-        "x": 5.285008251401805,
-        "y": 1.5992957247362507,
-        "z": 2.1708599335100844
-      },
-      "community_label": "Chinchillas"
     },
     {
-      "id": 4,
-      "name": "blog_2_5_processed",
-      "snippet": "Chinchilla Garden Houses There was an article about the chinchilla garden                                              houses you can see below (more photos to come) in the German magazin \u0093Ein Herz f\u00fc\u2026",
-      "top_keywords": [
-        "garden",
-        "house",
-        "garden house",
-        "house chinchilla",
-        "chinchilla garden",
-        "german",
-        "chinchilla blacky",
-        "chinchilla inti",
-        "chinchilla schneewittchen",
-        "window"
-      ],
-      "proper_nouns": [
-        "Handbuch\u0094",
-        "S.",
-        "Chinchilla",
-        "Inti",
-        "Blacky",
-        "Interview(Castration",
-        "August",
-        "chinny",
-        "=",
-        "Garden",
-        "\u0093their\u0094",
-        "Guestbook",
-        "Schneewittchen",
-        "Knuffel",
-        "Herz",
-        ">",
-        "mailto:chinchillaburg@germanynet.de",
-        "garden",
-        "German"
-      ],
-      "entities": [
-        [
-          "Chinchilla Garden Houses",
-          "PERSON"
+        "id": 4,
+        "name": "blog_2_5_processed",
+        "snippet": "Chinchilla Garden Houses There was an article about the chinchilla garden                                              houses you can see below (more photos to come) in the German magazin \u0093Ein Herz f\u00fc\u2026",
+        "top_keywords": [
+            "garden",
+            "house",
+            "garden house",
+            "house chinchilla",
+            "chinchilla garden",
+            "german",
+            "chinchilla blacky",
+            "chinchilla inti",
+            "chinchilla schneewittchen",
+            "window"
         ],
-        [
-          "German",
-          "NORP"
+        "proper_nouns": [
+            "Handbuch\u0094",
+            "S.",
+            "Chinchilla",
+            "Inti",
+            "Blacky",
+            "Interview(Castration",
+            "August",
+            "chinny",
+            "=",
+            "Garden",
+            "\u0093their\u0094",
+            "Guestbook",
+            "Schneewittchen",
+            "Knuffel",
+            "Herz",
+            ">",
+            "mailto:chinchillaburg@germanynet.de",
+            "garden",
+            "German"
         ],
-        [
-          "August 2002",
-          "DATE"
+        "entities": [
+            [
+                "Chinchilla Garden Houses",
+                "PERSON"
+            ],
+            [
+                "German",
+                "NORP"
+            ],
+            [
+                "August 2002",
+                "DATE"
+            ],
+            [
+                "Chinchilla",
+                "PERSON"
+            ],
+            [
+                "German",
+                "NORP"
+            ],
+            [
+                "German",
+                "NORP"
+            ],
+            [
+                "Chinchilla Schneewittchen",
+                "PERSON"
+            ],
+            [
+                "Blacky",
+                "GPE"
+            ],
+            [
+                "treats!\u0094",
+                "ORG"
+            ],
+            [
+                "Chinchilla Inti",
+                "PERSON"
+            ],
+            [
+                "Chinchilla Inti",
+                "PERSON"
+            ],
+            [
+                "Knuffel",
+                "PERSON"
+            ],
+            [
+                "Chinchilla Schneewittchen",
+                "PERSON"
+            ],
+            [
+                "Blacky",
+                "GPE"
+            ],
+            [
+                "S. Cremer",
+                "PERSON"
+            ]
         ],
-        [
-          "Chinchilla",
-          "PERSON"
-        ],
-        [
-          "German",
-          "NORP"
-        ],
-        [
-          "German",
-          "NORP"
-        ],
-        [
-          "Chinchilla Schneewittchen",
-          "PERSON"
-        ],
-        [
-          "Blacky",
-          "GPE"
-        ],
-        [
-          "treats!\u0094",
-          "ORG"
-        ],
-        [
-          "Chinchilla Inti",
-          "PERSON"
-        ],
-        [
-          "Chinchilla Inti",
-          "PERSON"
-        ],
-        [
-          "Knuffel",
-          "PERSON"
-        ],
-        [
-          "Chinchilla Schneewittchen",
-          "PERSON"
-        ],
-        [
-          "Blacky",
-          "GPE"
-        ],
-        [
-          "S. Cremer",
-          "PERSON"
+        "concordances": {
+            "garden": [
+                "Chinchilla Garden Houses There was an article",
+                "an article about the chinchilla garden houses you can see below",
+                "window of the smaller chinchilla garden house : Chinchilla Schneewittchen and"
+            ],
+            "house": [
+                "of the smaller chinchilla garden house : Chinchilla Schneewittchen and chinchilla",
+                ") are discovering their garden house . \u0093Hhmmm ... treats !",
+                "in the big chinchilla garden house . Chinchilla Inti ( in"
+            ],
+            "garden house": [],
+            "house chinchilla": [],
+            "chinchilla garden": [],
+            "german": [
+                "to come ) in the German magazin \u0093Ein Herz f\u00fcr Tiere\u0094",
+                "\u0093Das gro\u00dfe Chinchilla-Handbuch\u0094 , a German book for owners of pet",
+                "who are able to speak German : The book is available"
+            ],
+            "chinchilla blacky": [],
+            "chinchilla inti": [],
+            "chinchilla schneewittchen": [],
+            "window": [
+                "atwww.amazon.de A view through the window of the smaller chinchilla garden",
+                "a look out of the window to watch \u0093their\u0094 humans or"
+            ]
+        },
+        "community": 1,
+        "pos": {
+            "x": 6.52699033830052,
+            "y": 1.1973425349534699,
+            "z": 2.2993472676177973
+        },
+        "community_label": "house",
+        "files": [
+            "Facts worth knowing-1.png"
         ]
-      ],
-      "concordances": {
-        "garden": [
-          "Chinchilla Garden Houses There was an article",
-          "an article about the chinchilla garden houses you can see below",
-          "window of the smaller chinchilla garden house : Chinchilla Schneewittchen and"
-        ],
-        "house": [
-          "of the smaller chinchilla garden house : Chinchilla Schneewittchen and chinchilla",
-          ") are discovering their garden house . \u0093Hhmmm ... treats !",
-          "in the big chinchilla garden house . Chinchilla Inti ( in"
-        ],
-        "garden house": [],
-        "house chinchilla": [],
-        "chinchilla garden": [],
-        "german": [
-          "to come ) in the German magazin \u0093Ein Herz f\u00fcr Tiere\u0094",
-          "\u0093Das gro\u00dfe Chinchilla-Handbuch\u0094 , a German book for owners of pet",
-          "who are able to speak German : The book is available"
-        ],
-        "chinchilla blacky": [],
-        "chinchilla inti": [],
-        "chinchilla schneewittchen": [],
-        "window": [
-          "atwww.amazon.de A view through the window of the smaller chinchilla garden",
-          "a look out of the window to watch \u0093their\u0094 humans or"
-        ]
-      },
-      "community": 1,
-      "pos": {
-        "x": 6.52699033830052,
-        "y": 1.1973425349534699,
-        "z": 2.2993472676177973
-      },
-      "community_label": "house"
     },
     {
-      "id": 5,
-      "name": "blog_2_6_processed",
-      "snippet": "Do you think that your chinchilla looks as nice as the chinchillas you can see here every month? Don\u00b4t be shy and send a photo of your littlechinchillaburg@germanynet.derodent to\u00a0 and maybe next time \u2026",
-      "top_keywords": [
-        "think chinchilla",
-        "maybe",
-        "send",
-        "send photo",
-        "time",
-        "time friend",
-        "shy",
-        "shy send",
-        "maybe time",
-        "think"
-      ],
-      "proper_nouns": [
-        "Interview(Castration",
-        "S.",
-        ">",
-        "=",
-        "chinchillaburg@germanynet.de",
-        "mailto:chinchillaburg@germanynet.de",
-        "Guestbook"
-      ],
-      "entities": [
-        [
-          "every month",
-          "DATE"
+        "id": 5,
+        "name": "blog_2_6_processed",
+        "snippet": "Do you think that your chinchilla looks as nice as the chinchillas you can see here every month? Don\u00b4t be shy and send a photo of your littlechinchillaburg@germanynet.derodent to\u00a0 and maybe next time \u2026",
+        "top_keywords": [
+            "think chinchilla",
+            "maybe",
+            "send",
+            "send photo",
+            "time",
+            "time friend",
+            "shy",
+            "shy send",
+            "maybe time",
+            "think"
         ],
-        [
-          "S. Cremer",
-          "PERSON"
+        "proper_nouns": [
+            "Interview(Castration",
+            "S.",
+            ">",
+            "=",
+            "chinchillaburg@germanynet.de",
+            "mailto:chinchillaburg@germanynet.de",
+            "Guestbook"
+        ],
+        "entities": [
+            [
+                "every month",
+                "DATE"
+            ],
+            [
+                "S. Cremer",
+                "PERSON"
+            ]
+        ],
+        "concordances": {
+            "think chinchilla": [],
+            "maybe": [
+                "littlechinchillaburg @ germanynet.derodent to and maybe next time you and your"
+            ],
+            "send": [
+                "? Don\u00b4t be shy and send a photo of your littlechinchillaburg"
+            ],
+            "send photo": [],
+            "time": [
+                "germanynet.derodent to and maybe next time you and your friends will"
+            ],
+            "time friend": [],
+            "shy": [
+                "every month ? Don\u00b4t be shy and send a photo of"
+            ],
+            "shy send": [],
+            "maybe time": [],
+            "think": [
+                "Do you think that your chinchilla looks as"
+            ]
+        },
+        "community": 2,
+        "pos": {
+            "x": 6.379259674613471,
+            "y": 0.7226128667983559,
+            "z": 3.915349514757974
+        },
+        "community_label": "chapter",
+        "files": [
+            "My furry monsters-1.png",
+            "My furry monsters-2.png"
         ]
-      ],
-      "concordances": {
-        "think chinchilla": [],
-        "maybe": [
-          "littlechinchillaburg @ germanynet.derodent to and maybe next time you and your"
-        ],
-        "send": [
-          "? Don\u00b4t be shy and send a photo of your littlechinchillaburg"
-        ],
-        "send photo": [],
-        "time": [
-          "germanynet.derodent to and maybe next time you and your friends will"
-        ],
-        "time friend": [],
-        "shy": [
-          "every month ? Don\u00b4t be shy and send a photo of"
-        ],
-        "shy send": [],
-        "maybe time": [],
-        "think": [
-          "Do you think that your chinchilla looks as"
-        ]
-      },
-      "community": 2,
-      "pos": {
-        "x": 6.379259674613471,
-        "y": 0.7226128667983559,
-        "z": 3.915349514757974
-      },
-      "community_label": "chapter"
     },
     {
-      "id": 6,
-      "name": "blog_2_7_processed",
-      "snippet": "My furry monsters Inti, 8 years old, female, she rules the chinchilla empire! :-) Knuffel, 8 years old, Inti\u00b4s brother, looking for something to gnaw ... Blacky, 12 years old, is my Black Velvet lady \u2026",
-      "top_keywords": [
-        "old",
-        "year old",
-        "year",
-        "flocke",
-        "flocke year",
-        "lose",
-        "alf",
-        "quiddel",
-        "inti",
-        "knuffel"
-      ],
-      "proper_nouns": [
-        "Flocke",
-        "S.",
-        "Quiddel",
-        "White",
-        "Inti",
-        "Alf",
-        "Flocke\u0092s",
-        "Blacky",
-        "October",
-        "Interview(Castration",
-        "Wilson",
-        "=",
-        "Black",
-        "Schneewittchen",
-        "Knuffel",
-        "Guestbook",
-        "Velvet",
-        ">",
-        "mailto:chinchillaburg@germanynet.de",
-        "Alf,17",
-        "November"
-      ],
-      "entities": [
-        [
-          "8 years old",
-          "DATE"
+        "id": 6,
+        "name": "blog_2_7_processed",
+        "snippet": "My furry monsters Inti, 8 years old, female, she rules the chinchilla empire! :-) Knuffel, 8 years old, Inti\u00b4s brother, looking for something to gnaw ... Blacky, 12 years old, is my Black Velvet lady \u2026",
+        "top_keywords": [
+            "old",
+            "year old",
+            "year",
+            "flocke",
+            "flocke year",
+            "lose",
+            "alf",
+            "quiddel",
+            "inti",
+            "knuffel"
         ],
-        [
-          "Knuffel",
-          "ORG"
+        "proper_nouns": [
+            "Flocke",
+            "S.",
+            "Quiddel",
+            "White",
+            "Inti",
+            "Alf",
+            "Flocke\u0092s",
+            "Blacky",
+            "October",
+            "Interview(Castration",
+            "Wilson",
+            "=",
+            "Black",
+            "Schneewittchen",
+            "Knuffel",
+            "Guestbook",
+            "Velvet",
+            ">",
+            "mailto:chinchillaburg@germanynet.de",
+            "Alf,17",
+            "November"
         ],
-        [
-          "8 years old",
-          "DATE"
+        "entities": [
+            [
+                "8 years old",
+                "DATE"
+            ],
+            [
+                "Knuffel",
+                "ORG"
+            ],
+            [
+                "8 years old",
+                "DATE"
+            ],
+            [
+                "Inti\u00b4s",
+                "LOC"
+            ],
+            [
+                "Blacky",
+                "GPE"
+            ],
+            [
+                "12 years old",
+                "DATE"
+            ],
+            [
+                "Black Velvet",
+                "ORG"
+            ],
+            [
+                "Knuffel",
+                "PERSON"
+            ],
+            [
+                "4 years old",
+                "DATE"
+            ],
+            [
+                "Blacky",
+                "GPE"
+            ],
+            [
+                "Schneewittchen",
+                "PERSON"
+            ],
+            [
+                "11 years old",
+                "DATE"
+            ],
+            [
+                "Wilson White",
+                "PERSON"
+            ],
+            [
+                "almost 5 years old",
+                "DATE"
+            ],
+            [
+                "Flocke",
+                "NORP"
+            ],
+            [
+                "November 2004",
+                "DATE"
+            ],
+            [
+                "October 2002",
+                "DATE"
+            ],
+            [
+                "S. Cremer",
+                "PERSON"
+            ]
         ],
-        [
-          "Inti\u00b4s",
-          "LOC"
-        ],
-        [
-          "Blacky",
-          "GPE"
-        ],
-        [
-          "12 years old",
-          "DATE"
-        ],
-        [
-          "Black Velvet",
-          "ORG"
-        ],
-        [
-          "Knuffel",
-          "PERSON"
-        ],
-        [
-          "4 years old",
-          "DATE"
-        ],
-        [
-          "Blacky",
-          "GPE"
-        ],
-        [
-          "Schneewittchen",
-          "PERSON"
-        ],
-        [
-          "11 years old",
-          "DATE"
-        ],
-        [
-          "Wilson White",
-          "PERSON"
-        ],
-        [
-          "almost 5 years old",
-          "DATE"
-        ],
-        [
-          "Flocke",
-          "NORP"
-        ],
-        [
-          "November 2004",
-          "DATE"
-        ],
-        [
-          "October 2002",
-          "DATE"
-        ],
-        [
-          "S. Cremer",
-          "PERSON"
+        "concordances": {
+            "old": [
+                "monsters Inti , 8 years old , female , she rules",
+                ") Knuffel , 8 years old , Inti\u00b4s brother , looking",
+                "... Blacky , 12 years old , is my Black Velvet"
+            ],
+            "year old": [],
+            "year": [],
+            "flocke": [
+                ", former friend of chinchilla Flocke , is 4 years old",
+                "cheeky little Wilson White . Flocke , almost 5 years old",
+                "best friend of Alf . Flocke was very sad due to"
+            ],
+            "flocke year": [],
+            "lose": [],
+            "alf": [
+                "old , best friend of Alf . Flocke was very sad",
+                "due to the loss of Alf ... until Quiddel became his"
+            ],
+            "quiddel": [
+                ", playing outside the cage Quiddel , my youngest one ,",
+                "loss of Alf ... until Quiddel became his new companion ."
+            ],
+            "inti": [
+                "My furry monsters Inti , 8 years old ,",
+                "is my Black Velvet lady Inti and Knuffel , playing outside"
+            ],
+            "knuffel": [
+                "empire ! : - ) Knuffel , 8 years old ,",
+                "Black Velvet lady Inti and Knuffel , playing outside the cage"
+            ]
+        },
+        "community": 0,
+        "pos": {
+            "x": 4.442581959889297,
+            "y": 0.31328433937232103,
+            "z": 1.755269808049677
+        },
+        "community_label": "Chinchillas",
+        "files": [
+            "The Chinchillaburg-1.png"
         ]
-      ],
-      "concordances": {
-        "old": [
-          "monsters Inti , 8 years old , female , she rules",
-          ") Knuffel , 8 years old , Inti\u00b4s brother , looking",
-          "... Blacky , 12 years old , is my Black Velvet"
-        ],
-        "year old": [],
-        "year": [],
-        "flocke": [
-          ", former friend of chinchilla Flocke , is 4 years old",
-          "cheeky little Wilson White . Flocke , almost 5 years old",
-          "best friend of Alf . Flocke was very sad due to"
-        ],
-        "flocke year": [],
-        "lose": [],
-        "alf": [
-          "old , best friend of Alf . Flocke was very sad",
-          "due to the loss of Alf ... until Quiddel became his"
-        ],
-        "quiddel": [
-          ", playing outside the cage Quiddel , my youngest one ,",
-          "loss of Alf ... until Quiddel became his new companion ."
-        ],
-        "inti": [
-          "My furry monsters Inti , 8 years old ,",
-          "is my Black Velvet lady Inti and Knuffel , playing outside"
-        ],
-        "knuffel": [
-          "empire ! : - ) Knuffel , 8 years old ,",
-          "Black Velvet lady Inti and Knuffel , playing outside the cage"
-        ]
-      },
-      "community": 0,
-      "pos": {
-        "x": 4.442581959889297,
-        "y": 0.31328433937232103,
-        "z": 1.755269808049677
-      },
-      "community_label": "Chinchillas"
     },
     {
-      "id": 7,
-      "name": "blog_2_8_processed",
-      "snippet": "(Click here to see chapter 1) Chapter 2: The new butler to be continued ... mailto:chinchillaburg@germanynet.de Copyright Photos, drawings, text: S. Cremer Update on: Navigation bar    => Interview(Ca\u2026",
-      "top_keywords": [
-        "chapter",
-        "click chapter",
-        "chapter chapter",
-        "chapter new",
-        "butler continue",
-        "butler",
-        "continue",
-        "continue copyright",
-        "new butler",
-        "click"
-      ],
-      "proper_nouns": [
-        "Interview(Castration",
-        "S.",
-        ">",
-        "mailto:chinchillaburg@germanynet.de",
-        "=",
-        "Guestbook"
-      ],
-      "entities": [
-        [
-          "chapter 1",
-          "LAW"
+        "id": 7,
+        "name": "blog_2_8_processed",
+        "snippet": "(Click here to see chapter 1) Chapter 2: The new butler to be continued ... mailto:chinchillaburg@germanynet.de Copyright Photos, drawings, text: S. Cremer Update on: Navigation bar    => Interview(Ca\u2026",
+        "top_keywords": [
+            "chapter",
+            "click chapter",
+            "chapter chapter",
+            "chapter new",
+            "butler continue",
+            "butler",
+            "continue",
+            "continue copyright",
+            "new butler",
+            "click"
         ],
-        [
-          "Chapter 2",
-          "LAW"
+        "proper_nouns": [
+            "Interview(Castration",
+            "S.",
+            ">",
+            "mailto:chinchillaburg@germanynet.de",
+            "=",
+            "Guestbook"
         ],
-        [
-          "S. Cremer",
-          "PERSON"
+        "entities": [
+            [
+                "chapter 1",
+                "LAW"
+            ],
+            [
+                "Chapter 2",
+                "LAW"
+            ],
+            [
+                "S. Cremer",
+                "PERSON"
+            ]
+        ],
+        "concordances": {
+            "chapter": [
+                "( Click here to see chapter 1 ) Chapter 2 :",
+                "to see chapter 1 ) Chapter 2 : The new butler"
+            ],
+            "click chapter": [],
+            "chapter chapter": [],
+            "chapter new": [],
+            "butler continue": [],
+            "butler": [
+                "Chapter 2 : The new butler to be continued ... mailto"
+            ],
+            "continue": [],
+            "continue copyright": [],
+            "new butler": [],
+            "click": [
+                "( Click here to see chapter 1"
+            ]
+        },
+        "community": 2,
+        "pos": {
+            "x": 6.660281082732516,
+            "y": 0.3,
+            "z": 4.76
+        },
+        "community_label": "chapter",
+        "files": [
+            "The Vampirillas -Chapter 2-1.png",
+            "The Vampirillas -Chapter 2-2.png"
         ]
-      ],
-      "concordances": {
-        "chapter": [
-          "( Click here to see chapter 1 ) Chapter 2 :",
-          "to see chapter 1 ) Chapter 2 : The new butler"
-        ],
-        "click chapter": [],
-        "chapter chapter": [],
-        "chapter new": [],
-        "butler continue": [],
-        "butler": [
-          "Chapter 2 : The new butler to be continued ... mailto"
-        ],
-        "continue": [],
-        "continue copyright": [],
-        "new butler": [],
-        "click": [
-          "( Click here to see chapter 1"
-        ]
-      },
-      "community": 2,
-      "pos": {
-        "x": 6.660281082732516,
-        "y": 0.3,
-        "z": 4.76
-      },
-      "community_label": "chapter"
     }
   ],
   "edges": [
