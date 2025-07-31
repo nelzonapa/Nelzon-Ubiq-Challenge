@@ -661,6 +661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986270182}
   - component: {fileID: 986270183}
+  - component: {fileID: 986270184}
   m_Layer: 0
   m_Name: GrafoSpawn
   m_TagString: Untagged
@@ -709,6 +710,24 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 8235f7c0b97966346aa9b39fda2dc4a3, type: 2}
   - {fileID: 2100000, guid: 0c09e51b928b9bb409e38ec0e3c7b9da, type: 2}
   - {fileID: 2100000, guid: 95740d400bace5446a4a35862ade2f81, type: 2}
+--- !u!114 &986270184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986270180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d934db27e4cae3e428ebb2f7d8398f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodoSpawner: {fileID: 986270183}
+  graphJson: {fileID: 4900000, guid: 39637647adbb3b54582d05fe490dffaa, type: 3}
+  BubbleMaterial: {fileID: 2100000, guid: 907edd6c9e9158e4b86ac1600f122e03, type: 2}
+  FontAsset: {fileID: 11400000, guid: acf21dc3938592a4389e081391b92290, type: 2}
+  LabelFontSize: 1.2
+  LabelColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1110138761
 PrefabInstance:
   m_ObjectHideFlags: 0

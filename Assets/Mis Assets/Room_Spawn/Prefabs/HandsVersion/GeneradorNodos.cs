@@ -49,7 +49,7 @@ public class GeneradorNodos : MonoBehaviour
     public Material[] materialesComunidad;
 
     // Para guardar referencias a cada nodo instanciado
-    private Dictionary<int, GameObject> mapaNodos;
+    public Dictionary<int, GameObject> mapaNodos;
 
     void Start()
     {
