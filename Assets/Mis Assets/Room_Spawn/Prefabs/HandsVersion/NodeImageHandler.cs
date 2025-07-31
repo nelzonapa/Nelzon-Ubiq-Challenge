@@ -9,12 +9,13 @@ public class NodeImageHandler : MonoBehaviour
     [Header("UI Prefab (Panel con Content y CloseButton)")]
     public GameObject imagePanelPrefab;
 
+    [Header("Ajuste de posición del panel")]
+    public Vector3 panelLocalOffset = new Vector3(2.0f, 0f, 0f);
+    public float panelScale = 0.002f;
+
     private DataDeNodo data;
     private GameObject panelInstance;
     private XRGrabInteractable grabInteractable;
-
-    [Header("Ajuste de posición del panel (offset local)")]
-    public Vector3 panelLocalOffset = new Vector3(0.2f, 0.2f, 0f);
 
     void Awake()
     {
@@ -23,10 +24,12 @@ public class NodeImageHandler : MonoBehaviour
         if (grabInteractable != null)
         {
             grabInteractable.selectEntered.AddListener(OnGrab);
-            grabInteractable.selectExited.AddListener(OnRelease);
+            // ¡OJO! Ya no nos suscribimos a selectExited
         }
         else
-            Debug.LogWarning("NodeImageHandler requiere XRGrabInteractable.");
+        {
+            Debug.LogWarning("NodeImageHandler requiere un XRGrabInteractable.");
+        }
     }
 
     private void OnGrab(SelectEnterEventArgs args)
@@ -34,20 +37,22 @@ public class NodeImageHandler : MonoBehaviour
         if (panelInstance != null) return;
         if (imagePanelPrefab == null)
         {
-            Debug.LogError("NodeImageHandler: asigna imagePanelPrefab en Inspector.");
+            Debug.LogError("Asignar imagePanelPrefab en el Inspector.");
             return;
         }
 
-        // Instanciar y parentear al nodo para que siga sus movimientos
+        // 1) Instanciar y parentear al nodo
         panelInstance = Instantiate(imagePanelPrefab);
         panelInstance.transform.SetParent(transform, false);
-        UpdatePanelTransform();
+        panelInstance.transform.localPosition = panelLocalOffset;
+        panelInstance.transform.localRotation = Quaternion.identity;
+        panelInstance.transform.localScale = Vector3.one * panelScale;
 
-        // Poblar imágenes en "Content"
+        // 2) Poblar imágenes
         var content = panelInstance.transform.Find("Content");
         if (content == null)
         {
-            Debug.LogError("NodeImageHandler: prefab debe tener hijo 'Content'.");
+            Debug.LogError("Prefab debe tener un hijo llamado 'Content'.");
             return;
         }
 
@@ -55,43 +60,28 @@ public class NodeImageHandler : MonoBehaviour
         {
             var go = new GameObject("IMG_" + fname, typeof(Image));
             go.transform.SetParent(content, false);
+
             var img = go.GetComponent<Image>();
             var spr = Resources.Load<Sprite>("Images/" + System.IO.Path.GetFileNameWithoutExtension(fname));
             if (spr != null)
                 img.sprite = spr;
             else
-                Debug.LogWarning($"NodeImageHandler: no encontré Resources/Images/{fname}");
+                Debug.LogWarning($"No encontré Resources/Images/{fname}");
         }
 
-        // Botón cerrar
+        // 3) Botón cerrar — destruye el panel
         var btn = panelInstance.transform.Find("CloseButton")?.GetComponent<Button>();
         if (btn != null)
-            btn.onClick.AddListener(() => { Destroy(panelInstance); panelInstance = null; });
-        else
-            Debug.LogWarning("NodeImageHandler: falta botón 'CloseButton'.");
-    }
-
-    private void OnRelease(SelectExitEventArgs args)
-    {
-        if (panelInstance != null)
         {
-            Destroy(panelInstance);
-            panelInstance = null;
+            btn.onClick.AddListener(() =>
+            {
+                Destroy(panelInstance);
+                panelInstance = null;
+            });
         }
-    }
-
-    void LateUpdate()
-    {
-        // Mantener el panel siguiendo al nodo con offset
-        if (panelInstance != null)
-            UpdatePanelTransform();
-    }
-
-    private void UpdatePanelTransform()
-    {
-        panelInstance.transform.localPosition = panelLocalOffset;
-        panelInstance.transform.localRotation = Quaternion.identity;
-        // Ajustar escala si es necesario (opcional)
-        panelInstance.transform.localScale = Vector3.one * 0.002f;
+        else
+        {
+            Debug.LogWarning("Prefab debe tener un Button hijo llamado 'CloseButton'.");
+        }
     }
 }
