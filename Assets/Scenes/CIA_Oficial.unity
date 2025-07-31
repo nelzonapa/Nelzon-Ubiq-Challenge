@@ -703,11 +703,12 @@ MonoBehaviour:
   graphOffset: {x: 2, y: 0, z: 0}
   graphScale: 0.5
   materialesComunidad:
-  - {fileID: 2100000, guid: 0c09e51b928b9bb409e38ec0e3c7b9da, type: 2}
-  - {fileID: 2100000, guid: 1f923e71f4f087a4faa1f8da8ddf7ffa, type: 2}
-  - {fileID: 2100000, guid: 907edd6c9e9158e4b86ac1600f122e03, type: 2}
-  - {fileID: 2100000, guid: 20efc273d4c132441ae5bc9bc2fa3ccb, type: 2}
   - {fileID: 2100000, guid: 1c2c74a4b3558544b93bdbe109b7ae6c, type: 2}
+  - {fileID: 2100000, guid: 39ddae1ecdf7e324c8efe0c5aef459d6, type: 2}
+  - {fileID: 2100000, guid: 907edd6c9e9158e4b86ac1600f122e03, type: 2}
+  - {fileID: 2100000, guid: 8235f7c0b97966346aa9b39fda2dc4a3, type: 2}
+  - {fileID: 2100000, guid: 0c09e51b928b9bb409e38ec0e3c7b9da, type: 2}
+  - {fileID: 2100000, guid: 95740d400bace5446a4a35862ade2f81, type: 2}
 --- !u!1001 &1110138761
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -17,6 +17,7 @@ public class GeneradorNodos : MonoBehaviour
         public int id;
         public string name;
         public PosData pos;
+        public int community;
     }
 
     [System.Serializable]
@@ -44,14 +45,17 @@ public class GeneradorNodos : MonoBehaviour
     public Vector3 graphOffset = Vector3.zero;  // Desplaza todo el grafo
     public float graphScale = 1f;               // Escala uniforme del grafo
 
+    [Header("Colores por comunidad")]
+    public Material[] materialesComunidad;
+
     // Para guardar referencias a cada nodo instanciado
     private Dictionary<int, GameObject> mapaNodos;
 
     void Start()
     {
-        if (archivoJson == null || prefabNodo == null || materialArista == null)
+        if (archivoJson == null || prefabNodo == null || materialArista == null || materialesComunidad == null || materialesComunidad.Length == 0)
         {
-            Debug.LogError("[GeneradorNodos] Asigna JSON, prefabNodo y materialArista en el Inspector.");
+            Debug.LogError("[GeneradorNodos] Asigna JSON, prefabNodo, materialArista y materialesComunidad en el Inspector.");
             return;
         }
 
@@ -73,6 +77,20 @@ public class GeneradorNodos : MonoBehaviour
             var obj = Instantiate(prefabNodo, posicion, Quaternion.identity, transform);
             obj.name = $"Nodo_{nodo.id}_{nodo.name}";
             mapaNodos[nodo.id] = obj;
+
+            // Limpiar materiales existentes y asignar color por comunidad
+            int comm = nodo.community;
+            if (comm >= 0 && comm < materialesComunidad.Length)
+            {
+                var renders = obj.GetComponentsInChildren<Renderer>();
+                foreach (var rend in renders)
+                {
+                    // Eliminar materiales existentes
+                    rend.sharedMaterials = new Material[] { };
+                    // Asignar nuevo material instanciado para la comunidad
+                    rend.material = Instantiate(materialesComunidad[comm]);
+                }
+            }
         }
 
         // 2) Dibujar aristas
