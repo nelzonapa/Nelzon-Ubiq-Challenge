@@ -1,0 +1,1545 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "original_post_id": 0,
+      "date": "Wednesday, July 7, 2004",
+      "title": "Last Post",
+      "author": "Posted by chinshopes",
+      "time": "11:59 PM",
+      "labels": [
+        "chins",
+        "that's all"
+      ],
+      "snippet": "... A place with no cages, where all the chinchillas frolic happily on a superior replica of the Andes mountains. It's always pleasantly cool with a soft breeze that circulates the scent of delectable…",
+      "top_keywords": [
+        "wheat",
+        "scent delectable",
+        "scent",
+        "dust unlimited",
+        "bran",
+        "bran mini",
+        "dustbathing",
+        "clear",
+        "dustbathing chincare",
+        "want heaven"
+      ],
+      "proper_nouns": [],
+      "entities": [
+        [
+          "Andes",
+          "LOC"
+        ],
+        [
+          "the Roadstop Raisin Lounges",
+          "ORG"
+        ],
+        [
+          "Shredded Wheat",
+          "ORG"
+        ],
+        [
+          "Blue Sparkle Dust",
+          "ORG"
+        ],
+        [
+          "ChinCare",
+          "PRODUCT"
+        ]
+      ],
+      "concordances": {
+        "wheat": [
+          "fruit , herbs and unsweetened Wheat 'N Bran mini Shredded Wheat",
+          "Wheat 'N Bran mini Shredded Wheat biscuits , every tantalizing treat"
+        ],
+        "scent delectable": [],
+        "scent": [
+          "soft breeze that circulates the scent of delectables served at the"
+        ],
+        "dust unlimited": [],
+        "bran": [
+          "herbs and unsweetened Wheat 'N Bran mini Shredded Wheat biscuits ,"
+        ],
+        "bran mini": [],
+        "dustbathing": [
+          "Sparkle Dust for unlimited celestial dustbathing . From the ChinCare website"
+        ],
+        "clear": [
+          "that dot the landscape : clear , cold water , a"
+        ],
+        "dustbathing chincare": [],
+        "want heaven": []
+      },
+      "images": [],
+      "community": 2,
+      "pos": {
+        "x": -0.9150555727052956,
+        "y": 1.8177008913326134,
+        "z": 0.46821844014277403
+      },
+      "community_label": "animal"
+    },
+    {
+      "id": 1,
+      "original_post_id": 2,
+      "date": "Sunday, May 25, 2003",
+      "title": "For Those of You That Care",
+      "author": "Posted by chinshopes",
+      "time": "6:15 PM",
+      "labels": [],
+      "snippet": "This web site might help -- Chincare discussing memorials for your pets.…",
+      "top_keywords": [
+        "memorial pet",
+        "memorial",
+        "chincare discuss",
+        "web",
+        "site",
+        "site help",
+        "help",
+        "help chincare",
+        "discuss",
+        "discuss memorial"
+      ],
+      "proper_nouns": [],
+      "entities": [],
+      "concordances": {
+        "memorial pet": [],
+        "memorial": [],
+        "chincare discuss": [],
+        "web": [
+          "This web site might help -- Chincare"
+        ],
+        "site": [
+          "This web site might help -- Chincare discussing"
+        ],
+        "site help": [],
+        "help": [
+          "This web site might help -- Chincare discussing memorials for"
+        ],
+        "help chincare": [],
+        "discuss": [],
+        "discuss memorial": []
+      },
+      "images": [],
+      "community": 0,
+      "pos": {
+        "x": -0.7290978700297672,
+        "y": 0.3052276023506495,
+        "z": -5.0
+      },
+      "community_label": "body"
+    },
+    {
+      "id": 2,
+      "original_post_id": 5,
+      "date": "Sunday, May 25, 2003",
+      "title": "Free Jeffrey Luers by David Rovics",
+      "author": "Posted by chinshopes",
+      "time": "3:30 PM",
+      "labels": [
+        "animal rights"
+      ],
+      "snippet": "I grew up in the land of houses in rows I had asthma, that's how it goes When you're in LA and there are cars everywhere See the sky and smell the air I left home, looked around Trying to find some so…",
+      "top_keywords": [
+        "year",
+        "see",
+        "life",
+        "find",
+        "year year",
+        "car",
+        "apart",
+        "stay",
+        "death",
+        "try"
+      ],
+      "proper_nouns": [
+        "Said",
+        "Find"
+      ],
+      "entities": [
+        [
+          "LA",
+          "GPE"
+        ],
+        [
+          "Said",
+          "PERSON"
+        ],
+        [
+          "23 years",
+          "DATE"
+        ],
+        [
+          "23 years",
+          "DATE"
+        ],
+        [
+          "23 years",
+          "DATE"
+        ],
+        [
+          "23 years",
+          "DATE"
+        ],
+        [
+          "the hour",
+          "TIME"
+        ],
+        [
+          "Find",
+          "PERSON"
+        ],
+        [
+          "23 years",
+          "DATE"
+        ],
+        [
+          "23 years",
+          "DATE"
+        ]
+      ],
+      "concordances": {
+        "year": [],
+        "see": [
+          "and there are cars everywhere See the sky and smell the",
+          "that 's all that I see And my thoughts will be"
+        ],
+        "life": [
+          "some solid ground I found life in the northern wood And",
+          "us apart All who have life and love in our hearts",
+          "in a stolen land With life or death in the palm"
+        ],
+        "find": [
+          ", looked around Trying to find some solid ground I found",
+          "stay safe in the night Find whatever you need to stay"
+        ],
+        "year year": [],
+        "car": [],
+        "apart": [
+          ", the death machines Tearing apart everything green I built a",
+          "all up and drive us apart All who have life and"
+        ],
+        "stay": [
+          "hide in the darkness and stay safe in the night Find",
+          "Find whatever you need to stay in the fight There 's"
+        ],
+        "death": [
+          "saw the dozers , the death machines Tearing apart everything green",
+          "stolen land With life or death in the palm of his"
+        ],
+        "try": []
+      },
+      "images": [],
+      "community": 2,
+      "pos": {
+        "x": -3.1828544863102315,
+        "y": 0.348087343167389,
+        "z": 3.9407879753635626
+      },
+      "community_label": "animal"
+    },
+    {
+      "id": 3,
+      "original_post_id": 9,
+      "date": "Sunday, May 25, 2003",
+      "title": "Been busy...",
+      "author": "Posted by chinshopes",
+      "time": "4:15 PM",
+      "labels": [
+        "apology"
+      ],
+      "snippet": "With the farm and other stuff...sorry I haven't posted in a while. New Chinsurrections coming soon. Thanks to those who have left the supportive comments -- my friends, Collie, Faron, Hermes, and Swam…",
+      "top_keywords": [
+        "sorry",
+        "soon thank",
+        "soon",
+        "stuff sorry",
+        "post new",
+        "chinsurrections",
+        "chinsurrections come",
+        "hermes",
+        "leave supportive",
+        "pretty"
+      ],
+      "proper_nouns": [
+        "Collie",
+        "Swami Bhagavatam"
+      ],
+      "entities": [
+        [
+          "Collie",
+          "PERSON"
+        ],
+        [
+          "Faron",
+          "GPE"
+        ],
+        [
+          "Hermes",
+          "GPE"
+        ],
+        [
+          "Swami Bhagavatam",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "sorry": [
+          "farm and other stuff ... sorry I have n't posted in"
+        ],
+        "soon thank": [],
+        "soon": [
+          "while . New Chinsurrections coming soon . Thanks to those who"
+        ],
+        "stuff sorry": [],
+        "post new": [],
+        "chinsurrections": [
+          "in a while . New Chinsurrections coming soon . Thanks to"
+        ],
+        "chinsurrections come": [],
+        "hermes": [
+          ", Collie , Faron , Hermes , and Swami Bhagavatam know"
+        ],
+        "leave supportive": [],
+        "pretty": [
+          "Bhagavatam know that I 'm pretty fanatical about animal rights and"
+        ]
+      },
+      "images": [],
+      "community": 1,
+      "pos": {
+        "x": 0.8610529510584233,
+        "y": 1.7435719374219125,
+        "z": 0.6441006369179619
+      },
+      "community_label": "farm"
+    },
+    {
+      "id": 4,
+      "original_post_id": 11,
+      "date": "Sunday, May 25, 2003",
+      "title": "Wear something other than a healthy animal",
+      "author": "Posted by chinshopes",
+      "time": "3:13 PM",
+      "labels": [
+        "animals",
+        "rights"
+      ],
+      "snippet": "Anti-Fur Season Begins Annual fall anti fur actions began in Toronto today with a small Boycott the Bay Demo at Queen and Yonge. The public was receptive to the action, though a few hostile people app…",
+      "top_keywords": [
+        "fur",
+        "kill",
+        "animal",
+        "anti fur",
+        "begin",
+        "anti",
+        "canada",
+        "action",
+        "trap",
+        "million animal"
+      ],
+      "proper_nouns": [],
+      "entities": [
+        [
+          "Anti-Fur Season Begins",
+          "ORG"
+        ],
+        [
+          "Annual",
+          "DATE"
+        ],
+        [
+          "Toronto",
+          "GPE"
+        ],
+        [
+          "today",
+          "DATE"
+        ],
+        [
+          "Boycott the Bay Demo at Queen",
+          "WORK_OF_ART"
+        ],
+        [
+          "Yonge",
+          "GPE"
+        ],
+        [
+          "About 1.1 million",
+          "CARDINAL"
+        ],
+        [
+          "each year",
+          "DATE"
+        ],
+        [
+          "Canada",
+          "GPE"
+        ],
+        [
+          "Another 1.1 million",
+          "CARDINAL"
+        ],
+        [
+          "Canada",
+          "GPE"
+        ],
+        [
+          "thousands",
+          "CARDINAL"
+        ]
+      ],
+      "concordances": {
+        "fur": [
+          "Season Begins Annual fall anti fur actions began in Toronto today",
+          ". Basic Facts On the Fur Industry - About 1.1 million",
+          "killed each year for their fur by trappers in Canada ."
+        ],
+        "kill": [],
+        "animal": [],
+        "anti fur": [],
+        "begin": [],
+        "anti": [
+          "Anti-Fur Season Begins Annual fall anti fur actions began in Toronto"
+        ],
+        "canada": [
+          "their fur by trappers in Canada . Another 1.1 million animals",
+          "killing healthy animals . - Canada 's native people , as"
+        ],
+        "action": [
+          "public was receptive to the action , though a few hostile"
+        ],
+        "trap": [],
+        "million animal": []
+      },
+      "images": [],
+      "community": 0,
+      "pos": {
+        "x": 0.6489975182986577,
+        "y": 2.0,
+        "z": -0.5481443109360914
+      },
+      "community_label": "body"
+    },
+    {
+      "id": 5,
+      "original_post_id": 13,
+      "date": "Sunday, May 25, 2003",
+      "title": "The Great Deception",
+      "author": "Posted by chinshopes",
+      "time": "4:59 PM",
+      "labels": [
+        "Chapman",
+        "chins",
+        "hoax"
+      ],
+      "snippet": "Chins were almost killed off by fur trappers in South America. Fortunately, they were brought back from the edge of extinction by laws in those countries that have tried to protect them. The Great Hoa…",
+      "top_keywords": [
+        "fur",
+        "rich",
+        "trapper south",
+        "chapman",
+        "trapper",
+        "fur industry",
+        "south america",
+        "poor",
+        "south",
+        "industry"
+      ],
+      "proper_nouns": [
+        "MF Chapman",
+        "Chapman"
+      ],
+      "entities": [
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "The Great Hoax",
+          "WORK_OF_ART"
+        ],
+        [
+          "MF Chapman",
+          "PERSON"
+        ],
+        [
+          "US",
+          "GPE"
+        ],
+        [
+          "Chapman",
+          "PERSON"
+        ],
+        [
+          "South America",
+          "LOC"
+        ]
+      ],
+      "concordances": {
+        "fur": [
+          "were almost killed off by fur trappers in South America .",
+          "was a tool of the FUR INDUSTRY ! See Chincare for",
+          "fad pet , to the fur industry who put dead animal"
+        ],
+        "rich": [
+          "poor animals . Everyone from rich little kids who have no",
+          "skins on the backs of rich movie stars and socialites ,"
+        ],
+        "trapper south": [],
+        "chapman": [
+          "however , persists that MF Chapman single handedly saved the chinchilla",
+          "some into the US . Chapman was a tool of the"
+        ],
+        "trapper": [],
+        "fur industry": [],
+        "south america": [],
+        "poor": [
+          "how badly people treat these poor animals . Everyone from rich",
+          "the pet shops who leave poor things to die in their"
+        ],
+        "south": [
+          "off by fur trappers in South America . Fortunately , they",
+          "the trappers are back in South America . Do n't ask"
+        ],
+        "industry": [
+          "a tool of the FUR INDUSTRY ! See Chincare for the",
+          "pet , to the fur industry who put dead animal skins"
+        ]
+      },
+      "images": [],
+      "community": 2,
+      "pos": {
+        "x": -1.6278654498342546,
+        "y": 1.0725478665085957,
+        "z": 2.1257784823045807
+      },
+      "community_label": "animal"
+    },
+    {
+      "id": 6,
+      "original_post_id": 15,
+      "date": "Sunday, May 25, 2003",
+      "title": "Could I scream or what?",
+      "author": "Posted by chinshopes",
+      "time": "5:10 PM",
+      "labels": [
+        "animals",
+        "cruelty"
+      ],
+      "snippet": "Largest Animal Seizure in RSPCA Historyby Sherry Morse England’s Royal Society for the Prevention of Cruelty to Animals (RSPCA) has rescued 269 animals in what it described as the largest seizure in i…",
+      "top_keywords": [
+        "animal",
+        "house",
+        "include",
+        "england",
+        "remove",
+        "parrot",
+        "gray",
+        "rspca",
+        "seizure",
+        "rescue"
+      ],
+      "proper_nouns": [
+        "Sherry Morse England’s",
+        "Gray"
+      ],
+      "entities": [
+        [
+          "Sherry Morse England’s",
+          "PERSON"
+        ],
+        [
+          "Royal Society",
+          "ORG"
+        ],
+        [
+          "269",
+          "CARDINAL"
+        ],
+        [
+          "181 year",
+          "DATE"
+        ],
+        [
+          "seven",
+          "CARDINAL"
+        ],
+        [
+          "16",
+          "CARDINAL"
+        ],
+        [
+          "244",
+          "CARDINAL"
+        ],
+        [
+          "three",
+          "CARDINAL"
+        ],
+        [
+          "Carnforth, Lancashire",
+          "FAC"
+        ],
+        [
+          "Northern England",
+          "LOC"
+        ],
+        [
+          "September 10",
+          "DATE"
+        ],
+        [
+          "26",
+          "CARDINAL"
+        ],
+        [
+          "two days",
+          "DATE"
+        ],
+        [
+          "one",
+          "CARDINAL"
+        ],
+        [
+          "African",
+          "NORP"
+        ],
+        [
+          "Amazon",
+          "ORG"
+        ],
+        [
+          "Buzzle",
+          "LAW"
+        ],
+        [
+          "Gray",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "animal": [
+          "Largest Animal Seizure in RSPCA Historyby Sherry"
+        ],
+        "house": [
+          "removed from a three bedroom house in Carnforth , Lancashire in",
+          "were living everywhere in the house including the loft and the",
+          "all the animals from the house , which one source described"
+        ],
+        "include": [],
+        "england": [
+          "in RSPCA Historyby Sherry Morse England ’ s Royal Society for",
+          "Carnforth , Lancashire in Northern England on September 10 . The"
+        ],
+        "remove": [
+          "26 people two days to remove all the animals from the"
+        ],
+        "parrot": [],
+        "gray": [
+          "the Buzzle editorial . and Gray 's are freakin ' expensive"
+        ],
+        "rspca": [
+          "Largest Animal Seizure in RSPCA Historyby Sherry Morse England ’",
+          "of Cruelty to Animals ( RSPCA ) has rescued 269 animals"
+        ],
+        "seizure": [
+          "Largest Animal Seizure in RSPCA Historyby Sherry Morse",
+          "it described as the largest seizure in its 181 year history"
+        ],
+        "rescue": []
+      },
+      "images": [],
+      "community": 0,
+      "pos": {
+        "x": -0.17173214497805112,
+        "y": 1.615850391087361,
+        "z": -0.9668174297267557
+      },
+      "community_label": "body"
+    },
+    {
+      "id": 7,
+      "original_post_id": 16,
+      "date": "Sunday, May 25, 2003",
+      "title": "Canned Hunts",
+      "author": "Posted by chinshopes",
+      "time": "4:15 PM",
+      "labels": [
+        "canned hunt"
+      ],
+      "snippet": "People drive me insane sometimes.... In the last twenty years, the number of hunters in the United States has declined, but the amount of money hunters are spending has increased dramatically accordin…",
+      "top_keywords": [
+        "hunter",
+        "fund",
+        "hunt",
+        "animal",
+        "fund animals",
+        "spend",
+        "can",
+        "can hunt",
+        "accord",
+        "ranch"
+      ],
+      "proper_nouns": [],
+      "entities": [
+        [
+          "the last twenty years",
+          "DATE"
+        ],
+        [
+          "the United States",
+          "GPE"
+        ],
+        [
+          "the U.S. Fish and Wildlife Service",
+          "ORG"
+        ],
+        [
+          "One",
+          "CARDINAL"
+        ],
+        [
+          "America",
+          "GPE"
+        ],
+        [
+          "1980",
+          "DATE"
+        ],
+        [
+          "nearly 2000",
+          "CARDINAL"
+        ],
+        [
+          "500",
+          "CARDINAL"
+        ],
+        [
+          "Texas",
+          "GPE"
+        ],
+        [
+          "thousands of dollars",
+          "MONEY"
+        ],
+        [
+          "a few\ndays",
+          "DATE"
+        ],
+        [
+          "each day",
+          "DATE"
+        ],
+        [
+          "Canned Hunts: Unfair",
+          "WORK_OF_ART"
+        ]
+      ],
+      "concordances": {
+        "hunter": [],
+        "fund": [
+          "and Wildlife Service and the Fund for Animals . One result",
+          "states across America . The Fund for Animals estimates that since",
+          "day , according to the Fund for Animals ' report ``"
+        ],
+        "hunt": [
+          "favor hunters , most canned hunt ranches either fence animals into"
+        ],
+        "animal": [],
+        "fund animals": [],
+        "spend": [
+          "pay thousands of dollars to spend a few days tracking and"
+        ],
+        "can": [],
+        "can hunt": [],
+        "accord": [],
+        "ranch": []
+      },
+      "images": [],
+      "community": 2,
+      "pos": {
+        "x": -0.2664838075384656,
+        "y": 1.891183707947034,
+        "z": 0.6168230700092212
+      },
+      "community_label": "animal"
+    },
+    {
+      "id": 8,
+      "original_post_id": 17,
+      "date": "Sunday, May 25, 2003",
+      "title": "Raisin' Chinazona",
+      "author": "Posted by chinshopes",
+      "time": "4:44 PM",
+      "labels": [
+        "chins",
+        "farm"
+      ],
+      "snippet": "OK, everybody...I'm a bonafide Chin farmer now. If you want the best in Chins, leave me a message and I'll get back to ya! WHAAAAAAHOOOOOOOO!…",
+      "top_keywords": [
+        "ya",
+        "leave message",
+        "whaaaaaahoooooooo",
+        "want good",
+        "chins leave",
+        "everybody",
+        "everybody bonafide",
+        "chin farmer",
+        "message",
+        "message ya"
+      ],
+      "proper_nouns": [
+        "Chin",
+        "Chins"
+      ],
+      "entities": [
+        [
+          "Chin",
+          "PERSON"
+        ],
+        [
+          "Chins",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "ya": [
+          "I 'll get back to ya ! WHAAAAAAHOOOOOOOO !"
+        ],
+        "leave message": [],
+        "whaaaaaahoooooooo": [
+          "get back to ya ! WHAAAAAAHOOOOOOOO !"
+        ],
+        "want good": [],
+        "chins leave": [],
+        "everybody": [
+          "OK , everybody ... I 'm a bonafide"
+        ],
+        "everybody bonafide": [],
+        "chin farmer": [],
+        "message": [
+          "Chins , leave me a message and I 'll get back"
+        ],
+        "message ya": []
+      },
+      "images": [],
+      "community": 1,
+      "pos": {
+        "x": 2.9497846217050734,
+        "y": 0.3486675311636803,
+        "z": 2.0932144448113306
+      },
+      "community_label": "farm"
+    },
+    {
+      "id": 9,
+      "original_post_id": 18,
+      "date": "Sunday, May 25, 2003",
+      "title": "Everything you wanted to know about Chins...",
+      "author": "Posted by chinshopes",
+      "time": "2:35 PM",
+      "labels": [
+        "chins",
+        "personal information"
+      ],
+      "snippet": "Classification Class: Mammals Order: Rodents Sub-order: Hystrichognathes (Wilson et Reeder) or Caviomorphes or Hystrichomorphes Family: Chinchillidae Gender: Chinchilla Species: laniger x brevicauda C…",
+      "top_keywords": [
+        "chinchilla",
+        "laniger",
+        "brevicauda",
+        "velvet",
+        "captivity",
+        "laniger brevicauda",
+        "body",
+        "wild",
+        "specie",
+        "white"
+      ],
+      "proper_nouns": [
+        "Hystrichognathes",
+        "Caviomorphes",
+        "Hystrichomorphes Family",
+        "Chinchilla Species",
+        "Chinchilla",
+        "Tajik Chins",
+        "Mutations",
+        "Mutations",
+        "almond blossom",
+        "Chinchilla",
+        "X C. brevicauda",
+        "Behaviour"
+      ],
+      "entities": [
+        [
+          "Hystrichognathes",
+          "PERSON"
+        ],
+        [
+          "Wilson et Reeder",
+          "ORG"
+        ],
+        [
+          "Caviomorphes",
+          "PERSON"
+        ],
+        [
+          "Hystrichomorphes Family",
+          "PERSON"
+        ],
+        [
+          "Chinchilla Species",
+          "PERSON"
+        ],
+        [
+          "two",
+          "CARDINAL"
+        ],
+        [
+          "Andes Mountains",
+          "LOC"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "between 3000 and",
+          "CARDINAL"
+        ],
+        [
+          "4000 meters",
+          "QUANTITY"
+        ],
+        [
+          "Tajikistan",
+          "NORP"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "Tajik Chins",
+          "PERSON"
+        ],
+        [
+          "C.",
+          "NORP"
+        ],
+        [
+          "the Andes Mountains",
+          "LOC"
+        ],
+        [
+          "1923",
+          "DATE"
+        ],
+        [
+          "the United States",
+          "GPE"
+        ],
+        [
+          "Europe",
+          "LOC"
+        ],
+        [
+          "the Second World War",
+          "EVENT"
+        ],
+        [
+          "Mutations",
+          "PERSON"
+        ],
+        [
+          "Mutations",
+          "PERSON"
+        ],
+        [
+          "Wilson",
+          "ORG"
+        ],
+        [
+          "mosaic",
+          "PRODUCT"
+        ],
+        [
+          "almond blossom",
+          "PERSON"
+        ],
+        [
+          "afro-violet",
+          "ORG"
+        ],
+        [
+          "pastel",
+          "ORG"
+        ],
+        [
+          "Sapphire",
+          "GPE"
+        ],
+        [
+          "Sapphire",
+          "GPE"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "the Washington Convention",
+          "GPE"
+        ],
+        [
+          "X C. brevicauda",
+          "PERSON"
+        ],
+        [
+          "1992",
+          "DATE"
+        ],
+        [
+          "French",
+          "NORP"
+        ],
+        [
+          "400",
+          "CARDINAL"
+        ],
+        [
+          "450-600 grams",
+          "QUANTITY"
+        ],
+        [
+          "25-30",
+          "CARDINAL"
+        ],
+        [
+          "7-15",
+          "QUANTITY"
+        ],
+        [
+          "550",
+          "CARDINAL"
+        ],
+        [
+          "700",
+          "CARDINAL"
+        ],
+        [
+          "Behaviour",
+          "PERSON"
+        ],
+        [
+          "10 years",
+          "DATE"
+        ],
+        [
+          "up to 20 years",
+          "DATE"
+        ],
+        [
+          "38-39",
+          "CARDINAL"
+        ]
+      ],
+      "concordances": {
+        "chinchilla": [
+          "Family : Chinchillidae Gender : Chinchilla Species : laniger x brevicauda",
+          "x brevicauda Common noun : chinchilla There are two chinchilla species",
+          ": chinchilla There are two chinchilla species in the wild ."
+        ],
+        "laniger": [
+          "Gender : Chinchilla Species : laniger x brevicauda Common noun :",
+          "in the wild . Chinchilla laniger inhabits the Andes Mountains of",
+          "to the crossbreeding of C. laniger X C. brevicauda . Biotope"
+        ],
+        "brevicauda": [
+          "Chinchilla Species : laniger x brevicauda Common noun : chinchilla There",
+          "The other wild species Chinchilla brevicauda inhabits the limits Argentina- Chile-Peru",
+          "of C. laniger X C. brevicauda . Biotope : rocky slopes"
+        ],
+        "velvet": [
+          "with most black : black velvet , charcoal , ebony Mutations",
+          "afro-violet , pastel , beige velvet . Mutations with most blue",
+          "blue : Sapphire , Sapphire velvet Juridical status The genus Chinchilla"
+        ],
+        "captivity": [
+          "Historical account : bred in captivity since 1923 for its fur",
+          "Only the animals born in captivity from parents born in captivity",
+          "captivity from parents born in captivity as well can be sold"
+        ],
+        "laniger brevicauda": [],
+        "body": [
+          "Morphological And Anatomic Features Adult body weight : Male : 400-500",
+          "are larger than males ) Body length : 25-30 cm Tail",
+          "up to 20 years . Body temperature : 38-39 °C"
+        ],
+        "wild": [
+          "two chinchilla species in the wild . Chinchilla laniger inhabits the",
+          "in Tajikistan . The other wild species Chinchilla brevicauda inhabits the",
+          "The genus Chinchilla in the wild belongs to the annex I"
+        ],
+        "specie": [],
+        "white": [
+          ", ebony Mutations with most white : Wilson white ( silver",
+          "with most white : Wilson white ( silver or mosaic )"
+        ]
+      },
+      "images": [],
+      "community": 0,
+      "pos": {
+        "x": -0.20000586227554734,
+        "y": 1.0195532461619319,
+        "z": -2.360832614154654
+      },
+      "community_label": "body"
+    },
+    {
+      "id": 10,
+      "original_post_id": 20,
+      "date": "Sunday, May 25, 2003",
+      "title": "What's a Chin?  Plu-eeeeeze people!",
+      "author": "Posted by chinshopes",
+      "time": "3:29 PM",
+      "labels": [
+        "chins",
+        "pets"
+      ],
+      "snippet": "This is from Lyn Duedall's most excellent chin website at \"With so many chinchillas living in pet stores, zoos and people's homes, it seems somewhat ironic that people still ask what is it? One may de…",
+      "top_keywords": [
+        "chinchilla",
+        "mean",
+        "ear",
+        "squirrel",
+        "tail",
+        "people",
+        "photo chinchilla",
+        "similar chubby",
+        "like ear",
+        "similar"
+      ],
+      "proper_nouns": [
+        "Lyn Duedall's",
+        "Chinchilla",
+        "Chinchilla",
+        "Mammalia",
+        "Rodentia"
+      ],
+      "entities": [
+        [
+          "Lyn Duedall's",
+          "PERSON"
+        ],
+        [
+          "One",
+          "CARDINAL"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Indian",
+          "NORP"
+        ],
+        [
+          "South America",
+          "LOC"
+        ],
+        [
+          "Argentina",
+          "GPE"
+        ],
+        [
+          "Bolivia",
+          "GPE"
+        ],
+        [
+          "Peru",
+          "GPE"
+        ],
+        [
+          "Chile",
+          "GPE"
+        ],
+        [
+          "the Andes Mountains",
+          "LOC"
+        ],
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Mammalia",
+          "PERSON"
+        ],
+        [
+          "Rodentia",
+          "PERSON"
+        ]
+      ],
+      "concordances": {
+        "chinchilla": [
+          "! ( see photos ) Chinchilla means `` little chinta ''",
+          "in their area . The chinchilla is from South America ,",
+          ". Their scientific name is Chinchilla lanigera , which means long-tailed"
+        ],
+        "mean": [],
+        "ear": [],
+        "squirrel": [
+          "looking similar to a chubby squirrel with big ears or having",
+          "large mouse-like ears and a squirrel 's tail . However ,"
+        ],
+        "tail": [
+          "ears and a squirrel 's tail . However , the fact"
+        ],
+        "people": [
+          "pet stores , zoos and people 's homes , it seems",
+          "it seems somewhat ironic that people still ask what is it"
+        ],
+        "photo chinchilla": [],
+        "similar chubby": [],
+        "like ear": [],
+        "similar": [
+          "describe this animal as looking similar to a chubby squirrel with"
+        ]
+      },
+      "images": [],
+      "community": 0,
+      "pos": {
+        "x": -0.3325127904093477,
+        "y": 1.8989060745743924,
+        "z": -0.34936353719170204
+      },
+      "community_label": "body"
+    },
+    {
+      "id": 11,
+      "original_post_id": 22,
+      "date": "Sunday, May 25, 2003",
+      "title": "Pet fad",
+      "author": "Posted by chinshopes",
+      "time": "3:49 PM",
+      "labels": [
+        "chins",
+        "popular"
+      ],
+      "snippet": "Chinchilla have become the latest \"fad pet\" especially in Los Angeles. Please, please, people be careful with these innocent, dear things! See the whole article below at Susan Daffron's Pet Tails Fad …",
+      "top_keywords": [
+        "shelter",
+        "late",
+        "pig",
+        "animal",
+        "fad",
+        "pet",
+        "pot",
+        "pot belly",
+        "cute",
+        "susan"
+      ],
+      "proper_nouns": [
+        "Chinchilla",
+        "Susan Daffron's"
+      ],
+      "entities": [
+        [
+          "Chinchilla",
+          "PERSON"
+        ],
+        [
+          "Los Angeles",
+          "GPE"
+        ],
+        [
+          "Susan Daffron's",
+          "PERSON"
+        ],
+        [
+          "Susan Daffron Times",
+          "ORG"
+        ],
+        [
+          "the late 80s",
+          "DATE"
+        ],
+        [
+          "early 90s",
+          "DATE"
+        ],
+        [
+          "100-150 pound",
+          "QUANTITY"
+        ],
+        [
+          "the Panhandle Animal Shelter",
+          "ORG"
+        ],
+        [
+          "Disney",
+          "ORG"
+        ],
+        [
+          "101",
+          "CARDINAL"
+        ],
+        [
+          "Dalmatians",
+          "NORP"
+        ]
+      ],
+      "concordances": {
+        "shelter": [
+          "shelters ( the Panhandle Animal Shelter included ) wo n't take"
+        ],
+        "late": [
+          "during the craze of the late 80s and early 90s ."
+        ],
+        "pig": [
+          "who bought a pot bellied pig during the craze of the",
+          "turned into a 100-150 pound pig and is acting like one"
+        ],
+        "animal": [
+          "to get any kind of animal . Shelters still occasionally get",
+          "Most shelters ( the Panhandle Animal Shelter included ) wo n't"
+        ],
+        "fad": [
+          "have become the latest `` fad pet '' especially in Los",
+          "Susan Daffron 's Pet Tails Fad Pets by Susan Daffron Times"
+        ],
+        "pet": [
+          "become the latest `` fad pet '' especially in Los Angeles",
+          "below at Susan Daffron 's Pet Tails Fad Pets by Susan",
+          "of the problem . These pet fads are n't limited to"
+        ],
+        "pot": [
+          "from people who bought a pot bellied pig during the craze",
+          ", such as iguanas and pot bellied pigs either . Certain"
+        ],
+        "pot belly": [],
+        "cute": [
+          "and early 90s . Their cute little piglet has now turned",
+          "were inundated with lots of cute spotted dogs ..."
+        ],
+        "susan": [
+          "the whole article below at Susan Daffron 's Pet Tails Fad",
+          "Pet Tails Fad Pets by Susan Daffron Times and styles change"
+        ]
+      },
+      "images": [],
+      "community": 2,
+      "pos": {
+        "x": -0.23020938940710176,
+        "y": 1.649206428459544,
+        "z": 1.299599307999917
+      },
+      "community_label": "animal"
+    },
+    {
+      "id": 12,
+      "original_post_id": 23,
+      "date": "Sunday, May 25, 2003",
+      "title": "Disclaimer",
+      "author": "Posted by chinshopes",
+      "time": "12:33 PM",
+      "labels": [],
+      "snippet": "This is created for test and evaluation purposes only.…",
+      "top_keywords": [
+        "evaluation",
+        "test evaluation",
+        "create test",
+        "create",
+        "purpose",
+        "evaluation purpose",
+        "test",
+        "europe",
+        "europe second",
+        "everybody"
+      ],
+      "proper_nouns": [],
+      "entities": [],
+      "concordances": {
+        "evaluation": [
+          "is created for test and evaluation purposes only ."
+        ],
+        "test evaluation": [],
+        "create test": [],
+        "create": [],
+        "purpose": [],
+        "evaluation purpose": [],
+        "test": [
+          "This is created for test and evaluation purposes only ."
+        ],
+        "europe": [],
+        "europe second": [],
+        "everybody": []
+      },
+      "images": [],
+      "community": 0,
+      "pos": {
+        "x": 3.195982282425916,
+        "y": 0.3,
+        "z": -1.9633644655401432
+      },
+      "community_label": "body"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 3,
+      "weight": 0.7583286762237549
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "weight": 0.763855516910553
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "weight": 0.8028831481933594
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "weight": 0.7912927269935608
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "weight": 0.8023316860198975
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "weight": 0.8477773666381836
+    },
+    {
+      "source": 0,
+      "target": 11,
+      "weight": 0.7936684489250183
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "weight": 0.7663159966468811
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "weight": 0.7677447199821472
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "weight": 0.7899043560028076
+    },
+    {
+      "source": 3,
+      "target": 10,
+      "weight": 0.8491885662078857
+    },
+    {
+      "source": 3,
+      "target": 11,
+      "weight": 0.7810425758361816
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "weight": 0.8286313414573669
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "weight": 0.859404981136322
+    },
+    {
+      "source": 4,
+      "target": 9,
+      "weight": 0.8346942663192749
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "weight": 0.8619817495346069
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "weight": 0.8283715844154358
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "weight": 0.7862274050712585
+    },
+    {
+      "source": 5,
+      "target": 11,
+      "weight": 0.8583964109420776
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "weight": 0.8119308352470398
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "weight": 0.8214817047119141
+    },
+    {
+      "source": 6,
+      "target": 10,
+      "weight": 0.8571274280548096
+    },
+    {
+      "source": 7,
+      "target": 10,
+      "weight": 0.8452428579330444
+    },
+    {
+      "source": 7,
+      "target": 11,
+      "weight": 0.9133487343788147
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "weight": 0.7570914626121521
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "weight": 0.816070556640625
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "weight": 0.45041966438293457
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "weight": 0.5952163934707642
+    },
+    {
+      "source": 8,
+      "target": 3,
+      "weight": 0.5971764922142029
+    },
+    {
+      "source": 12,
+      "target": 4,
+      "weight": 0.43275880813598633
+    }
+  ]
+}

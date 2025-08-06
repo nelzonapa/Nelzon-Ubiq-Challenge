@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5252650315623219475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005818523580469212}
+  - component: {fileID: 297267132874246959}
+  - component: {fileID: 5326028436024011562}
+  m_Layer: 0
+  m_Name: GrafoSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2005818523580469212
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252650315623219475}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.999, y: 0.296, z: 2.782}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &297267132874246959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252650315623219475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2fca1e1e09ec34594feed1e985882e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  archivoJson: {fileID: 4900000, guid: 39637647adbb3b54582d05fe490dffaa, type: 3}
+  prefabNodo: {fileID: 1467739162931689801, guid: 6b40698bc7030c14db53faa765d6c12b,
+    type: 3}
+  materialArista: {fileID: 2100000, guid: d919a9437436ef54681e76eb73eb4a1c, type: 2}
+  grosorArista: 0.02
+  graphOffset: {x: 2, y: 0, z: 0}
+  graphScale: 0.5
+  materialesComunidad:
+  - {fileID: 2100000, guid: 1c2c74a4b3558544b93bdbe109b7ae6c, type: 2}
+  - {fileID: 2100000, guid: 39ddae1ecdf7e324c8efe0c5aef459d6, type: 2}
+  - {fileID: 2100000, guid: 907edd6c9e9158e4b86ac1600f122e03, type: 2}
+  - {fileID: 2100000, guid: 8235f7c0b97966346aa9b39fda2dc4a3, type: 2}
+  - {fileID: 2100000, guid: 0c09e51b928b9bb409e38ec0e3c7b9da, type: 2}
+  - {fileID: 2100000, guid: 95740d400bace5446a4a35862ade2f81, type: 2}
+--- !u!114 &5326028436024011562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5252650315623219475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d934db27e4cae3e428ebb2f7d8398f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NodoSpawner: {fileID: 297267132874246959}
+  graphJson: {fileID: 4900000, guid: 39637647adbb3b54582d05fe490dffaa, type: 3}
+  BubbleMaterial: {fileID: 2100000, guid: 907edd6c9e9158e4b86ac1600f122e03, type: 2}
+  FontAsset: {fileID: 11400000, guid: acf21dc3938592a4389e081391b92290, type: 2}
+  LabelFontSize: 1.2
+  LabelColor: {r: 1, g: 1, b: 1, a: 1}
