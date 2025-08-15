@@ -279,6 +279,8 @@ GameObject:
   - component: {fileID: 6282279253989965922}
   - component: {fileID: 7927257254996477587}
   - component: {fileID: 4154717393506836979}
+  - component: {fileID: -7852316496078979577}
+  - component: {fileID: 8213931270737534147}
   m_Layer: 0
   m_Name: Network
   m_TagString: Untagged
@@ -351,6 +353,35 @@ MonoBehaviour:
   OnMeasurement:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-7852316496078979577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884161761366087813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a8236d1040c2b439f6933935477a9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomClient: {fileID: 7927257254996477587}
+  catalogue: {fileID: 11400000, guid: ad81f9c03b7ef5542a1638edc4f10550, type: 2}
+--- !u!114 &8213931270737534147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884161761366087813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91278953fa39be149b9d63bc52dfdf51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventsFilter: -1
+  Memory: 0
+  MaxMemory: 52428800
 --- !u!1 &7727324879757943763
 GameObject:
   m_ObjectHideFlags: 0
