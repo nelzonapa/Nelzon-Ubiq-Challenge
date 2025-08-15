@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using Ubiq.Spawning;
+using Ubiq.Samples;
 
 [RequireComponent(typeof(XRGrabInteractable))]
 public class NodeImageHandler : MonoBehaviour
@@ -14,11 +16,14 @@ public class NodeImageHandler : MonoBehaviour
     public float panelScale = 0.002f;
 
     private DataDeNodo data;
-    private GameObject panelInstance;
     private XRGrabInteractable grabInteractable;
+
+    private NetworkSpawnManager spawnManager;
 
     void Awake()
     {
+        spawnManager = NetworkSpawnManager.Find(this);
+
         data = GetComponent<DataDeNodo>();
         grabInteractable = GetComponent<XRGrabInteractable>();
         if (grabInteractable != null)
@@ -34,7 +39,7 @@ public class NodeImageHandler : MonoBehaviour
 
     private void OnGrab(SelectEnterEventArgs args)
     {
-        if (panelInstance != null) return;
+        //if (panelInstance != null) return;
         if (imagePanelPrefab == null)
         {
             Debug.LogError("Asignar imagePanelPrefab en el Inspector.");
@@ -42,14 +47,22 @@ public class NodeImageHandler : MonoBehaviour
         }
 
         // 1) Instanciar y parentear al nodo
-        panelInstance = Instantiate(imagePanelPrefab);
-        panelInstance.transform.SetParent(transform, false);
-        panelInstance.transform.localPosition = panelLocalOffset;
-        panelInstance.transform.localRotation = Quaternion.identity;
-        panelInstance.transform.localScale = Vector3.one * panelScale;
+        //panelInstance = Instantiate(imagePanelPrefab);
+        //panelInstance.transform.SetParent(transform, false);
+        //panelInstance.transform.localPosition = panelLocalOffset;
+        //panelInstance.transform.localRotation = Quaternion.identity;
+        //panelInstance.transform.localScale = Vector3.one * panelScale;
+
+        var go = spawnManager.SpawnWithPeerScope(imagePanelPrefab);
+        var imageCanvas = go.GetComponent<ImageCanvas>();
+        imageCanvas.transform.SetParent(transform, false);
+        imageCanvas.transform.localPosition = panelLocalOffset;
+        imageCanvas.transform.localRotation = Quaternion.identity;
+        imageCanvas.transform.localScale = Vector3.one * panelScale;
+        imageCanvas.owner = true;
 
         // 2) Poblar imágenes
-        var content = panelInstance.transform.Find("Content");
+        var content = imageCanvas.transform.Find("Content");
         if (content == null)
         {
             Debug.LogError("Prefab debe tener un hijo llamado 'Content'.");
@@ -58,10 +71,10 @@ public class NodeImageHandler : MonoBehaviour
 
         foreach (var fname in data.imageFiles)
         {
-            var go = new GameObject("IMG_" + fname, typeof(Image));
-            go.transform.SetParent(content, false);
+            var go2 = new GameObject("IMG_" + fname, typeof(Image));
+            go2.transform.SetParent(content, false);
 
-            var img = go.GetComponent<Image>();
+            var img = go2.GetComponent<Image>();
             var spr = Resources.Load<Sprite>("Images/" + System.IO.Path.GetFileNameWithoutExtension(fname));
             if (spr != null)
                 img.sprite = spr;
@@ -70,6 +83,7 @@ public class NodeImageHandler : MonoBehaviour
         }
 
         // 3) Botón cerrar — destruye el panel
+        /*
         var btn = panelInstance.transform.Find("CloseButton")?.GetComponent<Button>();
         if (btn != null)
         {
@@ -83,5 +97,6 @@ public class NodeImageHandler : MonoBehaviour
         {
             Debug.LogWarning("Prefab debe tener un Button hijo llamado 'CloseButton'.");
         }
+        */
     }
 }

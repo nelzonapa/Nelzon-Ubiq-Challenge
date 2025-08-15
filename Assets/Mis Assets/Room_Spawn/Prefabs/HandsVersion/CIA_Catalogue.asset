@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4467f6c3b47040840ab7f7665d8bddbe, type: 3}
   m_Name: CIA_Catalogue
   m_EditorClassIdentifier: 
-  prefabs: []
+  prefabs:
+  - {fileID: 4465570382772932300, guid: f16619319582fa3428f363e3b1e444a1, type: 3}
