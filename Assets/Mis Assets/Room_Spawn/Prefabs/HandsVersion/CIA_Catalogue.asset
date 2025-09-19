@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CIA_Catalogue
   m_EditorClassIdentifier: 
   prefabs:
-  - {fileID: 4465570382772932300, guid: f16619319582fa3428f363e3b1e444a1, type: 3}
+  - {fileID: 6071754387758261205, guid: 5d8a5f0fa7a788740aa051fed5da4843, type: 3}

@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using Ubiq.Messaging;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using Ubiq.Spawning;
 
 [RequireComponent(typeof(XRGrabInteractable))]
 public class NodoConeccion : MonoBehaviour
 {
+    public NetworkId NetworkId { get; set; }
     private NetworkContext context;
     private bool owner;
 
@@ -28,8 +30,13 @@ public class NodoConeccion : MonoBehaviour
 
     void Start()
     {
-        // Registro con Ubiq – obtienes un NetworkContext para enviar mensajes
-        context = NetworkScene.Register(this); // :contentReference[oaicite:0]{index=0}
+        if (NetworkId == NetworkId.Null)
+        {
+            // Genera un NetworkId único usando el hash del nombre o una lógica custom
+            NetworkId = new NetworkId((uint)transform.GetInstanceID());
+        }
+
+        context = NetworkScene.Register(this, NetworkId); // Registra con el NetworkId explícito:cite[10]
 
         // Configuración de propiedad mediante XRGrabInteractable
         var grab = GetComponent<XRGrabInteractable>();

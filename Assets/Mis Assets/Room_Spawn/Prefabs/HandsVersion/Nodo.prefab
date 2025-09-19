@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 3137580104429714782}
   - component: {fileID: 2255742604029281438}
   - component: {fileID: 5359104324157060812}
-  - component: {fileID: 1462600810447523227}
   - component: {fileID: 4227893594269276670}
   m_Layer: 0
   m_Name: Nodo
@@ -295,22 +294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 509612bd1ad0a634c9fcb8d47658975a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1462600810447523227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467739162931689801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8d598d9489f5e144bbf915a11c96aee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  imagePanelPrefab: {fileID: 4465570382772932300, guid: f16619319582fa3428f363e3b1e444a1,
-    type: 3}
-  panelLocalOffset: {x: 4, y: 0, z: 0}
-  panelScale: 0.002
 --- !u!114 &4227893594269276670
 MonoBehaviour:
   m_ObjectHideFlags: 0
