@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 555125117509638692}
   - component: {fileID: 6579888782977197698}
   - component: {fileID: 2658877942354660324}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 4412568716095786170}
   - component: {fileID: 7939897962942954770}
   - component: {fileID: 1969217538279628518}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,8 +192,8 @@ GameObject:
   - component: {fileID: 4960864337040490907}
   - component: {fileID: 2568225102547598114}
   - component: {fileID: 3202603883737963599}
-  - component: {fileID: 2054450999369242325}
-  m_Layer: 5
+  - component: {fileID: 8631540638919001774}
+  m_Layer: 0
   m_Name: Foto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,8 +289,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1.9116653}
+  m_Center: {x: 0, y: 0, z: -0.45583192}
 --- !u!54 &4960864337040490907
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -463,7 +463,7 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 3
   m_ScaleMultiplier: 0.25
---- !u!114 &2054450999369242325
+--- !u!114 &8631540638919001774
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -472,6 +472,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6071754387758261205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4c48b3b6b469694ab2b581d3aa8f684, type: 3}
+  m_Script: {fileID: 11500000, guid: 509612bd1ad0a634c9fcb8d47658975a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
