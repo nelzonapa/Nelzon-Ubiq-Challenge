@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 4960864337040490907}
   - component: {fileID: 2568225102547598114}
   - component: {fileID: 3202603883737963599}
-  - component: {fileID: 8631540638919001774}
+  - component: {fileID: -3252556118363360202}
   m_Layer: 0
   m_Name: Foto
   m_TagString: Untagged
@@ -463,7 +463,7 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 3
   m_ScaleMultiplier: 0.25
---- !u!114 &8631540638919001774
+--- !u!114 &-3252556118363360202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -472,6 +472,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6071754387758261205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509612bd1ad0a634c9fcb8d47658975a, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e8efb929e76b2c43bd330fd4bdc1ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

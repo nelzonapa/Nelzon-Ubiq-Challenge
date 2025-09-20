@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 7735457902888046362}
   - component: {fileID: 3137580104429714782}
   - component: {fileID: 2255742604029281438}
-  - component: {fileID: 5359104324157060812}
   - component: {fileID: 4227893594269276670}
+  - component: {fileID: 3202438434923058823}
   m_Layer: 0
   m_Name: Nodo
   m_TagString: Untagged
@@ -282,18 +282,6 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 3
   m_ScaleMultiplier: 0.25
---- !u!114 &5359104324157060812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467739162931689801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509612bd1ad0a634c9fcb8d47658975a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4227893594269276670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,3 +296,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeId: 0
   imageFiles: []
+--- !u!114 &3202438434923058823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467739162931689801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8efb929e76b2c43bd330fd4bdc1ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

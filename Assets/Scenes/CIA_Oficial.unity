@@ -645,14 +645,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1608494381}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: panelLocalOffset.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: panelLocalOffset.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1467739162931689801, guid: 6b40698bc7030c14db53faa765d6c12b,
         type: 3}
       propertyPath: m_Name
