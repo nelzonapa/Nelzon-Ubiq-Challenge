@@ -40,8 +40,8 @@ public class SpawnObject : MonoBehaviour
         Vector3 directionToCamera = playerCamera.transform.position - spawnPosition;
         Quaternion spawnRotation = Quaternion.LookRotation(directionToCamera, Vector3.up);
 
-        // Aplicar rotación adicional de 180 grados en el eje Y
-        spawnRotation *= Quaternion.Euler(0, 180f, 0);
+        // Aplicar rotación adicional de 180 grados en el eje X
+        spawnRotation *= Quaternion.Euler(0,360f, 0);
 
         // Instanciar el objeto
         GameObject spawnedObject = Instantiate(objectToSpawn, spawnPosition, spawnRotation);

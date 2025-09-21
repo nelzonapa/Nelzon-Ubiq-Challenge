@@ -1013,6 +1013,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1230403019717124746, guid: c854979bbe7ea844da3d7ce03effcf24,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1720469107454311302, guid: c854979bbe7ea844da3d7ce03effcf24,
         type: 3}
       propertyPath: m_BlockingMask.m_Bits
@@ -1136,7 +1141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 1058782207}
-  distanceFromPlayer: 1
+  distanceFromPlayer: 0.2
 --- !u!1001 &1314490155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2349,6 +2354,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299688483449154843, guid: 0e8aceae5930373438df4088a7dc1bbd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299688483449154843, guid: 0e8aceae5930373438df4088a7dc1bbd,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.09
       objectReference: {fileID: 0}
     - target: {fileID: 8368292613674371476, guid: 0e8aceae5930373438df4088a7dc1bbd,
         type: 3}
