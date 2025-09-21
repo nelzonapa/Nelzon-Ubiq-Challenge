@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 1058782207}
-  distanceFromPlayer: 0.2
+  distanceFromPlayer: 0.1
 --- !u!1001 &1314490155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2038,7 +2038,7 @@ PrefabInstance:
     - target: {fileID: 4577296240245475966, guid: 0e8aceae5930373438df4088a7dc1bbd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.227
+      value: 1.509
       objectReference: {fileID: 0}
     - target: {fileID: 4577296240245475966, guid: 0e8aceae5930373438df4088a7dc1bbd,
         type: 3}
@@ -2048,7 +2048,7 @@ PrefabInstance:
     - target: {fileID: 4577296240245475966, guid: 0e8aceae5930373438df4088a7dc1bbd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.172
+      value: -4.162
       objectReference: {fileID: 0}
     - target: {fileID: 4577296240245475966, guid: 0e8aceae5930373438df4088a7dc1bbd,
         type: 3}
@@ -2354,16 +2354,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299688483449154843, guid: 0e8aceae5930373438df4088a7dc1bbd,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 8299688483449154843, guid: 0e8aceae5930373438df4088a7dc1bbd,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 5.09
       objectReference: {fileID: 0}
     - target: {fileID: 8368292613674371476, guid: 0e8aceae5930373438df4088a7dc1bbd,
         type: 3}
