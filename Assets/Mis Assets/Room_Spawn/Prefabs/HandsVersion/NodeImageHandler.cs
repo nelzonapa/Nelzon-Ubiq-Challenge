@@ -1,11 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using Ubiq.Spawning;
 using Ubiq.Samples;
 using Ubiq.Rooms;
-using System.Collections.Generic;
+using System.Collections;
 using System.Reflection;
 
 [RequireComponent(typeof(XRGrabInteractable))]
@@ -28,13 +27,11 @@ public class NodeImageHandler : MonoBehaviour
 
     void Awake()
     {
-        // Intentar encontrar el NetworkSpawnManager si no está asignado
         if (spawnManager == null)
         {
             spawnManager = NetworkSpawnManager.Find(this);
         }
 
-        // Intentar encontrar el catálogo si no está asignado
         if (catalogue == null && spawnManager != null)
         {
             catalogue = spawnManager.catalogue;
@@ -52,10 +49,8 @@ public class NodeImageHandler : MonoBehaviour
             Debug.LogWarning("NodeImageHandler requiere un XRGrabInteractable.");
         }
 
-        // Encontrar el índice del prefab en el catálogo
         FindPrefabIndex();
 
-        // Suscribirse al evento de spawn
         if (spawnManager != null)
         {
             spawnManager.OnSpawned.AddListener(HandleSpawnedObject);
@@ -64,11 +59,9 @@ public class NodeImageHandler : MonoBehaviour
 
     void OnValidate()
     {
-        // Actualizar el índice cuando se cambie el prefab en el inspector
         FindPrefabIndex();
     }
 
-    // Método para encontrar el índice del prefab en el catálogo
     private void FindPrefabIndex()
     {
         prefabIndex = -1;
@@ -78,7 +71,6 @@ public class NodeImageHandler : MonoBehaviour
             return;
         }
 
-        // Buscar el prefab en el catálogo
         for (int i = 0; i < catalogue.prefabs.Count; i++)
         {
             if (catalogue.prefabs[i] == imagePanelPrefab)
@@ -112,26 +104,22 @@ public class NodeImageHandler : MonoBehaviour
             return;
         }
 
-        // Spawnear el objeto usando el índice del catálogo
         SpawnWithRoomScopeByIndex(prefabIndex);
         Debug.Log("Solicitado spawn de panel de imágenes en red.");
     }
 
-    // Método para spawnear por índice usando reflection
     private void SpawnWithRoomScopeByIndex(int index)
     {
-        // Obtener el campo privado 'spawner' de NetworkSpawnManager mediante reflection
         var spawnerField = typeof(NetworkSpawnManager).GetField("spawner",
-            System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+            BindingFlags.NonPublic | BindingFlags.Instance);
 
         if (spawnerField != null)
         {
             var internalSpawner = spawnerField.GetValue(spawnManager) as NetworkSpawner;
             if (internalSpawner != null)
             {
-                // Obtener el método SpawnWithRoomScope que acepta un índice
                 var method = typeof(NetworkSpawner).GetMethod("SpawnWithRoomScope",
-                    System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance,
+                    BindingFlags.NonPublic | BindingFlags.Instance,
                     null,
                     new System.Type[] { typeof(int) },
                     null);
@@ -144,62 +132,49 @@ public class NodeImageHandler : MonoBehaviour
             }
         }
 
-        // Fallback: intentar spawnear directamente
         Debug.LogWarning("No se pudo acceder al método interno. Intentando spawn directo.");
         spawnManager.SpawnWithRoomScope(imagePanelPrefab);
     }
 
-    // Manejador para el evento OnSpawned
     private void HandleSpawnedObject(GameObject spawnedObject, IRoom room, IPeer peer, NetworkSpawnOrigin origin)
     {
-        // Verificar si es el panel de imágenes que queremos configurar
         if (spawnedObject.name.StartsWith(imagePanelPrefab.name))
         {
-            // Configurar el panel
             var imageCanvas = spawnedObject.GetComponent<ImageCanvas>();
             if (imageCanvas != null)
             {
-                imageCanvas.transform.SetParent(transform, false);
-                imageCanvas.transform.localPosition = panelLocalOffset;
-                imageCanvas.transform.localRotation = Quaternion.identity;
-                imageCanvas.transform.localScale = Vector3.one * panelScale;
-                imageCanvas.owner = true;
-
-                // Poblar imágenes
-                var content = imageCanvas.transform.Find("Content");
-                if (content == null)
+                // Preparar mensaje de configuración
+                ImageCanvas.ConfigurationMessage configMessage = new ImageCanvas.ConfigurationMessage
                 {
-                    Debug.LogError("Prefab debe tener un hijo llamado 'Content'.");
-                    return;
-                }
+                    parentNodeId = data.nodeId,
+                    imageFiles = data.imageFiles,
+                    localOffset = panelLocalOffset,
+                    scaleFactor = panelScale
+                };
 
-                foreach (var fname in data.imageFiles)
-                {
-                    var go2 = new GameObject("IMG_" + fname, typeof(Image));
-                    go2.transform.SetParent(content, false);
-
-                    var img = go2.GetComponent<Image>();
-                    var spr = Resources.Load<Sprite>("Images/" + System.IO.Path.GetFileNameWithoutExtension(fname));
-                    if (spr != null)
-                        img.sprite = spr;
-                    else
-                        Debug.LogWarning($"No encontré Resources/Images/{fname}");
-                }
+                // Enviar configuración
+                StartCoroutine(SendConfigurationAfterDelay(imageCanvas, configMessage));
             }
-
-            Debug.Log($"Panel de imágenes spawneado y configurado: {spawnedObject.name}");
         }
+    }
+
+    private IEnumerator SendConfigurationAfterDelay(ImageCanvas imageCanvas, ImageCanvas.ConfigurationMessage configMessage)
+    {
+        // Esperar un frame para asegurar que el ImageCanvas esté inicializado
+        yield return null;
+
+        // Enviar configuración
+        imageCanvas.SendConfiguration(configMessage);
+        Debug.Log("Configuración enviada para el panel del nodo: " + data.nodeId);
     }
 
     void OnDestroy()
     {
-        // Limpiar el listener cuando el objeto sea destruido
         if (spawnManager != null)
         {
             spawnManager.OnSpawned.RemoveListener(HandleSpawnedObject);
         }
 
-        // Limpiar listeners del grab interactable
         if (grabInteractable != null)
         {
             grabInteractable.selectEntered.RemoveListener(OnGrab);
