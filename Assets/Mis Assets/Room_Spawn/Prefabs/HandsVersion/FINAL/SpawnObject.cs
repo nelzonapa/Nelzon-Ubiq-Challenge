@@ -1,4 +1,6 @@
 using UnityEngine;
+using Ubiq.Spawning;
+using Ubiq.Rooms;
 
 public class SpawnObject : MonoBehaviour
 {
@@ -6,18 +8,20 @@ public class SpawnObject : MonoBehaviour
     public GameObject objectToSpawn;
 
     [Header("Configuración de Spawn")]
-    public float distanceFromPlayer = 1.0f;   // Distancia frente al jugador
+    public float distanceFromPlayer = 1.0f;
 
-    // Referencia a la cámara principal
     private Camera playerCamera;
+    private NetworkSpawnManager spawnManager;
 
-    void Start()
+    void Awake()
     {
-        // Obtener la cámara principal al inicio
+        spawnManager = NetworkSpawnManager.Find(this);
         playerCamera = Camera.main;
+
+        // Suscribirse al evento de spawn con la firma correcta
+        spawnManager.OnSpawned.AddListener(HandleSpawnedObject);
     }
 
-    // Función pública que puede ser llamada por eventos (como un botón)
     public void SpawnPrefab()
     {
         if (objectToSpawn == null)
@@ -32,20 +36,45 @@ public class SpawnObject : MonoBehaviour
             return;
         }
 
-        // Calcular la posición frente a la cámara
-        Vector3 spawnPosition = playerCamera.transform.position +
-                               playerCamera.transform.forward * distanceFromPlayer;
+        if (spawnManager == null)
+        {
+            Debug.LogError("No se encontró NetworkSpawnManager!");
+            return;
+        }
 
-        // Calcular la rotación para que mire hacia la cámara y luego aplicar 180 grados
-        Vector3 directionToCamera = playerCamera.transform.position - spawnPosition;
-        Quaternion spawnRotation = Quaternion.LookRotation(directionToCamera, Vector3.up);
+        // Spawnear el objeto
+        spawnManager.SpawnWithRoomScope(objectToSpawn);
+        Debug.Log("Solicitado spawn de objeto en red.");
+    }
 
-        // Aplicar rotación adicional de 180 grados en el eje X
-        spawnRotation *= Quaternion.Euler(0,360f, 0);
+    // Manejador con la firma correcta para el evento OnSpawned
+    private void HandleSpawnedObject(GameObject spawnedObject, IRoom room, IPeer peer, NetworkSpawnOrigin origin)
+    {
+        // Verificar si es el tipo de objeto que queremos configurar
+        if (spawnedObject.name.StartsWith(objectToSpawn.name))
+        {
+            // Calcular posición y rotación
+            Vector3 spawnPosition = playerCamera.transform.position +
+                                   playerCamera.transform.forward * distanceFromPlayer;
 
-        // Instanciar el objeto
-        GameObject spawnedObject = Instantiate(objectToSpawn, spawnPosition, spawnRotation);
+            Vector3 directionToCamera = playerCamera.transform.position - spawnPosition;
+            Quaternion spawnRotation = Quaternion.LookRotation(directionToCamera, Vector3.up);
+            spawnRotation *= Quaternion.Euler(0, 180f, 0);
 
-        Debug.Log($"Objeto spawneado: {spawnedObject.name} en posición: {spawnPosition}");
+            // Configurar la posición y rotación del objeto spawnedo
+            spawnedObject.transform.position = spawnPosition;
+            spawnedObject.transform.rotation = spawnRotation;
+
+            Debug.Log($"Objeto spawneado y configurado: {spawnedObject.name}");
+        }
+    }
+
+    void OnDestroy()
+    {
+        // Limpiar el listener cuando el objeto sea destruido
+        if (spawnManager != null)
+        {
+            spawnManager.OnSpawned.RemoveListener(HandleSpawnedObject);
+        }
     }
 }
