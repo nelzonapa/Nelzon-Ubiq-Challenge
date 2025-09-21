@@ -134,7 +134,7 @@ public class SpawnObject : MonoBehaviour
 
         // Fallback: intentar spawnear directamente (puede no funcionar para room scope)
         Debug.LogWarning("No se pudo acceder al método interno. Intentando spawn directo.");
-        spawnManager.SpawnWithPeerScope(objectToSpawn);
+        spawnManager.SpawnWithRoomScope(objectToSpawn);
     }
 
     // Manejador para el evento OnSpawned
