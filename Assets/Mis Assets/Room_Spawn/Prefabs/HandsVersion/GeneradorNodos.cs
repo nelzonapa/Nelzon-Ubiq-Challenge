@@ -52,14 +52,8 @@ public class GeneradorNodos : MonoBehaviour
     // Para guardar referencias a cada nodo instanciado
     public Dictionary<int, GameObject> mapaNodos;
 
-    // Diccionario estático para buscar nodos por ID desde cualquier script
-    public static Dictionary<int, GameObject> nodosPorId;
-
     void Start()
     {
-        // Inicializar el diccionario
-        nodosPorId = new Dictionary<int, GameObject>();
-
         if (archivoJson == null || prefabNodo == null || materialArista == null || materialesComunidad == null || materialesComunidad.Length == 0)
         {
             Debug.LogError("[GeneradorNodos] Asigna JSON, prefabNodo, materialArista y materialesComunidad en el Inspector.");
@@ -84,12 +78,6 @@ public class GeneradorNodos : MonoBehaviour
             var obj = Instantiate(prefabNodo, posicion, Quaternion.identity, transform);
             obj.name = $"Nodo_{nodo.id}_{nodo.name}";
             mapaNodos[nodo.id] = obj;
-
-            // Añadir al diccionario estático
-            nodosPorId[nodo.id] = obj;
-
-            // Añadir componente NetworkedNode
-            var networkedNode = obj.AddComponent<NetworkedNode>();
 
             // Limpiar materiales existentes y asignar color por comunidad
             int comm = nodo.community;
@@ -138,15 +126,6 @@ public class GeneradorNodos : MonoBehaviour
 
             // Añadir componente para seguir nodos dinámicamente
             edgeGO.AddComponent<EdgeConnector>();
-        }
-    }
-
-    void OnDestroy()
-    {
-        // Limpiar el diccionario estático cuando se destruya el generador
-        if (nodosPorId != null)
-        {
-            nodosPorId.Clear();
         }
     }
 }

@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17899576, g: 0.22413065, b: 0.30595377, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -239,7 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   servers:
   - {fileID: -7849211376014683480, guid: 1c91df7c43c1dbe4fb0fb303e71a2790, type: 2}
-  reconnectBehaviour: 0
+  timeoutBehaviour: 2
 --- !u!114 &187502698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,7 +380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   servers:
   - {fileID: -7849211376014683480, guid: 1c91df7c43c1dbe4fb0fb303e71a2790, type: 2}
-  reconnectBehaviour: 0
+  timeoutBehaviour: 2
 --- !u!114 &202480398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2539,6 +2538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1694274834}
   - component: {fileID: 1694274835}
+  - component: {fileID: 1694274836}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2623,6 +2623,29 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1694274836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694274833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1702409288
 GameObject:
   m_ObjectHideFlags: 0
