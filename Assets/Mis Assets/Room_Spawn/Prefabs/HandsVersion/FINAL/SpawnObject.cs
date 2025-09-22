@@ -15,6 +15,8 @@ public class SpawnObject : MonoBehaviour
     [Header("Configuración de Spawn")]
     public float distanceFromPlayer = 1.0f;
 
+    //punto de spawneo, ubicación del usuario y sumado los ajustes para qeu siempre aparezca frente al usuario
+
     private Camera playerCamera;
     private int prefabIndex = -1;
 
@@ -134,7 +136,7 @@ public class SpawnObject : MonoBehaviour
 
         // Fallback: intentar spawnear directamente (puede no funcionar para room scope)
         Debug.LogWarning("No se pudo acceder al método interno. Intentando spawn directo.");
-        spawnManager.SpawnWithPeerScope(objectToSpawn);
+        spawnManager.SpawnWithRoomScope(objectToSpawn);
     }
 
     // Manejador para el evento OnSpawned
