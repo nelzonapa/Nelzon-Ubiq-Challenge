@@ -11,6 +11,8 @@ public class SyncTextInput : MonoBehaviour
     private bool isUpdatingFromNetwork = false;
     private string lastText = "";
     private RoomClient roomClient;
+    private NotesManager notesManager;
+    private string noteId;
 
     private struct Message
     {
@@ -22,18 +24,24 @@ public class SyncTextInput : MonoBehaviour
     {
         context = NetworkScene.Register(this);
 
-        // Obtener la referencia al RoomClient
+        // Obtener referencias
         roomClient = NetworkScene.Find(this).GetComponent<RoomClient>();
-        if (roomClient == null)
+        if (roomClient == null) roomClient = FindObjectOfType<RoomClient>();
+
+        notesManager = FindObjectOfType<NotesManager>();
+        if (notesManager == null)
         {
-            roomClient = FindObjectOfType<RoomClient>();
+            Debug.LogError("No se encontró NotesManager en la escena!");
         }
 
-        // Buscar el TMP_InputField en los hijos (en el objeto "InputField (TMP)")
+        // Buscar el TMP_InputField en los hijos
         inputField = GetComponentInChildren<TMP_InputField>();
 
         if (inputField != null)
         {
+            // Generar ID único para esta nota
+            noteId = $"note_{System.Guid.NewGuid().ToString()}";
+
             // Suscribirse a eventos de cambio local de texto
             inputField.onValueChanged.AddListener(OnLocalTextChanged);
             inputField.onEndEdit.AddListener(OnLocalTextSubmitted);
@@ -41,11 +49,23 @@ public class SyncTextInput : MonoBehaviour
             // Inicializar con el texto actual
             lastText = inputField.text;
             Debug.Log($"SyncTextInput inicializado correctamente con texto: {lastText}");
+
+            // Registrar esta nota en el manager
+            if (notesManager != null)
+            {
+                notesManager.RegisterNote(
+                    noteId,
+                    lastText,
+                    transform.position,
+                    transform.rotation,
+                    gameObject.name
+                );
+            }
         }
         else
         {
             Debug.LogError("No se encontró componente TMP_InputField en este GameObject o sus hijos");
-
+            
             // Intentar encontrar el componente de manera más específica
             Transform inputFieldChild = transform.Find("InputField (TMP)");
             if (inputFieldChild != null)
@@ -76,7 +96,11 @@ public class SyncTextInput : MonoBehaviour
                 senderId = roomClient.Me.networkId
             });
 
-            Debug.Log($"Texto cambiado localmente: {newText}");
+            // Actualizar en el sistema de guardado
+            if (notesManager != null)
+            {
+                notesManager.UpdateNote(noteId, newText);
+            }
         }
     }
 
@@ -92,6 +116,10 @@ public class SyncTextInput : MonoBehaviour
             });
 
             Debug.Log($"Texto enviado (Enter): {finalText}");
+            if (notesManager != null)
+            {
+                notesManager.UpdateNote(noteId, finalText);
+            }
         }
     }
 
@@ -106,11 +134,16 @@ public class SyncTextInput : MonoBehaviour
         {
             inputField.text = msg.text;
             lastText = msg.text;
-
+            
             // Mantener el cursor en posición correcta
             inputField.caretPosition = msg.text.Length;
 
             Debug.Log($"Texto actualizado desde red: {msg.text}");
+            // Actualizar en el sistema de guardado
+            if (notesManager != null)
+            {
+                notesManager.UpdateNote(noteId, msg.text);
+            }
         }
 
         isUpdatingFromNetwork = false;
