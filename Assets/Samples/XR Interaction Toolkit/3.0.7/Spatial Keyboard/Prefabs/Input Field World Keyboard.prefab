@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2106131159180314400}
   - component: {fileID: 5548896429074786693}
   - component: {fileID: 8609631233081117626}
+  - component: {fileID: 8309796322511530261}
   m_Layer: 5
   m_Name: Input Field World Keyboard
   m_TagString: Untagged
@@ -89,7 +90,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2106131159180314404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +205,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &8309796322511530261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106131159180314403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ab75376efc484147a4eedcb051d659a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3447935436786261979
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +754,7 @@ MonoBehaviour:
   m_MonitorInputFieldCharacterLimit: 0
   m_ClearTextOnSubmit: 0
   m_ClearTextOnOpen: 0
+  m_HideKeyboardOnDisable: 1
   m_OnTextSubmitted:
     m_PersistentCalls:
       m_Calls: []

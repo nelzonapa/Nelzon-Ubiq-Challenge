@@ -998,6 +998,26 @@ PrefabInstance:
       propertyPath: m_DisplayCharacter
       value: m
       objectReference: {fileID: 0}
+    - target: {fileID: 2525389736744723328, guid: 4dfac36245beb8e4d884a833a5a0517f,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525389736744723328, guid: 4dfac36245beb8e4d884a833a5a0517f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525389736744723328, guid: 4dfac36245beb8e4d884a833a5a0517f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525389736744723328, guid: 4dfac36245beb8e4d884a833a5a0517f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2525389736814892329, guid: 4dfac36245beb8e4d884a833a5a0517f,
         type: 3}
       propertyPath: m_Character
