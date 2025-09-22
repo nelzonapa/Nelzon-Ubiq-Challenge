@@ -151,7 +151,7 @@ public class SpawnObject : MonoBehaviour
 
             Vector3 directionToCamera = playerCamera.transform.position - spawnPosition;
             Quaternion spawnRotation = Quaternion.LookRotation(directionToCamera, Vector3.up);
-            spawnRotation *= Quaternion.Euler(0, 180f, 0);
+            spawnRotation *= Quaternion.Euler(0, 360f, 0);
 
             // Configurar la posición y rotación
             spawnedObject.transform.position = spawnPosition;
