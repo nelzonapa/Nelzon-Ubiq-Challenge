@@ -17,19 +17,17 @@ public class NodeImageHandler : MonoBehaviour
 
     private DataDeNodo data;
     private XRGrabInteractable grabInteractable;
-
     private NetworkSpawnManager spawnManager;
 
     void Awake()
     {
         spawnManager = NetworkSpawnManager.Find(this);
-
         data = GetComponent<DataDeNodo>();
         grabInteractable = GetComponent<XRGrabInteractable>();
+
         if (grabInteractable != null)
         {
             grabInteractable.selectEntered.AddListener(OnGrab);
-            // ¡OJO! Ya no nos suscribimos a selectExited
         }
         else
         {
@@ -39,19 +37,11 @@ public class NodeImageHandler : MonoBehaviour
 
     private void OnGrab(SelectEnterEventArgs args)
     {
-        //if (panelInstance != null) return;
         if (imagePanelPrefab == null)
         {
             Debug.LogError("Asignar imagePanelPrefab en el Inspector.");
             return;
         }
-
-        // 1) Instanciar y parentear al nodo
-        //panelInstance = Instantiate(imagePanelPrefab);
-        //panelInstance.transform.SetParent(transform, false);
-        //panelInstance.transform.localPosition = panelLocalOffset;
-        //panelInstance.transform.localRotation = Quaternion.identity;
-        //panelInstance.transform.localScale = Vector3.one * panelScale;
 
         var go = spawnManager.SpawnWithPeerScope(imagePanelPrefab);
         var imageCanvas = go.GetComponent<ImageCanvas>();
@@ -69,34 +59,54 @@ public class NodeImageHandler : MonoBehaviour
             return;
         }
 
+        StartCoroutine(LoadImagesAndAdjustCollider(content, imageCanvas));
+    }
+
+    private System.Collections.IEnumerator LoadImagesAndAdjustCollider(Transform content, ImageCanvas imageCanvas)
+    {
+        // Esperar un frame para que el layout se actualice
+        yield return null;
+
         foreach (var fname in data.imageFiles)
         {
-            var go2 = new GameObject("IMG_" + fname, typeof(Image));
-            go2.transform.SetParent(content, false);
+            var go2 = new GameObject("IMG_" + fname, typeof(RectTransform), typeof(Image));
+            var rectTransform = go2.GetComponent<RectTransform>();
+            rectTransform.SetParent(content, false);
+
+            // Configurar tamaño inicial del RectTransform
+            rectTransform.sizeDelta = new Vector2(400f, 300f); // Tamaño por defecto
 
             var img = go2.GetComponent<Image>();
             var spr = Resources.Load<Sprite>("Images/" + System.IO.Path.GetFileNameWithoutExtension(fname));
+
             if (spr != null)
+            {
                 img.sprite = spr;
+                // Ajustar el tamaño del RectTransform al de la sprite
+                rectTransform.sizeDelta = new Vector2(spr.rect.width, spr.rect.height);
+            }
             else
+            {
                 Debug.LogWarning($"No encontré Resources/Images/{fname}");
+            }
+
+            // Esperar un frame entre cada imagen para que el layout se actualice
+            yield return null;
         }
 
-        // 3) Botón cerrar — destruye el panel
-        /*
-        var btn = panelInstance.transform.Find("CloseButton")?.GetComponent<Button>();
-        if (btn != null)
+        // Forzar el ajuste del collider después de cargar todas las imágenes
+        var colliderAdjuster = imageCanvas.GetComponent<DynamicColliderAdjuster>();
+        if (colliderAdjuster != null)
         {
-            btn.onClick.AddListener(() =>
-            {
-                Destroy(panelInstance);
-                panelInstance = null;
-            });
+            colliderAdjuster.ForceAdjustment();
         }
-        else
+    }
+
+    void OnDestroy()
+    {
+        if (grabInteractable != null)
         {
-            Debug.LogWarning("Prefab debe tener un Button hijo llamado 'CloseButton'.");
+            grabInteractable.selectEntered.RemoveListener(OnGrab);
         }
-        */
     }
 }
