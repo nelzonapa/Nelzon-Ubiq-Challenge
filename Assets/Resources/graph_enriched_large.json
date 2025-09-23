@@ -3,7 +3,7 @@
     {
       "id": 0,
       "original_post_id": 0,
-      "date": "Wednesday, July 7, 2004",
+      "date": "Wednesday, July 4, 2004",
       "title": "Last Post",
       "author": "Posted by chinshopes",
       "time": "11:59 PM",
@@ -70,7 +70,10 @@
         "dustbathing chincare": [],
         "want heaven": []
       },
-      "images": [],
+        "files": [
+            "Long_blog_1.PNG",
+            "Long_blog_2.PNG"
+        ],
       "community": 2,
       "pos": {
         "x": -0.9150555727052956,
@@ -120,7 +123,11 @@
         "discuss": [],
         "discuss memorial": []
       },
-      "images": [],
+        "files": [
+            "Long_blog_3.PNG",
+            "Long_blog_4.PNG",
+            "Long_blog_5.PNG"
+        ],
       "community": 0,
       "pos": {
         "x": -0.7290978700297672,
@@ -229,7 +236,12 @@
         ],
         "try": []
       },
-      "images": [],
+        "files": [
+            "Long_blog_6.PNG",
+            "Long_blog_7.PNG",
+            "Long_blog_8.PNG",
+            "Long_blog_9.PNG"
+        ],
       "community": 2,
       "pos": {
         "x": -3.1828544863102315,
@@ -305,7 +317,10 @@
           "Bhagavatam know that I 'm pretty fanatical about animal rights and"
         ]
       },
-      "images": [],
+        "files": [
+            "Long_blog_10.PNG",
+            "Long_blog_11.PNG"
+        ],
       "community": 1,
       "pos": {
         "x": 0.8610529510584233,
@@ -412,7 +427,10 @@
         "trap": [],
         "million animal": []
       },
-      "images": [],
+        "files": [
+            "Long_blog_12.PNG",
+            "Long_blog_13.PNG"
+        ],
       "community": 0,
       "pos": {
         "x": 0.6489975182986577,
@@ -507,7 +525,10 @@
           "pet , to the fur industry who put dead animal skins"
         ]
       },
-      "images": [],
+        "files": [
+            "Long_blog_14.PNG",
+            "Long_blog_15.PNG"
+        ],
       "community": 2,
       "pos": {
         "x": -1.6278654498342546,
@@ -649,7 +670,9 @@
         ],
         "rescue": []
       },
-      "images": [],
+        "files": [
+            "Long_blog_16.PNG"
+        ],
       "community": 0,
       "pos": {
         "x": -0.17173214497805112,
@@ -756,7 +779,10 @@
         "accord": [],
         "ranch": []
       },
-      "images": [],
+        "files": [
+            "Long_blog_17A.PNG",
+            "Long_blog_17B.PNG"
+        ],
       "community": 2,
       "pos": {
         "x": -0.2664838075384656,
@@ -823,7 +849,9 @@
         ],
         "message ya": []
       },
-      "images": [],
+        "files": [
+            "Long_blog_18.PNG"
+        ],
       "community": 1,
       "pos": {
         "x": 2.9497846217050734,
@@ -1091,7 +1119,11 @@
           "with most white : Wilson white ( silver or mosaic )"
         ]
       },
-      "images": [],
+        "files": [
+            "Long_blog_19A.PNG",
+            "Long_blog_19B.PNG",
+            "Long_blog_20.PNG"
+        ],
       "community": 0,
       "pos": {
         "x": -0.20000586227554734,
@@ -1211,7 +1243,10 @@
           "describe this animal as looking similar to a chubby squirrel with"
         ]
       },
-      "images": [],
+        "files": [
+            "Long_blog_21.PNG",
+            "Long_blog_22.PNG"
+        ],
       "community": 0,
       "pos": {
         "x": -0.3325127904093477,
@@ -1332,7 +1367,9 @@
           "Pet Tails Fad Pets by Susan Daffron Times and styles change"
         ]
       },
-      "images": [],
+        "files": [
+            "Long_blog_23.PNG"
+        ],
       "community": 2,
       "pos": {
         "x": -0.23020938940710176,
@@ -1380,7 +1417,9 @@
         "europe second": [],
         "everybody": []
       },
-      "images": [],
+        "files": [
+            "Long_blog_24.PNG"
+        ],
       "community": 0,
       "pos": {
         "x": 3.195982282425916,
