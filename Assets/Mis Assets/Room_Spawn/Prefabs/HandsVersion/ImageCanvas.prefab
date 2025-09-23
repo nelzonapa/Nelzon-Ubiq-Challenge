@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 2000, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4209698934026587421
 MonoBehaviour:
@@ -58,7 +58,7 @@ MonoBehaviour:
     m_Bottom: 10
   m_ChildAlignment: 4
   m_Spacing: 5
-  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
+  m_HorizontalFit: 2
   m_VerticalFit: 2
 --- !u!1 &4465570382772932300
 GameObject:
@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 7398694754487886775}
   - component: {fileID: 2675205874151420580}
   - component: {fileID: 4420345324746828078}
+  - component: {fileID: 1507376537003835429}
   m_Layer: 5
   m_Name: ImageCanvas
   m_TagString: Untagged
@@ -207,7 +208,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &8919790740563956513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,8 +245,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1000.80475, y: 10.235759, z: 1}
-  m_Center: {x: -0.03609314, y: 0.041857045, z: 0}
+  m_Size: {x: 1000.80475, y: 10.235759, z: 9.571759}
+  m_Center: {x: -0.03609314, y: 0.041857045, z: 0.44744834}
 --- !u!54 &2130020141141191628
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -390,7 +391,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 1
+  m_RetainTransformParent: 0
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
@@ -430,6 +431,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02053cf9fe8d8f1418e008eed3d3c8f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  owner: 0
+--- !u!114 &1507376537003835429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4465570382772932300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b478dfd60d1d73942a3026d2c6b54399, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6432909662512996689
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3438881411064265131
 RectTransform:
   m_ObjectHideFlags: 0
