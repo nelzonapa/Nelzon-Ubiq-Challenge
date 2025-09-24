@@ -897,6 +897,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 297267132874246959, guid: c4fdf07b0b6ce0e47a46f05c7ecdef60,
         type: 3}
+      propertyPath: graphScale
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 297267132874246959, guid: c4fdf07b0b6ce0e47a46f05c7ecdef60,
+        type: 3}
       propertyPath: archivoJson
       value: 
       objectReference: {fileID: 4900000, guid: 6e0b94068f143d340a1407107b1e0c67, type: 3}
@@ -2845,6 +2850,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 297267132874246959, guid: c4fdf07b0b6ce0e47a46f05c7ecdef60,
+        type: 3}
+      propertyPath: graphScale
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2005818523580469212, guid: c4fdf07b0b6ce0e47a46f05c7ecdef60,
         type: 3}
       propertyPath: m_LocalPosition.x
