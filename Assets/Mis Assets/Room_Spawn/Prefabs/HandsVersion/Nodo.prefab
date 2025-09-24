@@ -325,3 +325,4 @@ MonoBehaviour:
     type: 3}
   panelLocalOffset: {x: 2, y: 0, z: 0}
   panelScale: 0.002
+  catalogue: {fileID: 11400000, guid: ad81f9c03b7ef5542a1638edc4f10550, type: 2}
