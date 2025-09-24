@@ -5,6 +5,7 @@ using Ubiq.Messaging;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using Ubiq.Spawning;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.UI; // Necesario para Button
 
 public class ImageCanvas : MonoBehaviour, INetworkSpawnable
 {
@@ -12,6 +13,7 @@ public class ImageCanvas : MonoBehaviour, INetworkSpawnable
     public bool owner;
     private NetworkContext context;
     private XRGrabInteractable grabInteractable;
+    private Button closeButton;
 
     private struct Message
     {
@@ -37,6 +39,45 @@ public class ImageCanvas : MonoBehaviour, INetworkSpawnable
 
         // Configuración para múltiples agarres
         grabInteractable.selectMode = InteractableSelectMode.Multiple;
+
+        // Configurar el botón de cerrar
+        SetupCloseButton();
+    }
+
+    public void SetupCloseButton()
+    {
+        // Buscar el botón de cerrar en los hijos
+        closeButton = transform.Find("CloseButton")?.GetComponent<Button>();
+
+        if (closeButton != null)
+        {
+            closeButton.onClick.AddListener(OnCloseButtonClicked);
+
+            // Asegurarse de que el botón esté visible y funcional
+            closeButton.gameObject.SetActive(true);
+
+            // Configurar la posición y tamaño del botón para que sea visible
+            RectTransform buttonRect = closeButton.GetComponent<RectTransform>();
+            if (buttonRect != null)
+            {
+                // Posicionar en la esquina superior derecha
+                buttonRect.anchorMin = new Vector2(1, 1);
+                buttonRect.anchorMax = new Vector2(1, 1);
+                buttonRect.pivot = new Vector2(1, 1);
+                buttonRect.anchoredPosition = new Vector2(-10, -10); // Margen desde la esquina
+                buttonRect.sizeDelta = new Vector2(50, 50); // Tamaño del botón
+            }
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró el botón de cerrar en los hijos del ImageCanvas");
+        }
+    }
+
+    public void OnCloseButtonClicked()
+    {
+        // Destruir este panel de imagen
+        Destroy(gameObject);
     }
 
     private void OnSelectEntered(SelectEnterEventArgs args)
@@ -82,6 +123,12 @@ public class ImageCanvas : MonoBehaviour, INetworkSpawnable
         {
             grabInteractable.selectEntered.RemoveListener(OnSelectEntered);
             grabInteractable.selectExited.RemoveListener(OnSelectExited);
+        }
+
+        // Limpiar el listener del botón
+        if (closeButton != null)
+        {
+            closeButton.onClick.RemoveListener(OnCloseButtonClicked);
         }
     }
 }

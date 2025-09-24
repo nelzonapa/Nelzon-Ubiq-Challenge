@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8742354164266113586}
   - component: {fileID: 1550607273916817962}
   - component: {fileID: 2998949756310087736}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Content
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 2675205874151420580}
   - component: {fileID: 4420345324746828078}
   - component: {fileID: 1507376537003835429}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ImageCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,8 +270,8 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
+  m_IsKinematic: 1
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!114 &7398694754487886775
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 633521896223574511}
   - component: {fileID: 4101077241029829138}
   - component: {fileID: 7625843850004927920}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -480,7 +480,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.37, y: -0.16}
+  m_AnchoredPosition: {x: -10, y: -10}
   m_SizeDelta: {x: 2.18, y: 0.876}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &633521896223574511
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -564,7 +564,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4101077241029829138}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4420345324746828078}
+        m_TargetAssemblyTypeName: ImageCanvas, Assembly-CSharp
+        m_MethodName: OnCloseButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8618342044413639102
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +588,7 @@ GameObject:
   - component: {fileID: 2633537299444743308}
   - component: {fileID: 2855103551038806921}
   - component: {fileID: 4140793595501971240}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -100,7 +100,16 @@ public class NodeImageHandler : MonoBehaviour
         {
             colliderAdjuster.ForceAdjustment();
         }
+
+        // Asegurar que el botón de cerrar esté por encima del contenido
+        Transform closeButton = imageCanvas.transform.Find("CloseButton");
+        if (closeButton != null)
+        {
+            closeButton.SetAsLastSibling(); // Asegura que esté encima de todo
+        }
     }
+
+
 
     void OnDestroy()
     {
